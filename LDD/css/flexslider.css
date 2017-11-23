@@ -128,7 +128,7 @@ html[xmlns] .slides {
 .flexslider.top_slider .flex-direction-nav {
     position: relative;
     margin: 0 auto;
-    display: none;
+
 }
 
 .flexslider.top_slider .flex-direction-nav li a {
@@ -478,7 +478,7 @@ html[xmlns] .slides {
     top: 45%;
     width: 100%;
     margin-left: -585px;
-    color: #333;
+    color: #000;
     transform: translateY(-50%);
     -o-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
