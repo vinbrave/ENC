@@ -1,68 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-$this->load->view("public/company/header");
+$this->load->view("include/company/header");
 ?>
-
-<body>
-<!--
-==================================================
-Header Section Start
-================================================== -->
-<header id="top-bar" class="navbar-fixed-top animated-header">
-    <div class="container">
-        <div class="navbar-header">
-            <!-- responsive nav button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!-- /responsive nav button -->
-
-            <!-- logo -->
-            <div class="navbar-brand">
-                <a href="index.html">
-                    <img src="images/logo.png" alt="">
-                </a>
-            </div>
-            <!-- /logo -->
-        </div>
-        <!-- main menu -->
-        <nav class="collapse navbar-collapse navbar-right" role="navigation">
-            <div class="main-menu">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="service.html">Service</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
-                        <div class="dropdown-menu">
-                            <ul>
-                                <li><a href="404.html">404 Page</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
-                        <div class="dropdown-menu">
-                            <ul>
-                                <li><a href="blog-fullwidth.html">Blog Full</a></li>
-                                <li><a href="blog-left-sidebar.html">Blog Left sidebar</a></li>
-                                <li><a href="blog-right-sidebar.html">Blog Right sidebar</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- /main nav -->
-    </div>
-</header>
 
 <!--
 ==================================================
@@ -125,13 +64,12 @@ Slider Section Start
             </div>
             <div class="col-md-6 col-sm-6">
                 <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-                    <img src="images/about/about.jpg" alt="">
+                    <img src="public/company/images/about/about.jpg" alt="">
                 </div>
             </div>
         </div>
     </div>
 </section> <!-- /#about -->
-<div class="copyrights">Collect from <a href="http://www.cssmoban.com/">网页模板</a></div>
 <!--
 ==================================================
 Portfolio Section Start
@@ -150,10 +88,12 @@ Portfolio Section Start
             <div class="col-sm-4 col-xs-12">
                 <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-1.jpg" class="img-responsive" alt="this is a title">
+                        <img src="public/company/images/portfolio/item-1.jpg" class="img-responsive"
+                             alt="this is a title">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-1.jpg">Demo</a>
+                                <a rel="gallery" class="fancybox"
+                                   href="public/company/images/portfolio/item-1.jpg">Demo</a>
                                 <a target="_blank" href="single-portfolio.html">Details</a>
                             </div>
                         </div>
@@ -173,10 +113,12 @@ Portfolio Section Start
             <div class="col-sm-4 col-xs-12">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-2.jpg" class="img-responsive" alt="this is a title">
+                        <img src="public/company/images/portfolio/item-2.jpg" class="img-responsive"
+                             alt="this is a title">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-2.jpg">Demo</a>
+                                <a rel="gallery" class="fancybox"
+                                   href="public/company/images/portfolio/item-2.jpg">Demo</a>
                                 <a target="_blank" href="single-portfolio.html">Details</a>
                             </div>
                         </div>
@@ -196,10 +138,11 @@ Portfolio Section Start
             <div class="col-sm-4 col-xs-12">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-3.jpg" class="img-responsive" alt="">
+                        <img src="public/company/images/portfolio/item-3.jpg" class="img-responsive" alt="">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-3.jpg">Demo</a>
+                                <a rel="gallery" class="fancybox"
+                                   href="public/company/images/portfolio/item-3.jpg">Demo</a>
                                 <a target="_blank" href="single-portfolio.html">Details</a>
                             </div>
                         </div>
@@ -219,10 +162,11 @@ Portfolio Section Start
             <div class="col-sm-4 col-xs-12">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-4.jpg" class="img-responsive" alt="">
+                        <img src="public/company/images/portfolio/item-4.jpg" class="img-responsive" alt="">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-4.jpg">Demo</a>
+                                <a rel="gallery" class="fancybox"
+                                   href="public/company/images/portfolio/item-4.jpg">Demo</a>
                                 <a target="_blank" href="single-portfolio.html">Details</a>
                             </div>
                         </div>
@@ -242,10 +186,11 @@ Portfolio Section Start
             <div class="col-sm-4 col-xs-12">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-5.jpg" class="img-responsive" alt="">
+                        <img src="public/company/images/portfolio/item-5.jpg" class="img-responsive" alt="">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-5.jpg">Demo</a>
+                                <a rel="gallery" class="fancybox"
+                                   href="public/company/images/portfolio/item-5.jpg">Demo</a>
                                 <a target="_blank" href="single-portfolio.html">Details</a>
                             </div>
                         </div>
@@ -265,10 +210,11 @@ Portfolio Section Start
             <div class="col-sm-4 col-xs-12">
                 <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="1200ms">
                     <div class="img-wrapper">
-                        <img src="images/portfolio/item-6.jpg" class="img-responsive" alt="">
+                        <img src="public/company/images/portfolio/item-6.jpg" class="img-responsive" alt="">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="images/portfolio/item-6.jpg">Demo</a>
+                                <a rel="gallery" class="fancybox"
+                                   href="public/company/images/portfolio/item-6.jpg">Demo</a>
                                 <a target="_blank" href="single-portfolio.html">Details</a>
                             </div>
                         </div>
@@ -394,56 +340,19 @@ Call To Action Section Start
             <div class="col-md-12">
                 <div class="block">
                     <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU THINK
-                        ?</h1>
-                        <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit
-                            amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus
-                            vero magni recusandae? Dolore, maxime praesentium.</p>
-                        <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s"
-                           data-wow-duration="500ms">Contact With Me</a>
+                        ?</h2>
+                    <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus
+                        vero magni recusandae? Dolore, maxime praesentium.</p>
+                    <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s"
+                       data-wow-duration="500ms">Contact With Me</a>
                 </div>
             </div>
 
         </div>
     </div>
 </section>
-<!--
-==================================================
-Footer Section Start
-================================================== -->
-<footer id="footer">
-    <div class="container">
-        <div class="col-md-8">
-            <p class="copyright">Copyright: <span>2015</span> . Design and Developed by Themefisher. More Templates <a
-                        href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a
-                        href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-        </div>
-        <div class="col-md-4">
-            <!-- Social Media -->
-            <ul class="social">
-                <li>
-                    <a href="http://wwww.fb.com/themefisher" class="Facebook">
-                        <i class="ion-social-facebook"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://wwww.twitter.com/themefisher" class="Twitter">
-                        <i class="ion-social-twitter"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="Linkedin">
-                        <i class="ion-social-linkedin"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://wwww.fb.com/themefisher" class="Google Plus">
-                        <i class="ion-social-googleplus"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</footer> <!-- /#footer -->
+<?php $this->load->view('include/company/footer'); ?>
 
 </body>
 </html>
