@@ -1,0 +1,674 @@
+<?php $this->load->view("include/ldd/header"); ?>
+<body>
+<!-- PRELOADER -->
+<img id="preloader" src="public/ldd/images/preloader.gif" alt=""/>
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+
+    <!-- PAGE -->
+    <div id="page">
+
+        <!-- HEADER -->
+        <header>
+
+            <!-- MENU BLOCK -->
+            <div class="menu_block">
+
+                <!-- CONTAINER -->
+                <div class="container clearfix">
+
+                    <!-- LOGO -->
+                    <div class="logo pull-left">
+                        <!--<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>-->
+                        <a href="index.html"><span class="b1">LDD</span></a>
+                    </div><!-- //LOGO -->
+
+                    <!-- MENU -->
+                    <div class="pull-right">
+                        <nav class="navmenu center">
+                            <ul>
+                                <li class="first active scroll_btn"><a href="#home">Home</a></li>
+                                <li class="scroll_btn"><a href="#wisldd">What is Leadership Dinner Date</a></li>
+                                <li class="scroll_btn"><a href="#wdwd">What Do We Do</a></li>
+                                <li class="scroll_btn"><a href="#participants">Participants</a></li>
+                                <li class="scroll_btn"><a href="#form">FORM</a></li>
+                                <li class="scroll_btn"><a href="#team">OUR TEAM</a></li>
+                                <li class="scroll_btn"><a href="#pars">Participants' Space</a></li>
+                                <li class="scroll_btn last"><a href="#contacts">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div><!-- //MENU -->
+                </div><!-- //MENU BLOCK -->
+            </div><!-- //CONTAINER -->
+        </header><!-- //HEADER -->
+
+
+        <!-- HOME -->
+        <section id="home" class="padbot0">
+
+            <!-- TOP SLIDER -->
+            <div class="flexslider top_slider">
+                <ul class="slides">
+                    <li class="slide1">
+                        <div class="flex_caption1">
+                            <p class="title1 captionDelay2 FromTop">LEADERSHIP DINNER DATE</p>
+                            <p class="title4 captionDelay7 FromBottom">
+                                Produced by MA Junjie</p>
+                            <p class="title4 captionDelay7 FromBottom">IVLPer, Columnist, Researcher, Entrepreneur</p>
+                            <p class="title4 captionDelay7 FromBottom">+86 186 3278 9154</p>
+                            <p class="title4 captionDelay7 FromBottom">jackmascu@gmail.com</p>
+                        </div>
+                    </li>
+                    <li class="slide2">
+                        <div class="flex_caption1">
+                            <p class="title1 captionDelay2 FromTop" style="background:#000000">LEADERSHIP DINNER
+                                DATE</p>
+                            <p class="title4 captionDelay7 FromBottom">
+                                <span style="background:#000000">Produced by MA Junjie</span></p>
+                            <p class="title4 captionDelay7 FromBottom"><span style="background:#000000">IVLPer, Columnist,
+                                Researcher, Entrepreneur</span></p>
+                            <p class="title4 captionDelay7 FromBottom"><span style="background:#000000">+86 186 3278 9154</span>
+                            </p>
+                            <p class="title4 captionDelay7 FromBottom"><span style="background:#000000">jackmascu@gmail.com</span>
+                            </p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section><!-- //HOME -->
+
+        <!-- MULTI PURPOSE -->
+        <section id="wisldd">
+            <div class="purpose_block">
+
+                <!-- CONTAINER -->
+                <div class="container">
+
+                    <!-- ROW -->
+                    <div class="row">
+
+                        <div class="col-lg-7 col-md-7 col-sm-7"
+                             data-animated="fadeInLeft">
+                            <h2> WHAT IS LEADERSHIP DINNER DATE(LDD)?</h2>
+                            <p><b>Leadership Dinner Date</b> is initiated by Mr. MA Junjie, an IVLPer, who believed that
+                                genuine human connection, exchange of ideas, and collective memory building are of key
+                                importance to nurturing mutual understanding and facilitating social progress.
+                            </p>
+                            <p>
+                                Junjie built upon his previous training expertise in Turkey, Germany, France and
+                                Belgium, adopted a systematic leadership training methodology, and created the
+                                Leadership Dinner Date.
+                                It serves as an inclusive platform for young leaders to share their experiences, ideas,
+                                visions, expertise, insights, and growth.
+                            </p>
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in"
+                             data-animated="fadeInRight">
+                            <img src="public/ldd/images/whatisldd/majunjie.jpg" alt=""/>
+                        </div>
+                    </div><!-- //ROW -->
+                </div><!-- //CONTAINER -->
+            </div><!-- //MULTI PURPOSE -->
+        </section><!-- //ABOUT -->
+        <div class="purpose_block_gen">&nbsp;</div>
+        <!-- what do we do  start-->
+        <section id="wdwd">
+            <div class="purpose_block">
+
+                <!-- CONTAINER -->
+                <div class="container">
+
+                    <!-- ROW -->
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in"
+                             data-animated="fadeInRight">
+                            <img class="ipad_img1" src="public/ldd/images/whatdowedo/wdwd1.jpg" alt=""/>
+                        </div>
+
+                        <div class="col-lg-7 col-md-7 col-sm-7"
+                             data-animated="fadeInLeft">
+                            <h2>WHAT DO WE DO?</h2>
+                            <p>Leadership Dinner Date(LDD) follows a systematic framework that best accommodates the
+                                participants to introduce themselves, share their passions, exchange their views on a
+                                wide variety of issues, debate on a big range of topics, and most importantly, cultivate
+                                long term friendship and connections that will benefit their personal growth.
+                            </p>
+                            <p>
+                                Leadership Dinner Date(LDD) is a workshop to discuss interesting and meaningful topics;
+                                a seminar to get analysis and insights; a dinner to break bread together and meet your
+                                next best friend.
+
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="purpose_block_gen">&nbsp;</div>
+        <!-- what do we do  end -->
+
+        <!-- participants start -->
+        <section id="participants">
+            <!-- CONTAINER -->
+            <div class="container">
+                <!-- ROW -->
+                <h2>PARTICIPANTS</h2>
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 col-sm-7"
+                         data-animated="fadeInLeft">
+
+                        <p style="font-size: 16px"><b>Leadership Dinner Date</b> is initiated by Mr. MA Junjie, an
+                            IVLPer, who believed that
+                            genuine human connection, exchange of ideas, and collective memory building are of key
+                            importance to nurturing mutual understanding and facilitating social progress.
+                        </p>
+                        <p style="font-size: 16px">
+                            Junjie built upon his previous training expertise in Turkey, Germany, France and
+                            Belgium, adopted a systematic leadership training methodology, and created the
+                            Leadership Dinner Date.
+                            It serves as an inclusive platform for young leaders to share their experiences, ideas,
+                            visions, expertise, insights, and growth.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in"
+                         data-animated="fadeInRight">
+                        <img class="ipad_img1" src="public/ldd/images/Participants/Participants.jpg" alt=""/>
+                    </div>
+                </div> <!-- row -->
+            </div>
+        </section>
+        <!-- participants end -->
+        <div class="purpose_block_gen">&nbsp;</div>
+        <!-- PROJECTS -->
+        <section id="form" class="padbot20">
+            <!-- CONTAINER -->
+            <div class="container"><h2>&nbsp;&nbsp; &nbsp;&nbsp;</h2></div>
+            <div class="container">
+                <h2><b>FORM</b></h2>
+            </div>
+            <div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+                <!-- PROJECTS SLIDER -->
+                <div class="owl-demo owl-carousel projects_slider">
+
+                    <!-- work1 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/ldd/images/form/method.jpg" alt=""/>
+                                <a class="zoom" href="public/ldd/images/form/method.jpg"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('ldd/form?params=method') ?>"><span
+                                                style="font-size: 90px"><i>METHOD</i></span> </a>
+                                    <!--<span>17 March, 2041</span>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //work1 -->
+
+                    <!-- work2 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/ldd/images/form/input.jpg" alt=""/>
+                                <a class="zoom" href="public/ldd/images/form/input.jpg"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('ldd/form?params=input') ?>"><span
+                                                style="font-size: 90px"><i>INPUT</i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //work2 -->
+
+                    <!-- work3 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/ldd/images/form/sharing.jpg" alt=""/>
+                                <a class="zoom" href="public/ldd/images/form/sharing.jpg"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('ldd/form?params=sharing') ?>"><span
+                                                style="font-size: 90px"><i>SHARING</i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //work3 -->
+
+                    <!-- work4 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/ldd/images/form/frame.jpg" alt=""/>
+                                <a class="zoom" href="public/ldd/images/form/frame.jpg"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('ldd/form?params=frame') ?>"><span
+                                                style="font-size: 90px"><i>FRAME</i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //work4 -->
+                </div><!-- //PROJECTS SLIDER -->
+            </div>
+        </section><!-- //PROJECTS -->
+        <div class="purpose_block_gen">&nbsp;</div>
+        <!-- TEAM -->
+        <section id="team">
+            <!-- CONTAINER -->
+            <div class="container">
+                <h2><b>OUR TEAM</b></h2>
+
+                <!-- ROW -->
+                <div class="row" data-animated="fadeInUp">
+
+                    <!-- TEAM SLIDER -->
+                    <div class="owl-demo owl-carousel team_slider">
+
+                        <!-- crewman1 -->
+                        <div class="item">
+                            <div class="crewman_item">
+                                <div class="crewman">
+                                    <img src="public/ldd/images/ourTeam/majunjie.jpg" alt=""/>
+                                </div>
+                                <div class="crewman_descr center">
+                                    <div class="crewman_descr_cont">
+
+                                        <a href="<?php echo site_url('ldd/Our_team?params=majunjie') ?>"><p>马俊杰</p></a>
+                                        <!--<span>Director</span>-->
+                                    </div>
+                                </div>
+                                <!--<div class="crewman_social">-->
+                                <!--<a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>-->
+                                <!--<a href="javascript:void(0);"><i class="fa fa-facebook-square"></i></a>-->
+                                <!--</div>-->
+                            </div>
+                        </div><!-- crewman1 -->
+
+                        <!-- crewman2 -->
+                        <div class="item">
+                            <div class="crewman_item">
+                                <div class="crewman">
+                                    <img src="public/ldd/images/ourTeam/zhaojiaxu.jpg" alt=""/>
+                                </div>
+                                <div class="crewman_descr center">
+                                    <div class="crewman_descr_cont">
+                                        <a href="<?php echo site_url('ldd/Our_team?params=zhaojiaxu') ?>"><p>赵家煦</p></a>
+                                        <!--<span>Creative Director</span>-->
+                                    </div>
+                                </div>
+                                <!--<div class="crewman_social">-->
+                                <!--<a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a>-->
+                                <!--<a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>-->
+                                <!--<a href="javascript:void(0);"><i class="fa fa-facebook-square"></i></a>-->
+                                <!--</div>-->
+                            </div>
+                        </div><!-- crewman1 -->
+                    </div><!-- TEAM SLIDER -->
+                </div><!-- //ROW -->
+            </div><!-- //CONTAINER -->
+        </section><!-- //TEAM -->
+        <div class="purpose_block_gen">&nbsp;</div>
+
+        <!-- NEWS -->
+        <section id="news">
+
+            <!-- CONTAINER -->
+            <div class="container">
+                <h2><b>People Say</b> …</h2>
+
+                <!-- TESTIMONIALS -->
+                <div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+                    <!-- TESTIMONIALS SLIDER -->
+                    <div class="owl-demo owl-carousel testim_slider">
+
+                        <!-- TESTIMONIAL1 -->
+                        <div class="item">
+                            <div class="testim_content">“激发思考者热情与想象的平台；激励吃货运动与交流的舞台。”
+                            </div>
+                            <div class="testim_author">— <b>徐晨曦</b></div>
+
+                        </div><!-- TESTIMONIAL1 -->
+
+                        <!-- TESTIMONIAL2 -->
+                        <div class="item">
+                            <div class="testim_content">“I was deeply impressed by Junjie’s creativity and efforts to
+                                bring us together.
+                                We talked about a lot of things. The Leadership Dinner Date really gave me an
+                                opportunity to not only connect with new friends,
+                                but get a better understanding of myself.”
+                            </div>
+                            <div class="testim_author">—<b>Mathias Bolinger</b></div>
+                        </div><!-- TESTIMONIAL2 -->
+
+                        <!-- TESTIMONIAL3 -->
+                        <div class="item">
+                            <div class="testim_content">“杰哥”is so inspiring, enthusiastic, and energetic. I had a lot of
+                                fun meeting everyone, and the food was great. He got me thinking about stuff that I have
+                                ignored about my life, my career, and my potentials. A truly great idea to have this
+                                kind of event.
+                            </div>
+                            <div class="testim_author">— <b>Daniel Ekstrom</b></div>
+                        </div><!-- TESTIMONIAL3 -->
+                        <!-- TESTIMONIAL4 -->
+                        <div class="item">
+                            <div class="testim_content">
+                                这是一个神奇的地方，通过这种活动形式，陌生的你我可以在两分钟内熟络起来。分享美食，交流思想，启发思维，就会渐渐发现，
+                                来的人都有一个特点：有趣有爱有志。我们以自己的社会角色观察着这个世界，希望通过自身的一些努力，为社会进步贡献一点点力量。
+                                非常喜欢这样的Date，让吃饭变得有意义有启迪，让讨论变得更轻松更有趣。
+                            </div>
+                            <div class="testim_author">— <b>屈上</b></div>
+                        </div><!-- TESTIMONIAL4 -->
+                    </div><!-- TESTIMONIALS SLIDER -->
+                </div><!-- //TESTIMONIALS -->
+
+                <!-- RECENT POSTS -->
+
+            </div><!-- //CONTAINER -->
+        </section><!-- //NEWS -->
+        <div class="purpose_block_gen">&nbsp;</div>
+        <!-- PARTICIPANTS’ SPACE -->
+        <section id="pars" class="padbot20">
+
+            <!-- CONTAINER -->
+            <div class="container">
+                <h3><b>PARTICIPANTS'SPACE</b></h3>
+            </div><!-- //CONTAINER -->
+
+
+            <div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+                <!-- PROJECTS SLIDER -->
+                <div class="owl-demo owl-carousel projects_slider">
+
+                    <!-- work1 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/ldd/images/participants_space/majunjie.jpg" alt=""/>
+                                <a class="zoom" href="public/ldd/images/participants_space/majunjie.jpg"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('ldd/Par_s/majunjie') ?>">马俊杰</a>
+                                    <!--<span>17 March, 2041</span>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work1 -->
+
+                    <!-- work2 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/ldd/images/participants_space/luzhen.jpg" alt=""/>
+                                <a class="zoom" href="public/ldd/images/participants_space/luzhen.jpg"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('ldd/Par_s/luzhen') ?>">鲁镇</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work2 -->
+
+                    <!-- work3 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/ldd/images/participants_space/zhaojiaxu.jpg" alt=""/>
+                                <a class="zoom" href="public/ldd/images/participants_space/zhaojiaxu.jpg"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('ldd/Par_s/zhaojiaxu') ?>">赵家煦</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work3 -->
+
+                    <!-- work4 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/ldd/images/participants_space/qushang.jpg" alt=""/>
+                                <a class="zoom" href="public/ldd/images/participants_space/qushang.jpg"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('ldd/Par_s/qushang') ?>">屈上</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work4 -->
+
+                    <!-- work5 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/ldd/images/participants_space/xuchenxi.jpg" alt=""/>
+                                <a class="zoom" href="public/ldd/images/participants_space/xuchenxi.jpg"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('ldd/Par_s/xuchenxi') ?>">徐晨曦</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work5 -->
+                    <!-- work6 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/ldd/images/participants_space/hebo.jpg" alt=""/>
+                                <a class="zoom" href="public/ldd/images/participants_space/hebo.jpg"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('ldd/Par_s/hebo') ?>">贺博</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work6 -->
+                    <!-- work7 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/ldd/images/participants_space/DE.jpg" alt=""/>
+                                <a class="zoom" href="public/ldd/images/participants_space/DE.jpg"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('ldd/Par_s/de') ?>">Daniel Ekstrom</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work7 -->
+                    <!-- work8 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/ldd/images/participants_space/mb.jpg" alt=""/>
+                                <a class="zoom" href="public/ldd/images/participants_space/mb.jpg"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('ldd/Par_s/mb') ?>">Mathias Bolinger</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work8 -->
+                </div><!-- //PROJECTS SLIDER -->
+            </div>
+
+
+        </section><!-- //PROJECTS -->
+
+        <div class="purpose_block_gen">&nbsp;</div>
+        <section>
+
+
+            <!-- part 2 start -->
+            <div class="container">
+                <div class="purpose_block"><h2>&nbsp;</h2></div>
+                <div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
+                    <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+                        <div class="post_item">
+                            <div class="post_item_img">
+                                <img src="public/ldd/images/participants_space/image1.jpg" alt=""/>
+                            </div>
+                            <!--<div class="post_item_content">-->
+                            <!--<a class="title" href="blog-post.html">Inteligent Transitions In UX Design</a>-->
+                            <!--<ul class="post_item_inf">-->
+                            <!--<li><a href="javascript:void(0);">Anna</a> |</li>-->
+                            <!--<li><a href="javascript:void(0);">Photography</a> |</li>-->
+                            <!--<li><a href="javascript:void(0);">10 Comments</a></li>-->
+                            <!--</ul>-->
+                            <!--</div>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+                        <div class="post_item">
+                            <div class="post_item_img">
+                                <img src="public/ldd/images/participants_space/image2.jpg" alt=""/>
+                                <!--<a class="link" href="blog-post.html"></a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+                        <div class="post_item">
+                            <div class="post_item_img">
+                                <img src="public/ldd/images/participants_space/image3.jpg" alt=""/>
+                                <!--<a class="link" href="blog-post.html"></a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+                        <div class="post_item">
+                            <div class="post_item_img">
+                                <img src="public/ldd/images/participants_space/image4.jpg" alt=""/>
+                                <!--<a class="link" href="blog-post.html"></a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+                        <div class="post_item">
+                            <div class="post_item_img">
+                                <img src="public/ldd/images/participants_space/image5.jpg" alt=""/>
+                                <!--<a class="link" href="blog-post.html"></a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+                        <div class="post_item">
+                            <div class="post_item_img">
+                                <img src="public/ldd/images/participants_space/image6.jpg" alt=""/>
+                                <!--<a class="link" href="blog-post.html"></a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- RECENT POSTS -->
+            </div>
+            <!-- part 2 end  -->
+        </section>
+        <!-- OUR CLIENTS 友情链接 -->
+        <!--<div class="our_clients">-->
+
+        <!--&lt;!&ndash; CONTAINER &ndash;&gt;-->
+        <!--<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">-->
+
+        <!--&lt;!&ndash; ROW &ndash;&gt;-->
+        <!--<div class="row">-->
+        <!--<div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+        <!--<img src="images/clients/1.jpg" alt=""/>-->
+        <!--</div>-->
+        <!--<div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+        <!--<img src="images/clients/2.jpg" alt=""/>-->
+        <!--</div>-->
+        <!--<div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+        <!--<img src="images/clients/3.jpg" alt=""/>-->
+        <!--</div>-->
+        <!--<div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+        <!--<img src="images/clients/4.jpg" alt=""/>-->
+        <!--</div>-->
+        <!--<div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+        <!--<img src="images/clients/5.jpg" alt=""/>-->
+        <!--</div>-->
+        <!--<div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+        <!--<img src="images/clients/6.jpg" alt=""/>-->
+        <!--</div>-->
+        <!--</div>&lt;!&ndash; //ROW &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; CONTAINER &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; //OUR CLIENTS &ndash;&gt;-->|
+        <div class="purpose_block_gen">&nbsp;</div>
+
+
+        <!-- CONTACTS -->
+        <section id="contacts">
+            <!-- CONTAINER -->
+            <div class="container">
+                <!-- ROW -->
+                <div class="row">
+                    <!-- LEAVE A COMMENT -->
+                    <div class="leave_comment" data-animated="fadeInUp">
+                        <h3><b>Contacts</b></h3>
+
+                        <form id="comment_form" class="row" action="#" method="post">
+                            <div class="col-lg-4 col-md-4">
+                                <input type="text" name="name" value="Your Name *"
+                                       onFocus="if (this.value == 'Your Name *') this.value = '';"
+                                       onBlur="if (this.value == '') this.value = 'Your Name *';"/>
+                                <input type="text" name="phone" value="E-mail *"
+                                       onFocus="if (this.value == 'E-mail *') this.value = '';"
+                                       onBlur="if (this.value == '') this.value = 'E-mail *';"/>
+                                <input type="text" name="phone" value="Web site"
+                                       onFocus="if (this.value == 'Web site') this.value = '';"
+                                       onBlur="if (this.value == '') this.value = 'Web site';"/>
+                                <div class="comment_note">All fields marked with an asterisk (*) are required</div>
+                            </div>
+                            <div class="col-lg-8 col-md-8">
+                            <textarea name="message" onFocus="if (this.value == 'Your message *') this.value = '';"
+                                      onBlur="if (this.value == '') this.value = 'Your message *';">Your message *</textarea>
+                                <input class="contact_btn pull-right" type="submit" value="Send message"/>
+                            </div>
+                        </form>
+                    </div><!-- //LEAVE A COMMENT -->
+                    <!-- ROW end-->
+                </div>
+            </div><!-- //BLOG BLOCK -->
+        </section><!-- //CONTACTS -->
+
+    </div>
+
+</div><!-- //PAGE -->
+
+
+</div>
+</body>
+</html>
