@@ -20,7 +20,7 @@
                     <!-- LOGO -->
                     <div class="logo pull-left">
                         <!--<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>-->
-                        <a href="index.html"><span class="b1">LDD</span></a>
+                        <a href="<?php echo site_url('ldd/Index/home') ?>"><span class="b1">LDD</span></a>
                     </div><!-- //LOGO -->
 
                     <!-- MENU -->

@@ -32,8 +32,8 @@
                                 <li class="scroll_btn"><a href="#wwd">我们做什么</a></li>
                                 <li class="scroll_btn"><a href="#news">关于我们</a></li>
                                 <li class="scroll_btn"><a href="#team">我们的团队</a></li>
-                                <li class="scroll_btn"><a href="#news">News</a></li>
-                                <li class="scroll_btn last"><a href="#contacts">Contacts</a></li>
+<!--                                <li class="scroll_btn"><a href="#news">News</a></li>-->
+<!--                                <li class="scroll_btn last"><a href="#contacts">Contacts</a></li>-->
                             </ul>
                         </nav>
                     </div><!-- //MENU -->
@@ -75,7 +75,7 @@
                                 <a class="link" href="blog-post.html"></a>
                             </div>
                             <div class="post_item_content" style="margin-left: 140px">
-                                <a class="title" href="blog-post.html">企业家参考</a>
+                                <a class="title" href="#">企业家参考</a>
                                 <ul class="post_item_inf">
                                     <li><a href="javascript:void(0);">Second Opinion</a></li>
                                 </ul>
@@ -89,7 +89,7 @@
                                 <a class="link" href="blog-post.html"></a>
                             </div>
                             <div class="post_item_content" style="margin-left: 140px">
-                                <a class="title" href="blog-post.html">海外见学</a>
+                                <a class="title" href=#">海外见学</a>
                                 <ul class="post_item_inf">
                                     <li><a href="javascript:void(0);">The Grand Tour</a></li>
                                 </ul>
@@ -224,7 +224,7 @@
                             <div class="work_description">
                                 <div class="work_descr_cont">
                                     <a href="<?php echo site_url('Home/team?params=majunjie') ?>">马俊杰</a>
-                                    <span>马俊杰先生，昂科创始人、总裁</span>
+                                    <span style="color: #fff">马俊杰先生，昂科创始人、总裁</span>
                                 </div>
                             </div>
                         </div>
@@ -241,7 +241,7 @@
                             <div class="work_description">
                                 <div class="work_descr_cont">
                                     <a href="<?php echo site_url('Home/team?params=zheruisi') ?>">哲瑞思</a>
-                                    <span>哲瑞思博士，副总裁&研究部主任</span>
+                                    <span style="color: #fff">哲瑞思博士，副总裁&研究部主任</span>
                                 </div>
                             </div>
                         </div>
@@ -258,7 +258,7 @@
                             <div class="work_description">
                                 <div class="work_descr_cont">
                                     <a href="<?php echo site_url('Home/team?params=mr') ?>">Mikael Román</a>
-                                    <span>Mikael Román，高级顾问</span>
+                                    <span style="color: #fff">Mikael Román，高级顾问</span>
                                 </div>
                             </div>
                         </div>
@@ -275,7 +275,7 @@
                             <div class="work_description">
                                 <div class="work_descr_cont">
                                     <a href="<?php echo site_url('Home/team?params=fm') ?>">Faye MAO</a>
-                                    <span>Faye MAO，高级顾问</span>
+                                    <span style="color: #fff">Faye MAO，高级顾问</span>
                                 </div>
                             </div>
                         </div>
@@ -292,7 +292,7 @@
                             <div class="work_description">
                                 <div class="work_descr_cont">
                                     <a href="<?php echo site_url('Home/team?params=hm') ?>">Hartmut Marhold</a>
-                                    <span>Hartmut Marhold教授，高级顾问</span>
+                                    <span style="color: #fff">Hartmut Marhold教授，高级顾问</span>
                                 </div>
                             </div>
                         </div>
@@ -309,7 +309,7 @@
                             <div class="work_description">
                                 <div class="work_descr_cont">
                                     <a href="<?php echo site_url('Home/team?params=tb') ?>">Tobias Bütow</a>
-                                    <span>Tobias Bütow博士，高级顾问</span>
+                                    <span style="color: #fff">Tobias Bütow博士，高级顾问</span>
                                 </div>
                             </div>
                         </div>
@@ -326,7 +326,7 @@
                             <div class="work_description">
                                 <div class="work_descr_cont">
                                     <a href="<?php echo site_url('Home/team?params=gsk') ?>">Gonzalo Sanchez Slik</a>
-                                    <span>Gonzalo Sanchez Slik，顾问</span>
+                                    <span style="color: #fff">Gonzalo Sanchez Slik，顾问</span>
                                 </div>
                             </div>
                         </div>
@@ -342,7 +342,7 @@
                             <div class="work_description">
                                 <div class="work_descr_cont">
                                     <a href="<?php echo site_url('Home/team?params=de') ?>">Daniel Ekstrom</a>
-                                    <span>Daniel Ekstrom，顾问</span>
+                                    <span style="color: #fff">Daniel Ekstrom，顾问</span>
                                 </div>
                             </div>
                         </div>
