@@ -235,8 +235,6 @@
                         <div class="work_item">
                             <div class="work_img">
                                 <img src="public/company/images/team/zheruisi.jpg" alt=""/>
-                                <a class="zoom" href="<?php echo site_url('Home/team?params=zheruisi') ?>"
-                                   rel="prettyPhoto[portfolio1]"></a>
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
@@ -252,8 +250,6 @@
                         <div class="work_item">
                             <div class="work_img">
                                 <img src="public/company/images/team/mr.jpg" alt=""/>
-                                <a class="zoom" href="<?php echo site_url('Home/team?params=mr') ?>"
-                                   rel="prettyPhoto[portfolio1]"></a>
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
@@ -269,8 +265,6 @@
                         <div class="work_item">
                             <div class="work_img">
                                 <img src="public/company/images/team/fm.jpg" alt=""/>
-                                <a class="zoom" href="<?php echo site_url('Home/team?params=fm') ?>"
-                                   rel="prettyPhoto[portfolio1]"></a>
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
@@ -286,8 +280,6 @@
                         <div class="work_item">
                             <div class="work_img">
                                 <img src="public/company/images/team/hm.jpg" alt=""/>
-                                <a class="zoom" href="<?php echo site_url('Home/team?params=hm') ?>"
-                                   rel="prettyPhoto[portfolio1]"></a>
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
@@ -320,8 +312,6 @@
                         <div class="work_item">
                             <div class="work_img">
                                 <img src="public/company/images/team/gsk.jpg" alt=""/>
-                                <a class="zoom" href="<?php echo site_url('Home/team?params=gsk') ?>"
-                                   rel="prettyPhoto[portfolio1]"></a>
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
