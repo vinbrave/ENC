@@ -3,7 +3,7 @@
 
 
 <!-- PRELOADER -->
-<img id="preloader" src="images/preloader.gif" alt=""/>
+<img id="preloader" src="public/ldd/images/preloader.gif" alt=""/>
 <!-- //PRELOADER -->
 <div class="preloader_hide">
 
