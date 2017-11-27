@@ -1,358 +1,420 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-$this->load->view("include/company/header");
-?>
+<?php $this->load->view("include/company/header"); ?>
+<body>
 
-<!--
-==================================================
-Slider Section Start
-================================================== -->
-<section id="hero-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="block wow fadeInUp" data-wow-delay=".3s">
 
-                    <!-- Slider -->
-                    <section class="cd-intro">
-                        <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s">
-                            <span>HI, MY NAME IS JONATHON & I AM A</span><br>
-                            <span class="cd-words-wrapper">
-                                    <b class="is-visible">DESIGNER</b>
-                                    <b>DEVELOPER</b>
-                                    <b>FATHER</b>
-                                </span>
-                        </h1>
-                    </section> <!-- cd-intro -->
-                    <!-- /.slider -->
-                    <h2 class="wow fadeInUp animated" data-wow-delay=".6s">
-                        With 10 years experience, I've occupied many roles including digital design director,<br> web
-                        designer and developer. This site showcases some of my work.
-                    </h2>
-                    <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green"
-                       data-wow-delay=".9s" href="#works" data-section="#works">View Works</a>
+<!-- PRELOADER -->
+<img id="preloader" src="images/preloader.gif" alt=""/>
+<!-- //PRELOADER -->
+<div class="preloader_hide">
 
-                </div>
+    <!-- PAGE -->
+    <div id="page">
+
+        <!-- HEADER -->
+        <header>
+
+            <!-- MENU BLOCK -->
+            <div class="menu_block">
+
+                <!-- CONTAINER -->
+                <div class="container clearfix">
+
+                    <!-- LOGO -->
+                    <div class="logo pull-left">
+                        <!--<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>-->
+                        <a href="#"><img src="public/company/images/logo/enc.png" alt="ENC"/></a>
+                    </div><!-- //LOGO -->
+                    <!-- MENU -->
+                    <div class="pull-right">
+                        <nav class="navmenu center">
+                            <ul>
+                                <li class="first active scroll_btn"><a href="#home">首页</a></li>
+                                <li class="scroll_btn"><a href="#wwd">我们做什么</a></li>
+                                <li class="scroll_btn"><a href="#news">关于我们</a></li>
+                                <li class="scroll_btn"><a href="#team">我们的团队</a></li>
+                                <li class="scroll_btn"><a href="#news">News</a></li>
+                                <li class="scroll_btn last"><a href="#contacts">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div><!-- //MENU -->
+                </div><!-- //MENU BLOCK -->
+            </div><!-- //CONTAINER -->
+        </header><!-- //HEADER -->
+
+
+        <!-- HOME -->
+        <section id="home" class="padbot0">
+
+            <!-- TOP SLIDER -->
+            <div class="flexslider top_slider">
+                <ul class="slides">
+                    <li class="slide1">
+                        <div class="flex_caption1">
+                            <p class="title1 captionDelay2 FromTop">昂科国际</p>
+                            <p class="title1 captionDelay2 FromLeft">以人与人的互联，走向更远之远</p>
+                            <p class="title4 captionDelay6 FromLeft">Produced by MA Junjie CEO of ENC</p>
+                            <p class="title4 captionDelay4 FromLeft"></p>
+                            <p class="title4 captionDelay2 FromLeft">Tel. +86 186 3278 9154</p>
+                            <p class="title4 captionDelay7 FromLeft">Email. jackmascu@gmail.com</p>
+                        </div>
+                </ul>
             </div>
-        </div>
-    </div>
-</section><!--/#main-slider-->
-<!--
-==================================================
-Slider Section Start
-================================================== -->
-<section id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-6">
-                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
-                    <h2>
-                        ABOUT ME
-                    </h2>
-                    <p>
-                        Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master
-                        degree of Web Design from the World University.And scrambled it to make a type specimen book. It
-                        has survived not only five centuries
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum
-                        repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat.
-                        Temporibus, vero.
-                    </p>
-                </div>
+        </section><!-- //HOME -->
 
-            </div>
-            <div class="col-md-6 col-sm-6">
-                <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-                    <img src="public/company/images/about/about.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</section> <!-- /#about -->
-<!--
-==================================================
-Portfolio Section Start
-================================================== -->
-<section id="works" class="works">
-    <div class="container">
-        <div class="section-heading">
-            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest Works</h1>
-            <p class="wow fadeInDown" data-wow-delay=".5s">
-                Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet
-                est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor
-                sagittis lacus.
-            </p>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-xs-12">
-                <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
-                    <div class="img-wrapper">
-                        <img src="public/company/images/portfolio/item-1.jpg" class="img-responsive"
-                             alt="this is a title">
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox"
-                                   href="public/company/images/portfolio/item-1.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
+        <!-- 企业家参考 等板块 start-->
+        <section id="wwd">
+            <div class="container">
+                <!-- CONTAINER -->
+                <div style="margin-bottom: 30px">&nbsp;</div>
+                <h2><b>我们做什么</b>: &nbsp;笃行</h2>
+                <div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
+                    <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+                        <div class="post_item">
+                            <div class="post_item_img">
+                                <img src="public/company/images/wwd/1.jpg" alt=""/>
+                                <a class="link" href="blog-post.html"></a>
+                            </div>
+                            <div class="post_item_content" style="margin-left: 140px">
+                                <a class="title" href="blog-post.html">企业家参考</a>
+                                <ul class="post_item_inf">
+                                    <li><a href="javascript:void(0);">Second Opinion</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <figcaption>
-                        <h4>
-                            <a href="#">
-                                Dew Drop
-                            </a>
-                        </h4>
-                        <p>
-                            Redesigne UI Concept
-                        </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="img-wrapper">
-                        <img src="public/company/images/portfolio/item-2.jpg" class="img-responsive"
-                             alt="this is a title">
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox"
-                                   href="public/company/images/portfolio/item-2.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
+                    <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+                        <div class="post_item">
+                            <div class="post_item_img">
+                                <img src="public/company/images/wwd/2.jpg" alt=""/>
+                                <a class="link" href="blog-post.html"></a>
+                            </div>
+                            <div class="post_item_content" style="margin-left: 140px">
+                                <a class="title" href="blog-post.html">海外见学</a>
+                                <ul class="post_item_inf">
+                                    <li><a href="javascript:void(0);">The Grand Tour</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <figcaption>
-                        <h4>
-                            <a href="#">
-                                Bottle Mockup
-                            </a>
-                        </h4>
-                        <p>
-                            Lorem ipsum dolor sit.
-                        </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="img-wrapper">
-                        <img src="public/company/images/portfolio/item-3.jpg" class="img-responsive" alt="">
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox"
-                                   href="public/company/images/portfolio/item-3.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
+                    <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+                        <div class="post_item">
+                            <div class="post_item_img">
+                                <img src="public/company/images/wwd/3.jpg" alt=""/>
+                                <a class="link" href="<?php echo site_url('ldd/Index/home'); ?>"></a>
+                            </div>
+                            <div class="post_item_content" style="margin-left: 100px">
+                                <a class="title" href="<?php echo site_url('ldd/Index/home'); ?>">领导力主题晚餐会</a>
+                                <ul class="post_item_inf">
+                                    <li><a href="javascript:void(0);">Leadership Dinner Date</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <figcaption>
-                        <h4>
-                            <a href="#">
-                                Table Design
-                            </a>
-                        </h4>
-                        <p>
-                            Lorem ipsum dolor sit amet.
-                        </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="600ms">
-                    <div class="img-wrapper">
-                        <img src="public/company/images/portfolio/item-4.jpg" class="img-responsive" alt="">
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox"
-                                   href="public/company/images/portfolio/item-4.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                        <h4>
-                            <a href="#">
-                                Make Up elements
-                            </a>
-                        </h4>
-                        <p>
-                            Lorem ipsum dolor.
-                        </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms">
-                    <div class="img-wrapper">
-                        <img src="public/company/images/portfolio/item-5.jpg" class="img-responsive" alt="">
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox"
-                                   href="public/company/images/portfolio/item-5.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                        <h4>
-                            <a href="#">
-                                Shoping Bag Concept
-                            </a>
-                        </h4>
-                        <p>
-                            Lorem ipsum dolor.
-                        </p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-                    <div class="img-wrapper">
-                        <img src="public/company/images/portfolio/item-6.jpg" class="img-responsive" alt="">
-                        <div class="overlay">
-                            <div class="buttons">
-                                <a rel="gallery" class="fancybox"
-                                   href="public/company/images/portfolio/item-6.jpg">Demo</a>
-                                <a target="_blank" href="single-portfolio.html">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <figcaption>
-                        <h4>
-                            <a href="#">
-                                Caramel Bottle
-                            </a>
-                        </h4>
-                        <p>
-                            Lorem ipsum dolor.
-                        </p>
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-    </div>
-</section> <!-- #works -->
-<!--
-==================================================
-Portfolio Section Start
-================================================== -->
-<section id="feature">
-    <div class="container">
-        <div class="section-heading">
-            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Offer From Me</h1>
-            <p class="wow fadeInDown" data-wow-delay=".5s">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,<br> quasi dolores numquam dolor vero ex,
-                tempora commodi repellendus quod laborum.
-            </p>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-lg-4 col-xs-12">
-                <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-flask-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Media heading</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-4 col-xs-12">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="600ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-lightbulb-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Well documented.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-4 col-xs-12">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="900ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-lightbulb-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Well documented.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-4 col-xs-12">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-americanfootball-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Free updates</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-4 col-xs-12">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1500ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-keypad-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Solid Support</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-4 col-xs-12">
-                <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1800ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-barcode-outline"></i>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Simple Installation</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> <!-- /#feature -->
+                </div><!-- RECENT POSTS -->
+            </div><!-- //CONTAINER -->
+        </section><!-- //TEAM -->
+        <!-- 企业家参考 等板块 end -->
 
-<!--
-==================================================
-Call To Action Section Start
-================================================== -->
-<section id="call-to-action">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="block">
-                    <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU THINK
-                        ?</h2>
-                    <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit
-                        amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus
-                        vero magni recusandae? Dolore, maxime praesentium.</p>
-                    <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s"
-                       data-wow-duration="500ms">Contact With Me</a>
-                </div>
+        <!-- 关于我们 start-->
+        <section id="news">
+
+            <!-- CONTAINER -->
+            <div class="container">
+                <h2><b>关于我们</b></h2>
+
+                <!-- TESTIMONIALS -->
+                <div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+                    <!-- TESTIMONIALS SLIDER -->
+                    <div class="owl-demo owl-carousel testim_slider">
+
+                        <!-- TESTIMONIAL1 -->
+                        <div class="item">
+                            <div class="testim_content">
+                                <p style="text-indent: 2em">
+                                    昂科国际（ENC）是由中、美、欧三地学者、企业家和前政府官员组成的研究员网络与国际经济、文化发展机构，旨在通过学术研究、人文交流、商业合作和科技引进，促进中国与西方世界的深层次了解，共同实现发展与繁荣。</p>
+                                <p style="text-indent: 2em">昂科国际以助力中国企业家了解世界、拓展机遇为宗旨，思考与行动合二为一，打开思路，扩展地平线。</p>
+                                <p style="text-indent: 2em">昂科国际为中国青少年提供国内领导力培训、外国语言文化交流活动和海外短期见学机会，为年轻的梦想插上翅膀。</p>
+                                <p style="text-indent: 2em">昂科国际促进中西方真诚沟通，共享繁荣。</p>
+                            </div>
+                        </div><!-- TESTIMONIAL1 -->
+                    </div><!-- TESTIMONIALS SLIDER -->
+                </div><!-- //TESTIMONIALS -->
+
+                <!-- RECENT POSTS -->
+            </div><!-- //CONTAINER -->
+        </section><!-- //NEWS -->
+
+
+        <!-- 关于我们 end-->
+
+        <!-- 一带一路 等板块 start-->
+        <section id="wwd">
+            <div class="container">
+                <!-- CONTAINER -->
+                <div style="margin-bottom: 30px">&nbsp;</div>
+                <h2><b>我们做什么</b>: &nbsp;慎思</h2>
+                <div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
+                    <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+                        <div class="post_item">
+                            <div class="post_item_img">
+                                <img src="public/company/images/wwd/4.jpg" alt=""/>
+                                <a class="link" href="blog-post.html"></a>
+                            </div>
+                            <div class="post_item_content" style="margin-left: 80px">
+                                <a class="title" href="blog-post.html">“一带一路”相关研究</a>
+                                <ul class="post_item_inf">
+                                    <li><a href="javascript:void(0);">Research & Consulting related to the Road & Belt
+                                            Initiative</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+                        <div class="post_item">
+                            <div class="post_item_img">
+                                <img src="public/company/images/wwd/5.jpg" alt=""/>
+                                <a class="link" href="blog-post.html"></a>
+                            </div>
+                            <div class="post_item_content" style="margin-left: 120px">
+                                <a class="title" href="blog-post.html">中国经济研究</a>
+                                <ul class="post_item_inf">
+                                    <li><a href="javascript:void(0);">China Economy Study</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+                        <div class="post_item">
+                            <div class="post_item_img">
+                                <img src="public/company/images/wwd/6.jpg" alt=""/>
+                                <a class="link" href="<?php echo site_url('ldd/Index/home'); ?>"></a>
+                            </div>
+                            <div class="post_item_content" style="margin-left: 100px">
+                                <a class="title" href="#">中欧科技共创中心</a>
+                                <ul class="post_item_inf">
+                                    <li><a href="javascript:void(0);">China-Europe Technology Co-creation Centre
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- RECENT POSTS -->
+            </div><!-- //CONTAINER -->
+        </section><!-- //TEAM -->
+        <!-- 一带一路 等板块 end-->
+
+        <!-- PROJECTS -->
+        <section id="team" class="padbot20">
+
+            <!-- CONTAINER -->
+            <div class="container">
+                <h2><b>我们的团队</b></h2>
+            </div><!-- //CONTAINER -->
+
+
+            <div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+                <!-- PROJECTS SLIDER -->
+                <div class="owl-demo owl-carousel projects_slider">
+
+                    <!-- work1 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/company/images/team/majunjie.jpg" alt=""/>
+
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('Home/team?params=majunjie') ?>">马俊杰</a>
+                                    <span>马俊杰先生，昂科创始人、总裁</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work1 -->
+
+                    <!-- work2 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/company/images/team/zheruisi.jpg" alt=""/>
+                                <a class="zoom" href="<?php echo site_url('Home/team?params=zheruisi') ?>"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('Home/team?params=zheruisi') ?>">哲瑞思</a>
+                                    <span>哲瑞思博士，副总裁&研究部主任</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work2 -->
+
+                    <!-- work3 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/company/images/team/mr.jpg" alt=""/>
+                                <a class="zoom" href="<?php echo site_url('Home/team?params=mr') ?>"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('Home/team?params=mr') ?>">Mikael Román</a>
+                                    <span>Mikael Román，高级顾问</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work3 -->
+
+                    <!-- work4 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/company/images/team/fm.jpg" alt=""/>
+                                <a class="zoom" href="<?php echo site_url('Home/team?params=fm') ?>"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('Home/team?params=fm') ?>">Faye MAO</a>
+                                    <span>Faye MAO，高级顾问</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work4 -->
+
+                    <!-- work5 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/company/images/team/hm.jpg" alt=""/>
+                                <a class="zoom" href="<?php echo site_url('Home/team?params=hm') ?>"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('Home/team?params=hm') ?>">Hartmut Marhold</a>
+                                    <span>Hartmut Marhold教授，高级顾问</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work5 -->
+
+                    <!-- work6 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/company/images/team/tb.jpg" alt=""/>
+                                <a class="zoom" href="<?php echo site_url('Home/team?params=tb') ?>"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('Home/team?params=tb') ?>">Tobias Bütow</a>
+                                    <span>Tobias Bütow博士，高级顾问</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work6 -->
+
+                    <!-- work7 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/company/images/team/gsk.jpg" alt=""/>
+                                <a class="zoom" href="<?php echo site_url('Home/team?params=gsk') ?>"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('Home/team?params=gsk') ?>">Gonzalo Sanchez Slik</a>
+                                    <span>Gonzalo Sanchez Slik，顾问</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work7 -->
+                    <!-- work8 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/company/images/team/de.jpg" alt=""/>
+                                <a class="zoom" href="<?php echo site_url('Home/team?params=de') ?>"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('Home/team?params=de') ?>">Daniel Ekstrom</a>
+                                    <span>Daniel Ekstrom，顾问</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work8 -->
+                </div><!-- //PROJECTS SLIDER -->
             </div>
+            <!-- OUR CLIENTS -->
+            <div class="our_clients">
 
-        </div>
-    </div>
-</section>
-<?php $this->load->view('include/company/footer'); ?>
+                <!-- CONTAINER -->
+                <div class="container" data-animated="fadeInUp">
 
+                    <!-- ROW -->
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">
+                            <img src="public/company/images/clients/1.jpg" alt=""/>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">
+                            <img src="public/company/images/clients/2.jpg" alt=""/>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">
+                            <img src="public/company/images/clients/3.jpg" alt=""/>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">
+                            <img src="public/company/images/clients/4.jpg" alt=""/>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">
+                            <img src="public/company/images/clients/5.jpg" alt=""/>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">
+                            <img src="public/company/images/clients/6.jpg" alt=""/>
+                        </div>
+                    </div><!-- //ROW -->
+                </div><!-- CONTAINER -->
+            </div><!-- //OUR CLIENTS -->
+        </section><!-- //PROJECTS -->
+
+        <section id="contacts">
+            <!-- CONTAINER -->
+            <div class="container">
+                <!-- ROW -->
+                <div class="row">
+                    <!-- LEAVE A COMMENT -->
+                    <div class="leave_comment" data-animated="fadeInUp">
+                        <div style="margin-bottom: 30px">&nbsp;</div>
+                        <h2><b>关于我们</b></h2>
+                        <div class="col-lg-4 col-md-4">
+                            <img src="public/company/images/logo/enc.png">
+                            <div class="comment_note">
+                                <p style="font-size: 16px">In Human Connection We Thrive.</p>
+                                <p style="font-size: 16px">人和致荣</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <p style="font-size: 16px">昂科国际（ENC International Advisory</p>
+                            <p style="font-size: 16px">
+                                Group）致力于沟通中国与世界，促进中国企业家、青年领袖“走出去”，加强中西方理念、知识、领导力，和最佳实践的传播，与资源的互换整合。昂科国际坚信人与人之间真诚的联系是繁荣的基础。</p>
+                            <p style="font-size: 16px">“In Human Connection We Thrive.”</p>
+                            <p style="font-size: 16px">“人和致荣”</p>
+
+                        </div>
+                    </div><!-- //LEAVE A COMMENT -->
+                    <!-- ROW end-->
+                </div>
+            </div><!-- //BLOG BLOCK -->
+        </section><!-- //CONTACTS -->
+
+    </div><!-- //PAGE -->
+
+</div>
 </body>
 </html>
