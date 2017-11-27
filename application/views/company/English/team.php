@@ -1,7 +1,5 @@
 <?php $this->load->view("include/ldd/header"); ?>
 <body>
-
-
 <!-- PRELOADER -->
 <img id="preloader" src="public/ldd/images/preloader.gif" alt=""/>
 <!-- //PRELOADER -->
@@ -15,16 +13,12 @@
 
             <!-- MENU BLOCK -->
             <div class="menu_block">
-
                 <!-- CONTAINER -->
                 <div class="container clearfix">
-
                     <!-- LOGO -->
                     <div class="logo pull-left">
-                        <a href="<?php echo site_url('Home/index'); ?>"><img src="public/company/images/logo/enc.png"
-                                                                             alt="ENC"/></a>
+                        <a href="<?php echo site_url('Home/index'); ?>"><img src="public/company/images/logo/enc.png" alt="ENC"/></a>
                     </div><!-- //LOGO -->
-
                     <!-- MENU -->
                     <div class="pull-right">
                         <nav class="navmenu center">

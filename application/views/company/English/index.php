@@ -72,10 +72,10 @@
                         <div class="post_item">
                             <div class="post_item_img">
                                 <img src="public/company/images/wwd/1.jpg" alt=""/>
-                                <a class="link" href="blog-post.html"></a>
+                                <a class="link"  href="javascript:void(0);"></a>
                             </div>
                             <div class="post_item_content" style="margin-left: 140px">
-                                <a class="title" href="#">企业家参考</a>
+                                <a class="title"  href="javascript:void(0);">企业家参考</a>
                                 <ul class="post_item_inf">
                                     <li><a href="javascript:void(0);">Second Opinion</a></li>
                                 </ul>
@@ -86,10 +86,10 @@
                         <div class="post_item">
                             <div class="post_item_img">
                                 <img src="public/company/images/wwd/2.jpg" alt=""/>
-                                <a class="link" href="blog-post.html"></a>
+                                <a class="link"  href="javascript:void(0);"></a>
                             </div>
                             <div class="post_item_content" style="margin-left: 140px">
-                                <a class="title" href=#">海外见学</a>
+                                <a class="title"  href="javascript:void(0);">海外见学</a>
                                 <ul class="post_item_inf">
                                     <li><a href="javascript:void(0);">The Grand Tour</a></li>
                                 </ul>
@@ -161,7 +161,7 @@
                                 <img src="public/company/images/wwd/4.jpg" alt=""/>
                             </div>
                             <div class="post_item_content" style="margin-left: 80px">
-                                <a class="title" href="blog-post.html">“一带一路”相关研究</a>
+                                <a class="title"  href="javascript:void(0);">“一带一路”相关研究</a>
                                 <ul class="post_item_inf">
                                     <li><a href="javascript:void(0);">Research & Consulting related to the Road & Belt
                                             Initiative</a></li>
@@ -175,7 +175,7 @@
                                 <img src="public/company/images/wwd/5.jpg" alt=""/>
                             </div>
                             <div class="post_item_content" style="margin-left: 120px">
-                                <a class="title" href="blog-post.html">中国经济研究</a>
+                                <a class="title"  href="javascript:void(0);">中国经济研究</a>
                                 <ul class="post_item_inf">
                                     <li><a href="javascript:void(0);">China Economy Study</a></li>
                                 </ul>
@@ -188,7 +188,7 @@
                                 <img src="public/company/images/wwd/6.jpg" alt=""/>
                             </div>
                             <div class="post_item_content" style="margin-left: 100px">
-                                <a class="title" href="#">中欧科技共创中心</a>
+                                <a class="title"  href="javascript:void(0);">中欧科技共创中心</a>
                                 <ul class="post_item_inf">
                                     <li><a href="javascript:void(0);">China-Europe Technology Co-creation Centre
                                         </a></li>
