@@ -159,7 +159,6 @@
                         <div class="post_item">
                             <div class="post_item_img">
                                 <img src="public/company/images/wwd/4.jpg" alt=""/>
-                                <a class="link" href="blog-post.html"></a>
                             </div>
                             <div class="post_item_content" style="margin-left: 80px">
                                 <a class="title" href="blog-post.html">“一带一路”相关研究</a>
@@ -174,7 +173,6 @@
                         <div class="post_item">
                             <div class="post_item_img">
                                 <img src="public/company/images/wwd/5.jpg" alt=""/>
-                                <a class="link" href="blog-post.html"></a>
                             </div>
                             <div class="post_item_content" style="margin-left: 120px">
                                 <a class="title" href="blog-post.html">中国经济研究</a>
@@ -188,7 +186,6 @@
                         <div class="post_item">
                             <div class="post_item_img">
                                 <img src="public/company/images/wwd/6.jpg" alt=""/>
-                                <a class="link" href="<?php echo site_url('ldd/Index/home'); ?>"></a>
                             </div>
                             <div class="post_item_content" style="margin-left: 100px">
                                 <a class="title" href="#">中欧科技共创中心</a>
