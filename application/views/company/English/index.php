@@ -32,8 +32,8 @@
                                 <li class="scroll_btn"><a href="#wwd">我们做什么</a></li>
                                 <li class="scroll_btn"><a href="#news">关于我们</a></li>
                                 <li class="scroll_btn"><a href="#team">我们的团队</a></li>
-<!--                                <li class="scroll_btn"><a href="#news">News</a></li>-->
-<!--                                <li class="scroll_btn last"><a href="#contacts">Contacts</a></li>-->
+                                <!--                                <li class="scroll_btn"><a href="#news">News</a></li>-->
+                                <!--                                <li class="scroll_btn last"><a href="#contacts">Contacts</a></li>-->
                             </ul>
                         </nav>
                     </div><!-- //MENU -->
@@ -72,10 +72,10 @@
                         <div class="post_item">
                             <div class="post_item_img">
                                 <img src="public/company/images/wwd/1.jpg" alt=""/>
-                                <a class="link"  href="javascript:void(0);"></a>
+                                <a class="link" href="<?php echo site_url('Wwd/index?params=so'); ?>"></a>
                             </div>
                             <div class="post_item_content" style="margin-left: 140px">
-                                <a class="title"  href="javascript:void(0);">企业家参考</a>
+                                <a class="title" href="javascript:void(0);">企业家参考</a>
                                 <ul class="post_item_inf">
                                     <li><a href="javascript:void(0);">Second Opinion</a></li>
                                 </ul>
@@ -86,10 +86,10 @@
                         <div class="post_item">
                             <div class="post_item_img">
                                 <img src="public/company/images/wwd/2.jpg" alt=""/>
-                                <a class="link"  href="javascript:void(0);"></a>
+                                <a class="link" href="<?php echo site_url('Wwd/index?params=tgt'); ?>"></a>
                             </div>
                             <div class="post_item_content" style="margin-left: 140px">
-                                <a class="title"  href="javascript:void(0);">海外见学</a>
+                                <a class="title" href="javascript:void(0);">海外见学</a>
                                 <ul class="post_item_inf">
                                     <li><a href="javascript:void(0);">The Grand Tour</a></li>
                                 </ul>
@@ -100,7 +100,8 @@
                         <div class="post_item">
                             <div class="post_item_img">
                                 <img src="public/company/images/wwd/3.jpg" alt=""/>
-                                <a class="link" href="<?php echo site_url('ldd/Index/home'); ?>"></a>
+                                <a class="link" href=""></a>
+                                <a class="link" href="<?php echo site_url('Wwd/index?params=ldd'); ?>"></a>
                             </div>
                             <div class="post_item_content" style="margin-left: 100px">
                                 <a class="title" href="<?php echo site_url('ldd/Index/home'); ?>">领导力主题晚餐会</a>
@@ -159,9 +160,10 @@
                         <div class="post_item">
                             <div class="post_item_img">
                                 <img src="public/company/images/wwd/4.jpg" alt=""/>
+                                <a class="link" href="<?php echo site_url('Wwd/index?params=road'); ?>"></a>
                             </div>
                             <div class="post_item_content" style="margin-left: 80px">
-                                <a class="title"  href="javascript:void(0);">“一带一路”相关研究</a>
+                                <a class="title" href="javascript:void(0);">“一带一路”相关研究</a>
                                 <ul class="post_item_inf">
                                     <li><a href="javascript:void(0);">Research & Consulting related to the Road & Belt
                                             Initiative</a></li>
@@ -173,9 +175,10 @@
                         <div class="post_item">
                             <div class="post_item_img">
                                 <img src="public/company/images/wwd/5.jpg" alt=""/>
+                                <a class="link" href="<?php echo site_url('Wwd/index?params=ces'); ?>"></a>
                             </div>
                             <div class="post_item_content" style="margin-left: 120px">
-                                <a class="title"  href="javascript:void(0);">中国经济研究</a>
+                                <a class="title" href="javascript:void(0);">中国经济研究</a>
                                 <ul class="post_item_inf">
                                     <li><a href="javascript:void(0);">China Economy Study</a></li>
                                 </ul>
@@ -186,9 +189,10 @@
                         <div class="post_item">
                             <div class="post_item_img">
                                 <img src="public/company/images/wwd/6.jpg" alt=""/>
+                                <a class="link" href="<?php echo site_url('Wwd/index?params=cet'); ?>"></a>
                             </div>
                             <div class="post_item_content" style="margin-left: 100px">
-                                <a class="title"  href="javascript:void(0);">中欧科技共创中心</a>
+                                <a class="title" href="javascript:void(0);">中欧科技共创中心</a>
                                 <ul class="post_item_inf">
                                     <li><a href="javascript:void(0);">China-Europe Technology Co-creation Centre
                                         </a></li>

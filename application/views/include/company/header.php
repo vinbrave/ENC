@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <base href="<?php echo base_url(); ?>">
-    <link rel="shortcut icon" href="public/ldd/images/favicon.ico">
+    <link rel="shortcut icon" href="public/company/images/logo/enc.ico">
 
     <!-- CSS -->
     <link href="public/ldd/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -42,9 +42,9 @@
     <script>
 
         //PrettyPhoto
-//        jQuery(document).ready(function () {
-//            $("a[rel^='prettyPhoto']").prettyPhoto();
-//        });
+        //        jQuery(document).ready(function () {
+        //            $("a[rel^='prettyPhoto']").prettyPhoto();
+        //        });
 
     </script>
 
