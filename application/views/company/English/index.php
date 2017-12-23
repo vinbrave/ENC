@@ -49,14 +49,19 @@
             <div class="flexslider top_slider">
                 <ul class="slides">
                     <li class="slide1">
-                        <div class="flex_caption1">
-                            <p class="title1 captionDelay2 FromTop">昂科国际</p>
-                            <p class="title1 captionDelay2 FromLeft">以人与人的互联，走向更远之远</p>
-                            <p class="title4 captionDelay6 FromLeft">Produced by MA Junjie CEO of ENC</p>
-                            <p class="title4 captionDelay4 FromLeft"></p>
-                            <p class="title4 captionDelay2 FromLeft">Tel. +86 186 3278 9154</p>
-                            <p class="title4 captionDelay7 FromLeft">Email. jackmascu@gmail.com</p>
-                        </div>
+<!--                        <div class="flex_caption1">-->
+<!--                            <p class="title1 captionDelay2 FromTop">昂科国际</p>-->
+<!--                            <p class="title1 captionDelay2 FromLeft">以人与人的互联，走向更远之远</p>-->
+<!--                            <p class="title4 captionDelay6 FromLeft">Produced by MA Junjie CEO of ENC</p>-->
+<!--                            <p class="title4 captionDelay4 FromLeft"></p>-->
+<!--                            <p class="title4 captionDelay2 FromLeft">Tel. +86 186 3278 9154</p>-->
+<!--                            <p class="title4 captionDelay7 FromLeft">Email. jackmascu@gmail.com</p>-->
+<!--                        </div>-->
+                    </li>
+                    <li class="slide2">
+                    </li>
+                    <li class="slide3">
+                    </li>
                 </ul>
             </div>
         </section><!-- //HOME -->
@@ -132,11 +137,11 @@
                         <!-- TESTIMONIAL1 -->
                         <div class="item">
                             <div class="testim_content">
-                                <p style="text-indent: 2em">
-                                    昂科国际（ENC）是由中、美、欧三地学者、企业家和前政府官员组成的研究员网络与国际经济、文化发展机构，旨在通过学术研究、人文交流、商业合作和科技引进，促进中国与西方世界的深层次了解，共同实现发展与繁荣。</p>
-                                <p style="text-indent: 2em">昂科国际以助力中国企业家了解世界、拓展机遇为宗旨，思考与行动合二为一，打开思路，扩展地平线。</p>
-                                <p style="text-indent: 2em">昂科国际为中国青少年提供国内领导力培训、外国语言文化交流活动和海外短期见学机会，为年轻的梦想插上翅膀。</p>
-                                <p style="text-indent: 2em">昂科国际促进中西方真诚沟通，共享繁荣。</p>
+<!--                                <p style="text-indent: 2em">-->
+                                <p>昂科国际（ENC International）是由中、美、欧三地学者、企业家和前政府官员组成的研究员网络与国际经济、文化发展机构，旨在通过学术研究、人文交流、商业合作和科技引进，促进中国与西方世界的深层次了解，共同实现发展与繁荣。</p>
+                                <p>昂科国际（ENC International）为中国青少年提供国内领导力培训、外国语言文化交流活动和海外短期见学机会，为年轻的梦想插上翅膀。</p>
+                                <p>昂科国际（ENC International）在国际金融中心英国伦敦金融城、香港中环，全球创新中心瑞典斯德哥尔摩，新兴市场巴西等地分别拥有并深度合作的资深海外金融团队，致力于为中欧政府部门、大型企事业单位、创新高精尖企业、金融机构等多元客户提供广泛的财务咨询、投资银行(特别是海外并购业务)、资产管理、跨境资金套利等金融服务。</p>
+                                <p>我们致力于促进中西方真诚沟通，共享繁荣。</p>
                             </div>
                         </div><!-- TESTIMONIAL1 -->
                     </div><!-- TESTIMONIALS SLIDER -->
@@ -344,34 +349,35 @@
                 </div><!-- //PROJECTS SLIDER -->
             </div>
             <!-- OUR CLIENTS -->
-            <div class="our_clients">
-
-                <!-- CONTAINER -->
-                <div class="container" data-animated="fadeInUp">
-
-                    <!-- ROW -->
-                    <div class="row">
-                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">
-                            <img src="public/company/images/clients/1.jpg" alt=""/>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">
-                            <img src="public/company/images/clients/2.jpg" alt=""/>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">
-                            <img src="public/company/images/clients/3.jpg" alt=""/>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">
-                            <img src="public/company/images/clients/4.jpg" alt=""/>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">
-                            <img src="public/company/images/clients/5.jpg" alt=""/>
-                        </div>
-                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">
-                            <img src="public/company/images/clients/6.jpg" alt=""/>
-                        </div>
-                    </div><!-- //ROW -->
-                </div><!-- CONTAINER -->
-            </div><!-- //OUR CLIENTS -->
+<!--            友情链接-->
+<!--            <div class="our_clients">
+<!---->
+<!--                <!-- CONTAINER -->
+<!--                <div class="container" data-animated="fadeInUp">-->
+<!---->
+<!--                    <!-- ROW -->
+<!--                    <div class="row">
+<!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+<!--                            <img src="public/company/images/clients/1.jpg" alt=""/>-->
+<!--                        </div>-->
+<!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+<!--                            <img src="public/company/images/clients/2.jpg" alt=""/>-->
+<!--                        </div>-->
+<!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+<!--                            <img src="public/company/images/clients/3.jpg" alt=""/>-->
+<!--                        </div>-->
+<!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+<!--                            <img src="public/company/images/clients/4.jpg" alt=""/>-->
+<!--                        </div>-->
+<!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+<!--                            <img src="public/company/images/clients/5.jpg" alt=""/>-->
+<!--                        </div>-->
+<!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+<!--                            <img src="public/company/images/clients/6.jpg" alt=""/>-->
+<!--                        </div>-->
+<!--                    </div><!-- //ROW -->
+<!--                </div><!-- CONTAINER -->
+<!--            </div><!-- //OUR CLIENTS -->
         </section><!-- //PROJECTS -->
 
         <section id="contacts">
@@ -391,11 +397,10 @@
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-8">
-                            <p style="font-size: 16px">昂科国际（ENC International Advisory</p>
-                            <p style="font-size: 16px">
-                                Group）致力于沟通中国与世界，促进中国企业家、青年领袖“走出去”，加强中西方理念、知识、领导力，和最佳实践的传播，与资源的互换整合。昂科国际坚信人与人之间真诚的联系是繁荣的基础。</p>
-                            <p style="font-size: 16px">“In Human Connection We Thrive.”</p>
-                            <p style="font-size: 16px">“人和致荣”</p>
+                            <p style="font-size: 16px">昂科国际（ENC International Advisory Group）
+                                致力于沟通中国与世界，促进中国企业家、青年领袖“走出去”，加强中西方理念、知识、领导力，和最佳实践的传播，与资源的互换整合。昂科国际坚信人与人之间真诚的联系是繁荣的基础。</p>
+<!--                            <p style="font-size: 16px">“In Human Connection We Thrive.”</p>-->
+<!--                            <p style="font-size: 16px">“人和致荣”</p>-->
 
                         </div>
                     </div><!-- //LEAVE A COMMENT -->

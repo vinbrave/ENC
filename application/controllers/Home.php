@@ -17,20 +17,20 @@ class Home extends CI_Controller
         switch ($params) {
             case 'majunjie':
                 $data['name'] = '马俊杰';
-                $data['positions'] = '马俊杰先生，昂科创始人、总裁';
-                $data['desc'] = '昂科（ENC）创始人马俊杰先生是美国国务院国际访问者领导力项目（IVLP）访问学者，经济学者，专栏作家和中西方文化使者。毕业于欧洲最早的两家专注研究欧洲一体化进程的学府之一—法国高等欧洲研究国际中心（CIFE），游学德国、法国、比利时、土耳其等国，并在中国最负盛名的民间智库从事经济学研究工作。他坚信接触促进沟通，沟通增进合作，合作造就繁荣。他的学术论文和专栏作品见于L’Europe en formation，The Diplomat，Yicai Global，《中国经营报》《经济观察报》《金融博览》等国内外知名刊物。';
+                $data['positions'] = '马俊杰先生，昂科国际创始人、CEO';
+                $data['desc'] = '昂科国际（ENC International）创始人马俊杰先生是美国国务院国际访问者领导项目（IVLP）访问学者，经济学者，跨文化交流专家，专栏作家和中西方文化使者。毕业于欧洲最早的两家专注研究欧洲一体化进程的学府之一—法国高等欧洲研究国际中心（CIFE），游学德国、法国、比利时、土耳其等国，并在中国最负盛名的民间智库从事经济学研究工作。他坚信接触促进沟通，沟通增进合作，合作造就繁荣。他的学术论文和专栏作品见于L’Europe en formation，The Diplomat，Yicai Global，《中国经营报》《经济观察报》《金融博览》等国内外知名刊物。';
                 $data['pic'] = 'majunjie.jpg';
                 break;
             case 'zheruisi':
                 $data['name'] = '哲瑞思博士';
-                $data['positions'] = '哲瑞思博士，副总裁&研究部主任';
-                $data['desc'] = 'Dr. Christer Ljungwall is a renowned China political-economy specialist, and an authority in global innovation trends and policy. He is vice-president of ENC International Advisory Group, China. In previous positions he has served as Science and Innovation Counsellor at the Embassy of Sweden in PRC for more than give years. He is also affiliated Professor in economics at Copenhagen Business School, Asia Research Center. He has held positions over the years as Sr. Country Economist with the Asian Development Bank, and spent five years as visiting Professor at Peking University China Center for Economic Research. He’s the author of 30+ academic journal articles in English, 150+ reports, and five books. He is a regularly invited speaker on Chinese and Asian economic and political affairs, and innovation. He is member of the Scientific Advisory Group (the Knowledge Economy), member of The Growth Net. Dr. Ljungwall received his PhD in economics from Gothenburg University in 2003.';
+                $data['positions'] = '哲瑞思博士，昂科国际副总裁&研究部主任';
+                $data['desc'] = '哲瑞思博士是著名中国政治经济专家，也是全球创新趋势和政策的权威人士。他曾任瑞典驻中国大使馆科技与创新参赞，并兼任哥本哈根商学院亚洲研究中心经济学教授。他多年担任亚洲开发银行资深国家经济学家，并在北京大学中国经济研究中心担任客座教授。他是三十余篇学术期刊论文、150余份研究报告和五本学术著作的作者。他是科技顾问集团（Scientific Advisory Group）和增长网络（Growth Net）的成员。他于2003年在哥德堡大学获得经济学博士。';
                 $data['pic'] = 'zheruisi.jpg';
                 break;
             case 'mr':
                 $data['name'] = 'Mikael Román';
                 $data['positions'] = 'Mikael Román，高级顾问';
-                $data['desc'] = 'Mikael Román is former Science Counsellor and Head of the Office of Science and Innovation at the Swedish Embassy in Brasília, Brazil. Originally a social scientist by training, with a PhD in political science, and subsequent post-doctoral studies at Center for International Studies, MIT, Román has spent most of his professional career working on issues related to sustainability, climate change, public policy, innovation, and competitive strategies. Mikael Román is also Associate Professor at Center for Climate Science and Policy Research (CSPR), Linköping University, Sweden.';
+                $data['desc'] = 'Mikael Román是前瑞典驻巴西大使馆科学参赞和科技创新处主任。他拥有社会科学专业背景，获得政治学博士，并在麻省理工学院（MIT）国际研究中心做博士后研究。Román博士拥有可持续、气候变化、公共政策、创新和竞争力战略等领域的多年专业经验。他也是瑞典林雪平大学（Linköping University）气候科学和政策研究中心副教授。他对巴西和新兴经济体国家投融资战略和商业发展趋向有深入研究。';
                 $data['pic'] = "mr.jpg";
                 break;
             case 'fm':
@@ -42,27 +42,25 @@ class Home extends CI_Controller
             case 'hm':
                 $data['name'] = 'Hartmut Marhold';
                 $data['positions'] = 'Hartmut Marhold教授，高级顾问';
-                $data['desc'] = 'Professor Hartmut Marhold is Director of Research and Development at CIFE (Centre International de Formation Européenne), honorary professor at the University of Cologne and visiting professor at the Turkish-German University, Istanbul. He specializes in European Integration history, German European politics and federalism. He holds honorary functions in various European think tanks and was Secretary General of the European Movement Germany.';
+                $data['desc'] = 'Hartmut Marhold教授是法国高等欧洲研究国际中心（CIFE）的研究和发展部主任，同时为德国科隆大学荣誉教授、伊斯坦布尔土耳其-德国大学客座教授。他专注研究欧洲一体化进程和联邦主义。他在诸多欧洲智库中担任职务，并在德国的欧洲运动中发挥重要作用。';
                 $data['pic'] = "hm.jpg";
                 break;
             case 'tb':
                 $data['name'] = 'Tobias Bütow';
                 $data['positions'] = 'Tobias Bütow博士，高级顾问';
-                $data['desc'] = 'Tobias Bütow has studied Political Science and Contemporary History in Berlin, Hamburg and Sarajevo.He joined IE·EI in 2010 as DAAD Lecturer, after having worked in Israel (Yad VaShem, Jerusalem), in Bosnia and Hercegovina (OSCE, Sarajevo) and Germany (German Historical Mueseum, Schwarzkopf Foundation Young Europe). 
-In his research he is mainly focussing on collective violence and ethnic conflicts, as well as the European Integration of the Western Balkans. Since 2007 he is a board member of Schwarzkopf Foundation Young Europe.';
+                $data['desc'] = 'Tobias Bütow博士先后在柏林、汉堡和萨拉热窝研究政治学和当代史。他于201年作为DAAD讲师加入CIFE旗下欧洲学院任教。此前，他曾在以色列（犹太大屠杀纪念馆，耶路撒冷），波斯尼亚和黑塞哥维那（欧安组织驻萨拉热窝特派团）和德国（德国历史博物馆）任职。他的研究主要集中在计提包里和种族冲突，以及西巴尔干半岛欧洲一体化进程。自2007年以来，他开始担任Schwarzkopf基金会青年欧洲运动的董事。';
                 $data['pic'] = "tb.jpg";
                 break;
             case 'gsk':
                 $data['name'] = 'Gonzalo Sanchez Slik';
                 $data['positions'] = 'Gonzalo Sanchez Slik，顾问';
-                $data['desc'] = 'Originally from Spain and having lived and worked in China, United States and Germany, Gonzalo has experience in helping businesses scale their operations. Experience within start-ups in market research, consulting and recruitment. Based in Berlin, currently the head of business development in Latin America for Brickblock; a blockchain investment platform for real estate funds, exchange traded funds and cryptocurrency funds. Always looking to building relationships with international markets and introducing new ways for business growth. ';
+                $data['desc'] = 'Gonzalo Sanchez Slik先生是西班牙裔，先后在中国、美国和德国生活和任职，他在公司管理方面经验丰富。在市场调查、顾问和招募方面，他有与诸多初创企业合作的经验。现居柏林，他担任Brickblock公司的拉美商业开发主任，并在房地产基金、交易基金和数字货币基金方面有成功职业记录。他专注为商业拓展和新兴产业投资提供知识和最佳实践。';
                 $data['pic'] = "gsk.jpg";
                 break;
             case 'de':
                 $data['name'] = 'Daniel Ekstrom';
                 $data['positions'] = 'Daniel Ekstrom，顾问';
-                $data['desc'] = 'Cofounder of TOTEM COLLECTIVE. 
-From diplomatic circles in Beijing to the Stockholm Startup scene, Daniel is an Economist and Entrepreneur interested in technological shifts and changing global value chain. Currently in Copenhagen building innovation platforms between government and the tech sector. ';
+                $data['desc'] = 'Daniel Ekstrom是瑞典时尚品牌TOTEM COLLECTIVE的联合创始人。他曾担任瑞典驻华外交官，现在精力放在斯德哥尔摩和哥本哈根的初创企业发展和研究中。作为经济学家和企业家，他对技术迭代，和变革的全球价值链感兴趣。现在，他居住在哥本哈根，帮助政府和科技产业搭建创新平台。他是中瑞经贸关系的年青一代推动者。';
                 $data['pic'] = "de.jpg";
                 break;
             default:
