@@ -81,9 +81,9 @@
                             </div>
                             <div class="post_item_content" style="margin-left: 140px">
                                 <a class="title" href="javascript:void(0);">企业家参考</a>
-                                <ul class="post_item_inf">
-                                    <li><a href="javascript:void(0);">Second Opinion</a></li>
-                                </ul>
+<!--                                <ul class="post_item_inf">-->
+<!--                                    <li><a href="javascript:void(0);">Second Opinion</a></li>-->
+<!--                                </ul>-->
                             </div>
                         </div>
                     </div>
@@ -95,9 +95,9 @@
                             </div>
                             <div class="post_item_content" style="margin-left: 140px">
                                 <a class="title" href="javascript:void(0);">海外见学</a>
-                                <ul class="post_item_inf">
-                                    <li><a href="javascript:void(0);">The Grand Tour</a></li>
-                                </ul>
+<!--                                <ul class="post_item_inf">-->
+<!--                                    <li><a href="javascript:void(0);">The Grand Tour</a></li>-->
+<!--                                </ul>-->
                             </div>
                         </div>
                     </div>
@@ -110,9 +110,9 @@
                             </div>
                             <div class="post_item_content" style="margin-left: 100px">
                                 <a class="title" href="<?php echo site_url('ldd/Index/home'); ?>">领导力主题晚餐会</a>
-                                <ul class="post_item_inf">
-                                    <li><a href="javascript:void(0);">Leadership Dinner Date</a></li>
-                                </ul>
+<!--                                <ul class="post_item_inf">-->
+<!--                                    <li><a href="javascript:void(0);">Leadership Dinner Date</a></li>-->
+<!--                                </ul>-->
                             </div>
                         </div>
                     </div>
@@ -233,7 +233,7 @@
                             <div class="work_description">
                                 <div class="work_descr_cont">
                                     <a href="<?php echo site_url('Home/team?params=majunjie') ?>">马俊杰</a>
-                                    <span style="color: #fff">马俊杰先生，昂科创始人、总裁</span>
+                                    <span style="color: #fff">马俊杰，昂科创始人、总裁</span>
                                 </div>
                             </div>
                         </div>
@@ -248,7 +248,22 @@
                             <div class="work_description">
                                 <div class="work_descr_cont">
                                     <a href="<?php echo site_url('Home/team?params=zheruisi') ?>">哲瑞思</a>
-                                    <span style="color: #fff">哲瑞思博士，副总裁&研究部主任</span>
+                                    <span style="color: #fff">昂科国际副总裁、研究网络主席</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work2 -->
+
+                    <!-- work2 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/company/images/team/lishuran.jpg" alt=""/>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('Home/team?params=lishuran') ?>">李树然</a>
+                                    <span style="color: #fff">昂科国际联合创始人、首席金融代表</span>
                                 </div>
                             </div>
                         </div>

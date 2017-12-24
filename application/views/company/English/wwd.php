@@ -21,7 +21,7 @@
                     <div class="pull-right">
                         <nav class="navmenu center">
                             <ul>
-                                <li class="first scroll_btn"><a href="<?php echo site_url('Home/index'); ?>">Home</a>
+                                <li class="first scroll_btn"><a href="<?php echo site_url('Home/index'); ?>">首页</a>
                                 </li>
                             </ul>
                         </nav>
@@ -51,7 +51,8 @@
                     <div class="sidebar col-lg-4 col-md-4 pull-right padbot50">
                         <!-- TEXT WIDGET -->
                         <div class="sidepanel widget_text">
-                            <div class="single_portfolio_post_title"><?php echo $name . '<br />' . $ename; ?></div>
+<!--                            <div class="single_portfolio_post_title">--><?php //echo $name . '<br />' . $ename; ?><!--</div>-->
+                            <div class="single_portfolio_post_title"><?php echo $name; ?></div>
                             <p><?php echo $desc; ?></p>
                         </div><!-- //TEXT WIDGET -->
 

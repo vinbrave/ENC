@@ -17,15 +17,21 @@ class Home extends CI_Controller
         switch ($params) {
             case 'majunjie':
                 $data['name'] = '马俊杰';
-                $data['positions'] = '马俊杰先生，昂科国际创始人、CEO';
+                $data['positions'] = '马俊杰，昂科国际创始人、CEO';
                 $data['desc'] = '昂科国际（ENC International）创始人马俊杰先生是美国国务院国际访问者领导项目（IVLP）访问学者，经济学者，跨文化交流专家，专栏作家和中西方文化使者。毕业于欧洲最早的两家专注研究欧洲一体化进程的学府之一—法国高等欧洲研究国际中心（CIFE），游学德国、法国、比利时、土耳其等国，并在中国最负盛名的民间智库从事经济学研究工作。他坚信接触促进沟通，沟通增进合作，合作造就繁荣。他的学术论文和专栏作品见于L’Europe en formation，The Diplomat，Yicai Global，《中国经营报》《经济观察报》《金融博览》等国内外知名刊物。';
                 $data['pic'] = 'majunjie.jpg';
                 break;
             case 'zheruisi':
-                $data['name'] = '哲瑞思博士';
-                $data['positions'] = '哲瑞思博士，昂科国际副总裁&研究部主任';
+                $data['name'] = '哲瑞思';
+                $data['positions'] = '昂科国际副总裁、研究网络主席';
                 $data['desc'] = '哲瑞思博士是著名中国政治经济专家，也是全球创新趋势和政策的权威人士。他曾任瑞典驻中国大使馆科技与创新参赞，并兼任哥本哈根商学院亚洲研究中心经济学教授。他多年担任亚洲开发银行资深国家经济学家，并在北京大学中国经济研究中心担任客座教授。他是三十余篇学术期刊论文、150余份研究报告和五本学术著作的作者。他是科技顾问集团（Scientific Advisory Group）和增长网络（Growth Net）的成员。他于2003年在哥德堡大学获得经济学博士。';
                 $data['pic'] = 'zheruisi.jpg';
+                break;
+            case 'lishuran':
+                $data['name'] = '李树然';
+                $data['positions'] = '昂科国际联合创始人、首席金融代表';
+                $data['desc'] = '李树然，具有丰富的金融从业经历、海外投融资经验及公司管理经验，历任国内大型财富管理公司子公司副总裁、百亿级省民投公司金融产品总监、新锐私募股权基金公司副总经理。李树然先生研究生毕业于西南财经大学法律经济学专业，本科毕业于西安交通大学自动化专业，具有综合学历背景和工作经验。';
+                $data['pic'] = 'lishuran.jpg';
                 break;
             case 'mr':
                 $data['name'] = 'Mikael Román';

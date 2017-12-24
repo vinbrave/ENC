@@ -24,7 +24,7 @@
                     <div class="pull-right">
                         <nav class="navmenu center">
                             <ul>
-                                <li class="first scroll_btn"><a href="<?php echo site_url('Home/index'); ?>">Home</a>
+                                <li class="first scroll_btn"><a href="<?php echo site_url('Home/index'); ?>">首页</a>
                                 </li>
                             </ul>
                         </nav>
@@ -37,7 +37,7 @@
         <!-- BREADCRUMBS -->
         <section class="breadcrumbs_block clearfix parallax">
             <div class="container center">
-                <h2><b>OUR TEAM</b></h2>
+                <h2><b>我们的团队</b></h2>
             </div>
         </section><!-- //BREADCRUMBS -->
 
@@ -64,7 +64,7 @@
                     <div class="sidebar col-lg-4 col-md-4 pull-right padbot50">
                         <!-- TEXT WIDGET -->
                         <div class="sidepanel widget_text">
-                            <div class="single_portfolio_post_title"><b><?php echo $name; ?></b></div>
+<!--                            <div class="single_portfolio_post_title"><b>--><?php //echo $name; ?><!--</b></div>-->
                             <p style="text-indent: 2em"><?php echo $desc; ?></p>
                         </div><!-- //TEXT WIDGET -->
 
