@@ -17,7 +17,7 @@ class Home extends CI_Controller
         switch ($params) {
             case 'majunjie':
                 $data['name'] = '马俊杰';
-                $data['positions'] = '马俊杰，昂科国际创始人、CEO';
+                $data['positions'] = '昂科国际创始人、CEO';
                 $data['desc'] = '昂科国际（ENC International）创始人马俊杰先生是美国国务院国际访问者领导项目（IVLP）访问学者，经济学者，跨文化交流专家，专栏作家和中西方文化使者。毕业于欧洲最早的两家专注研究欧洲一体化进程的学府之一—法国高等欧洲研究国际中心（CIFE），游学德国、法国、比利时、土耳其等国，并在中国最负盛名的民间智库从事经济学研究工作。他坚信接触促进沟通，沟通增进合作，合作造就繁荣。他的学术论文和专栏作品见于L’Europe en formation，The Diplomat，Yicai Global，《中国经营报》《经济观察报》《金融博览》等国内外知名刊物。';
                 $data['pic'] = 'majunjie.jpg';
                 break;

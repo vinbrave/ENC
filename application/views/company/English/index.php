@@ -233,7 +233,7 @@
                             <div class="work_description">
                                 <div class="work_descr_cont">
                                     <a href="<?php echo site_url('Home/team?params=majunjie') ?>">马俊杰</a>
-                                    <span style="color: #fff">马俊杰，昂科创始人、总裁</span>
+                                    <span style="color: #fff">昂科国际创始人、CEO</span>
                                 </div>
                             </div>
                         </div>
