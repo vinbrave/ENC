@@ -50,9 +50,9 @@
                         <li class="first active scroll_btn"><a href="#home">首页</a></li>
                         <li class="scroll_btn"><a href="#swenden">瑞典简介</a></li>
                         <li class="scroll_btn"><a href=#zhuanjia"">随行专家</a></li>
-                        <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#xingcheng"">行程安排</a></li>
-                        <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#cantuan"">参团信息</a></li>
-                        <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#shequn"">线下社群</a></li>
+                        <li class="scroll_btn"><a href=#xingcheng"">行程安排</a></li>
+                        <li class="scroll_btn"><a href=#cantuan"">参团信息</a></li>
+                        <li class="scroll_btn"><a href=#shequn"">线下社群</a></li>
                         <!--                                <li class="scroll_btn"><a href="#news">News</a></li>-->
                         <!--                                <li class="scroll_btn last"><a href="#contacts">Contacts</a></li>-->
                     </ul>
@@ -143,7 +143,7 @@
         </div>
         <div class="row tm-media-row">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <img src="public/sweden/img/Jack.jpg" alt="Image"
+                <img src="./img/Jack.jpg" alt="Image"
                      class="img-fluid img-circle img-thumbnail tm-media-img">
             </div>
             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
@@ -158,7 +158,7 @@
         <div class="row tm-media-row tm-flex-container-reverse">
 
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 tm-flex-child-2">
-                <img src="public/sweden/img/Christer.jpg" alt="Image"
+                <img src="./img/Christer.jpg" alt="Image"
                      class="img-fluid img-circle img-thumbnail tm-media-img">
             </div>
 
@@ -174,7 +174,7 @@
 
         <div class="row tm-media-row">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <img src="public/sweden/img/Daniel.jpg" alt="Image"
+                <img src="./img/Daniel.jpg" alt="Image"
                      class="img-fluid img-circle img-thumbnail tm-media-img">
             </div>
             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
