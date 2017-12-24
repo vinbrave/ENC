@@ -49,10 +49,10 @@
                     <ul>
                         <li class="first active scroll_btn"><a href="#home">首页</a></li>
                         <li class="scroll_btn"><a href="#swenden">瑞典简介</a></li>
-                        <li class="scroll_btn"><a href=#zhuanjia"">随行专家</a></li>
-                        <li class="scroll_btn"><a href=#xingcheng"">行程安排</a></li>
-                        <li class="scroll_btn"><a href=#cantuan"">参团信息</a></li>
-                        <li class="scroll_btn"><a href=#shequn"">线下社群</a></li>
+                        <li class="scroll_btn"><a href=#zhuanjia">随行专家</a></li>
+                        <li class="scroll_btn"><a href=#xingcheng">行程安排</a></li>
+                        <li class="scroll_btn"><a href=#cantuan">参团信息</a></li>
+                        <li class="scroll_btn"><a href=#shequn">线下社群</a></li>
                         <!--                                <li class="scroll_btn"><a href="#news">News</a></li>-->
                         <!--                                <li class="scroll_btn last"><a href="#contacts">Contacts</a></li>-->
                     </ul>
