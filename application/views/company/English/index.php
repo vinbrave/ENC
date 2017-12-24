@@ -129,42 +129,6 @@
             </div><!-- //CONTAINER -->
         </section><!-- //TEAM -->
         <!-- 企业家参考 等板块 end -->
-
-        <!-- 关于我们 start-->
-        <section id="news">
-
-            <!-- CONTAINER -->
-            <div class="container">
-                <h2><b>关于我们</b></h2>
-
-                <!-- TESTIMONIALS -->
-                <div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
-
-                    <!-- TESTIMONIALS SLIDER -->
-                    <div class="owl-demo owl-carousel testim_slider">
-
-                        <!-- TESTIMONIAL1 -->
-                        <div class="item">
-                            <div class="testim_content">
-                                <!--                                <p style="text-indent: 2em">-->
-                                <p>昂科国际（ENC
-                                    International）是由中、美、欧三地学者、企业家和前政府官员组成的研究员网络与国际经济、文化发展机构，旨在通过学术研究、人文交流、商业合作和科技引进，促进中国与西方世界的深层次了解，共同实现发展与繁荣。</p>
-                                <p>昂科国际（ENC International）为中国青少年提供国内领导力培训、外国语言文化交流活动和海外短期见学机会，为年轻的梦想插上翅膀。</p>
-                                <p>昂科国际（ENC
-                                    International）在国际金融中心英国伦敦金融城、香港中环，全球创新中心瑞典斯德哥尔摩，新兴市场巴西等地分别拥有并深度合作的资深海外金融团队，致力于为中欧政府部门、大型企事业单位、创新高精尖企业、金融机构等多元客户提供广泛的财务咨询、投资银行(特别是海外并购业务)、资产管理、跨境资金套利等金融服务。</p>
-                                <p>我们致力于促进中西方真诚沟通，共享繁荣。</p>
-                            </div>
-                        </div><!-- TESTIMONIAL1 -->
-                    </div><!-- TESTIMONIALS SLIDER -->
-                </div><!-- //TESTIMONIALS -->
-
-                <!-- RECENT POSTS -->
-            </div><!-- //CONTAINER -->
-        </section><!-- //NEWS -->
-
-
-        <!-- 关于我们 end-->
-
         <!-- 一带一路 等板块 start-->
         <section id="wwd">
             <div class="container">
@@ -220,6 +184,42 @@
             </div><!-- //CONTAINER -->
         </section><!-- //TEAM -->
         <!-- 一带一路 等板块 end-->
+        <!-- 关于我们 start-->
+        <section id="news">
+
+            <!-- CONTAINER -->
+            <div class="container">
+                <h2><b>关于我们</b></h2>
+
+                <!-- TESTIMONIALS -->
+                <div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+                    <!-- TESTIMONIALS SLIDER -->
+                    <div class="owl-demo owl-carousel testim_slider">
+
+                        <!-- TESTIMONIAL1 -->
+                        <div class="item">
+                            <div class="testim_content">
+                                <!--                                <p style="text-indent: 2em">-->
+                                <p>昂科国际（ENC
+                                    International）是由中、美、欧三地学者、企业家和前政府官员组成的研究员网络与国际经济、文化发展机构，旨在通过学术研究、人文交流、商业合作和科技引进，促进中国与西方世界的深层次了解，共同实现发展与繁荣。</p>
+                                <p>昂科国际（ENC International）为中国青少年提供国内领导力培训、外国语言文化交流活动和海外短期见学机会，为年轻的梦想插上翅膀。</p>
+                                <p>昂科国际（ENC
+                                    International）在国际金融中心英国伦敦金融城、香港中环，全球创新中心瑞典斯德哥尔摩，新兴市场巴西等地分别拥有并深度合作的资深海外金融团队，致力于为中欧政府部门、大型企事业单位、创新高精尖企业、金融机构等多元客户提供广泛的财务咨询、投资银行(特别是海外并购业务)、资产管理、跨境资金套利等金融服务。</p>
+                                <p>我们致力于促进中西方真诚沟通，共享繁荣。</p>
+                            </div>
+                        </div><!-- TESTIMONIAL1 -->
+                    </div><!-- TESTIMONIALS SLIDER -->
+                </div><!-- //TESTIMONIALS -->
+
+                <!-- RECENT POSTS -->
+            </div><!-- //CONTAINER -->
+        </section><!-- //NEWS -->
+
+
+        <!-- 关于我们 end-->
+
+
 
         <!-- PROJECTS -->
         <section id="team" class="padbot20">
