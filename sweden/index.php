@@ -10,15 +10,15 @@
 
     <!-- load stylesheets -->
     <!--<link rel="stylesheet" href="http://fonts.useso.com/css?family=Open+Sans:300,400">  &lt;!&ndash; Google web font "Open Sans" &ndash;&gt;-->
-    <link rel="stylesheet" href="public/sweden/font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./font-awesome-4.5.0/css/font-awesome.min.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="public/sweden/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- Bootstrap style -->
-    <link rel="stylesheet" href="public/sweden/css/hero-slider-style.css">
+    <link rel="stylesheet" href="./css/hero-slider-style.css">
     <!-- Hero slider style -->
-    <link rel="stylesheet" href="public/sweden/css/templatemo-style.css">
+    <link rel="stylesheet" href="./css/templatemo-style.css">
 
-    <link href="public/ldd/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/style.css" rel="stylesheet" type="text/css"/>
     <!-- Templatemo style -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -41,15 +41,15 @@
             <!-- LOGO -->
             <div class="logo pull-left">
                 <!--<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>-->
-                <a href="#"><img src="public/company/images/logo/enc.png" alt="ENC"/></a>
+                <a href="#"><img src="./images/logo/enc.png" alt="ENC"/></a>
             </div><!-- //LOGO -->
             <!-- MENU -->
             <div class="pull-right">
                 <nav class="navmenu center">
                     <ul>
                         <li class="first active scroll_btn"><a href="#home">首页</a></li>
-                        <li class="scroll_btn"><a href="<?php echo site_url('sweden/Index/home'); ?>#swenden">瑞典简介</a></li>
-                        <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#zhuanjia"">随行专家</a></li>
+                        <li class="scroll_btn"><a href="#swenden">瑞典简介</a></li>
+                        <li class="scroll_btn"><a href=#zhuanjia"">随行专家</a></li>
                         <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#xingcheng"">行程安排</a></li>
                         <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#cantuan"">参团信息</a></li>
                         <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#shequn"">线下社群</a></li>
@@ -203,7 +203,7 @@
                         下午，参加中国驻瑞典总领事馆招待会，全面把握中瑞贸易往来，中国对瑞典投资现状与机会；
                     </p>
                     <p class="tm-section-3-description tm-text-yellow" style="line-height:1.5;">第三天（2018年1月23日，周二）
-                        上午，受邀参加北欧最大的投资集团之一East Capital集团“Emerging Markets
+                        上午受邀参加北欧最大的投资集团之一East Capital集团“Emerging Markets
                         Conference”投资年度峰会，参会嘉宾有欧洲国家前首相、欧盟政府性投资机构高管、全球知名投资机构CEO、CFA协会主席等等。
                         下午，参加与East Capital集团核心合伙人的“VIP财富机会闭门会”；下午，访问瑞典政府增长政策分析处（Swedish Agency for Growth Policy
                         Analysis），并参加闭门研讨会；
@@ -297,14 +297,14 @@
 </section>
 
 <!-- load JS files -->
-<script src="public/sweden/js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
-<script src="public/sweden/js/tether.min.js"></script>
+<script src="./js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+<script src="./js/tether.min.js"></script>
 <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) -->
-<script src="public/sweden/js/bootstrap.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
 <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
-<script src="public/sweden/js/hero-slider-script.js"></script>
+<script src="./js/hero-slider-script.js"></script>
 <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
-<script src="public/sweden/js/jquery.touchSwipe.min.js"></script>
+<script src="./js/jquery.touchSwipe.min.js"></script>
 <!-- http://labs.rampinteractive.co.uk/touchSwipe/demos/ -->
 <script>
 
