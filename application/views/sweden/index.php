@@ -18,8 +18,22 @@
     <!-- Hero slider style -->
     <link rel="stylesheet" href="public/sweden/css/templatemo-style.css">
 
-    <link href="public/ldd/css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="public/ldd/css/style.css">
     <!-- Templatemo style -->
+    <style>
+        body {
+            overflow-x: hidden;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 21px;
+            line-height: 20px;
+            color: #666;
+            background-color: #fff;
+        }
+    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,36 +44,6 @@
 </head>
 
 <body>
-<header>
-
-    <!-- MENU BLOCK -->
-    <div class="menu_block">
-
-        <!-- CONTAINER -->
-        <div class="container clearfix">
-
-            <!-- LOGO -->
-            <div class="logo pull-left">
-                <!--<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>-->
-                <a href="#"><img src="public/company/images/logo/enc.png" alt="ENC"/></a>
-            </div><!-- //LOGO -->
-            <!-- MENU -->
-            <div class="pull-right">
-                <nav class="navmenu center">
-                    <ul>
-                        <li class="first active scroll_btn"><a href="#home">首页</a></li>
-                        <li class="scroll_btn"><a href="#swenden">瑞典简介</a></li>
-                        <li class="scroll_btn"><a href=#zhuanjia"">随行专家</a></li>
-                        <li class="scroll_btn"><a href=#xingcheng"">行程安排</a></li>
-                        <li class="scroll_btn"><a href="#team">我们的团队</a></li>
-                        <!--                                <li class="scroll_btn"><a href="#news">News</a></li>-->
-                        <!--                                <li class="scroll_btn last"><a href="#contacts">Contacts</a></li>-->
-                    </ul>
-                </nav>
-            </div><!-- //MENU -->
-        </div><!-- //MENU BLOCK -->
-    </div><!-- //CONTAINER -->
-</header><!-- //HEADER -->
 <section class="cd-hero">
     <ul class="cd-hero-slider autoplay">
         <!--
@@ -91,7 +75,7 @@
     </div> <!-- .cd-slider-nav -->
 </section> <!-- .cd-hero -->
 
-<section class="tm-section tm-section-3" id="swenden">
+<section class="tm-section tm-section-3" id="sweden">
     <div class="container-fluid tm-section-3-inner">
         <div class="row">
             <div class=tm-plan-boxes-container">
@@ -241,34 +225,34 @@
 
                 <div class="">
                     <p class="tm-section-3-description" style="line-height:1.5;">
-                        此次“财富·瑞典—主题投资考察”得到瑞典驻华⼤使馆、东⽅资本集团（East
-                        Capital），中国驻瑞典总领事馆、瑞典增⻓政策分析处、瑞典企业家论坛、瑞典
-                        北欧斯安银⾏（SEB）、瑞典ILV环境研究所（IVL Swedish Environmental
-                        Research Institute）等机构的⼤⼒⽀持和全⼒配合。
+                        此次“财富·瑞典—主题投资考察”得到瑞典驻华大使馆、东⽅资本集团（East
+                        Capital），中国驻瑞典总领事馆、瑞典增长政策分析处、瑞典企业家论坛、瑞典
+                        北欧斯安银行（SEB）、瑞典ILV环境研究所（IVL Swedish Environmental
+                        Research Institute）等机构的大力支持和全力配合。
                     </p>
                     <p class="tm-section-3-description" style="line-height:1.5;">为保证考察活动的内容和质量，仅设<span
-                                style="font-size: 30px;color: #b2b300"><u><b>10</b></u></span>个VIP席位，您的同⾏者将是和您⼀样
-                        有着独到眼光和投资哲学的精英⼈⼠。</p>
+                                style="font-size: 30px;color: #b2b300"><u><b>10</b></u></span>个VIP席位，您的同行者将是和您⼀样
+                        有着独到眼光和投资哲学的精英人士。</p>
 
-                    <p class="tm-section-3-description" style="line-height:1.5;">参团费⽤“⼀揽⼦计划”为：<span
-                                style="font-size: 35px;color: #ff0000"><u><b>52,600</b></u></span>元/⼈
-                        费⽤包括：中国-瑞典往返经济舱机票，四星级酒店住宿，保险，⽬的地交通(不
-                        含斯德哥尔摩和哥德堡之间的⽕⻋票)。</p>
-
-                    <p class="tm-section-3-description" style="line-height:1.5;">
-                        如⾃⾏解决机票和酒店，则参团费⽤为：45,900元/⼈。</p>
+                    <p class="tm-section-3-description" style="line-height:1.5;">参团费⽤“⼀揽子计划”为：<span
+                                style="font-size: 35px;color: #ff0000"><u><b>52,600</b></u></span>元/人
+                        费用包括：中国-瑞典往返经济舱机票，四星级酒店住宿，保险，⽬的地交通(不
+                        含斯德哥尔摩和哥德堡之间的火车票)。</p>
 
                     <p class="tm-section-3-description" style="line-height:1.5;">
-                        考察团成员还可得到办理赴瑞典签证的加急协助（费⽤⾃理）。
+                        如自行解决机票和酒店，则参团费用为：45,900元/人。</p>
 
-                        <span style="color: #ff0000">前五位报名缴纳定⾦者（定⾦12,000元，特别提醒：如取消报名，定⾦不退）
+                    <p class="tm-section-3-description" style="line-height:1.5;">
+                        考察团成员还可得到办理赴瑞典签证的加急协助（费用自理）。
+
+                        <span style="color: #ff0000">前五位报名缴纳定金者（定⾦12,000元，特别提醒：如取消报名，定金不退）
                         可享受九折优惠（即参团费为47,300元/⼈）。</span>
                     </p>
-                    <p class="tm-section-3-description" style="line-height:1.5;">报名截⽌⽇期：2018年1⽉11⽇<br />
+                    <p class="tm-section-3-description" style="line-height:1.5;">报名截止日期：2018年1⽉11⽇<br />
 
                         咨询电话：186 0070 8808<br/>
-                        汇款信息：开户⾏：中国农业银⾏天津北⾠⽀⾏营业部<br />
-                                 <span style="margin-left: 95px"> 账户名：昂科（天津）⽂化传播有限公司</span><br />
+                        汇款信息：开户行：中国农业银行天津北辰支行营业部<br />
+                                 <span style="margin-left: 95px"> 账户名：昂科（天津）文化传播有限公司</span><br />
                                 <span style="margin-left: 95px"> 账 号：02040001040066540</span><br />
                     </p>
                 </div>
