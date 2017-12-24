@@ -403,7 +403,7 @@
                     <!-- LEAVE A COMMENT -->
                     <div class="leave_comment" data-animated="fadeInUp">
                         <div style="margin-bottom: 30px">&nbsp;</div>
-                        <h2><b>关于我们</b></h2>
+<!--                        <h2><b>关于我们</b></h2>-->
                         <div class="col-lg-4 col-md-4">
                             <img src="public/company/images/logo/enc.png">
                             <div class="comment_note">
