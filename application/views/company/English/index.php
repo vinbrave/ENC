@@ -47,7 +47,7 @@
 
             <!-- TOP SLIDER -->
             <div class="flexslider top_slider">
-                <ul class="slides">
+                <ul class="slides autoplay">
                     <li class="slide1">
 <!--                        <div class="flex_caption1">-->
 <!--                            <p class="title1 captionDelay2 FromTop">昂科国际</p>-->
@@ -57,13 +57,23 @@
 <!--                            <p class="title4 captionDelay2 FromLeft">Tel. +86 186 3278 9154</p>-->
 <!--                            <p class="title4 captionDelay7 FromLeft">Email. jackmascu@gmail.com</p>-->
 <!--                        </div>-->
+                        <a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
                     </li>
                     <li class="slide2">
-                    </li>
+                        <a class="slide_btn FromRight" href="<?php echo site_url('sweden/Index/home') ?>" >sweden</a>
+                        </li>
                     <li class="slide3">
+                        <a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
                     </li>
                 </ul>
             </div>
+            <div id="carousel">
+                <ul class="slides">
+                    <li><img src="public/company/images/slider/slide1_bg.jpg" alt="" /></li>
+                    <li><img src="public/company/images/slider/slide2_bg.jpg" alt="" /></li>
+                    <li><img src="public/company/images/slider/slide3_bg.jpg" alt="" /></li>
+                </ul>
+            </div><!-- //TOP SLIDER -->
         </section><!-- //HOME -->
 
         <!-- 企业家参考 等板块 start-->
