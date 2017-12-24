@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="public/sweden/css/hero-slider-style.css">
     <!-- Hero slider style -->
     <link rel="stylesheet" href="public/sweden/css/templatemo-style.css">
+
+    <link href="public/ldd/css/style.css" rel="stylesheet" type="text/css"/>
     <!-- Templatemo style -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -28,6 +30,37 @@
 </head>
 
 <body>
+<header>
+
+    <!-- MENU BLOCK -->
+    <div class="menu_block">
+
+        <!-- CONTAINER -->
+        <div class="container clearfix">
+
+            <!-- LOGO -->
+            <div class="logo pull-left">
+                <!--<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>-->
+                <a href="#"><img src="public/company/images/logo/enc.png" alt="ENC"/></a>
+            </div><!-- //LOGO -->
+            <!-- MENU -->
+            <div class="pull-right">
+                <nav class="navmenu center">
+                    <ul>
+                        <li class="first active scroll_btn"><a href="#home">首页</a></li>
+                        <li class="scroll_btn"><a href="<?php echo site_url('sweden/Index/home'); ?>#swenden">瑞典简介</a></li>
+                        <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#zhuanjia"">随行专家</a></li>
+                        <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#xingcheng"">行程安排</a></li>
+                        <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#cantuan"">参团信息</a></li>
+                        <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#shequn"">线下社群</a></li>
+                        <!--                                <li class="scroll_btn"><a href="#news">News</a></li>-->
+                        <!--                                <li class="scroll_btn last"><a href="#contacts">Contacts</a></li>-->
+                    </ul>
+                </nav>
+            </div><!-- //MENU -->
+        </div><!-- //MENU BLOCK -->
+    </div><!-- //CONTAINER -->
+</header><!-- //HEADER -->
 <section class="cd-hero">
     <ul class="cd-hero-slider autoplay">
         <!--
@@ -59,7 +92,7 @@
     </div> <!-- .cd-slider-nav -->
 </section> <!-- .cd-hero -->
 
-<section class="tm-section tm-section-3">
+<section class="tm-section tm-section-3" id="swenden">
     <div class="container-fluid tm-section-3-inner">
         <div class="row">
             <div class=tm-plan-boxes-container">
@@ -102,7 +135,7 @@
     </div>
 </section>
 
-<section class="tm-section tm-section-3">
+<section class="tm-section tm-section-3" id="zhuanjia">
     <div class="container-fluid tm-section-3-inner">
         <!--<div class="container-fluid tm-section tm-section-2">-->
         <div class="tm-plan-boxes-container">
@@ -155,7 +188,7 @@
     </div>
 </section>
 
-<section class="tm-section tm-section-3 tm-bg-light-blue">
+<section class="tm-section tm-section-3 tm-bg-light-blue" id="xingcheng">
     <div class="container-fluid tm-section-3-inner">
         <!--        <div class="row center-block text-xs-center tm-section-3-header">-->
         <div class="row">
@@ -200,7 +233,7 @@
     </div>
 </section>
 
-<section class="tm-section tm-section-3">
+<section class="tm-section tm-section-3" id="cantuan">
     <div class="container-fluid tm-section-3-inner">
         <div class="row">
 
@@ -246,7 +279,7 @@
     </div>
 </section>
 
-<section class="tm-section tm-section-3">
+<section class="tm-section tm-section-3" id="shequn">
     <div class="container-fluid tm-section-3-inner">
         <div class="row">
             <div class="tm-plan-boxes-container">
