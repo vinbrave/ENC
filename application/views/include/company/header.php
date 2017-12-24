@@ -17,7 +17,9 @@
     <link href="public/ldd/css/animate.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="public/ldd/css/owl.carousel.css" rel="stylesheet">
     <link href="public/ldd/css/style.css" rel="stylesheet" type="text/css"/>
-
+<!--    <link href="public/company/css/mycss.css" rel="stylesheet" type="text/css"/>-->
+    <link rel="stylesheet" href="public/sweden/css/hero-slider-style.css">
+    <link rel="stylesheet" href="public/sweden/css/templatemo-style1.css">
     <!-- FONTS -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic'
           rel='stylesheet' type='text/css'>

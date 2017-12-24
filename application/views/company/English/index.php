@@ -42,39 +42,38 @@
         </header><!-- //HEADER -->
 
 
-        <!-- HOME -->
-        <section id="home" class="padbot0">
+        <section class="cd-hero">
+            <ul class="cd-hero-slider autoplay">
+                <li class="selected">
+                        <div class="cd-full-width">
+                        </div>
+                </li>
+                <li class="selected">
+                    <a href="<?php echo site_url('sweden/Index/home'); ?>">
+                        <div class="cd-full-width">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo site_url('sweden/Index/home'); ?>">
+                        <div class="cd-full-width">
+                        </div>
+                    </a>
+                </li>
+            </ul> <!-- .cd-hero-slider -->
 
-            <!-- TOP SLIDER -->
-            <div class="flexslider top_slider">
-                <ul class="slides autoplay">
-                    <li class="slide1">
-<!--                        <div class="flex_caption1">-->
-<!--                            <p class="title1 captionDelay2 FromTop">昂科国际</p>-->
-<!--                            <p class="title1 captionDelay2 FromLeft">以人与人的互联，走向更远之远</p>-->
-<!--                            <p class="title4 captionDelay6 FromLeft">Produced by MA Junjie CEO of ENC</p>-->
-<!--                            <p class="title4 captionDelay4 FromLeft"></p>-->
-<!--                            <p class="title4 captionDelay2 FromLeft">Tel. +86 186 3278 9154</p>-->
-<!--                            <p class="title4 captionDelay7 FromLeft">Email. jackmascu@gmail.com</p>-->
-<!--                        </div>-->
-                        <a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-                    </li>
-                    <li class="slide2">
-                        <a class="slide_btn FromRight" href="<?php echo site_url('sweden/Index/home') ?>" >sweden</a>
-                        </li>
-                    <li class="slide3">
-                        <a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-                    </li>
-                </ul>
+            <div class="cd-slider-nav">
+                <nav>
+                    <span class="cd-marker item-1"></span>
+
+                    <ul>
+                        <li  class="selected"><a href="#0"></a></li>
+                        <li><a href="#0"></a></li>
+                        <li><a href="#0"></a></li>
+                    </ul>
+                </nav>
             </div>
-            <div id="carousel">
-                <ul class="slides">
-                    <li><img src="public/company/images/slider/slide1_bg.jpg" alt="" /></li>
-                    <li><img src="public/company/images/slider/slide2_bg.jpg" alt="" /></li>
-                    <li><img src="public/company/images/slider/slide3_bg.jpg" alt="" /></li>
-                </ul>
-            </div><!-- //TOP SLIDER -->
-        </section><!-- //HOME -->
+        </section>
 
         <!-- 企业家参考 等板块 start-->
         <section id="wwd">
@@ -91,9 +90,9 @@
                             </div>
                             <div class="post_item_content" style="margin-left: 140px">
                                 <a class="title" href="javascript:void(0);">企业家参考</a>
-<!--                                <ul class="post_item_inf">-->
-<!--                                    <li><a href="javascript:void(0);">Second Opinion</a></li>-->
-<!--                                </ul>-->
+                                <!--                                <ul class="post_item_inf">-->
+                                <!--                                    <li><a href="javascript:void(0);">Second Opinion</a></li>-->
+                                <!--                                </ul>-->
                             </div>
                         </div>
                     </div>
@@ -105,9 +104,9 @@
                             </div>
                             <div class="post_item_content" style="margin-left: 140px">
                                 <a class="title" href="javascript:void(0);">海外见学</a>
-<!--                                <ul class="post_item_inf">-->
-<!--                                    <li><a href="javascript:void(0);">The Grand Tour</a></li>-->
-<!--                                </ul>-->
+                                <!--                                <ul class="post_item_inf">-->
+                                <!--                                    <li><a href="javascript:void(0);">The Grand Tour</a></li>-->
+                                <!--                                </ul>-->
                             </div>
                         </div>
                     </div>
@@ -120,9 +119,9 @@
                             </div>
                             <div class="post_item_content" style="margin-left: 100px">
                                 <a class="title" href="<?php echo site_url('ldd/Index/home'); ?>">领导力主题晚餐会</a>
-<!--                                <ul class="post_item_inf">-->
-<!--                                    <li><a href="javascript:void(0);">Leadership Dinner Date</a></li>-->
-<!--                                </ul>-->
+                                <!--                                <ul class="post_item_inf">-->
+                                <!--                                    <li><a href="javascript:void(0);">Leadership Dinner Date</a></li>-->
+                                <!--                                </ul>-->
                             </div>
                         </div>
                     </div>
@@ -147,10 +146,12 @@
                         <!-- TESTIMONIAL1 -->
                         <div class="item">
                             <div class="testim_content">
-<!--                                <p style="text-indent: 2em">-->
-                                <p>昂科国际（ENC International）是由中、美、欧三地学者、企业家和前政府官员组成的研究员网络与国际经济、文化发展机构，旨在通过学术研究、人文交流、商业合作和科技引进，促进中国与西方世界的深层次了解，共同实现发展与繁荣。</p>
+                                <!--                                <p style="text-indent: 2em">-->
+                                <p>昂科国际（ENC
+                                    International）是由中、美、欧三地学者、企业家和前政府官员组成的研究员网络与国际经济、文化发展机构，旨在通过学术研究、人文交流、商业合作和科技引进，促进中国与西方世界的深层次了解，共同实现发展与繁荣。</p>
                                 <p>昂科国际（ENC International）为中国青少年提供国内领导力培训、外国语言文化交流活动和海外短期见学机会，为年轻的梦想插上翅膀。</p>
-                                <p>昂科国际（ENC International）在国际金融中心英国伦敦金融城、香港中环，全球创新中心瑞典斯德哥尔摩，新兴市场巴西等地分别拥有并深度合作的资深海外金融团队，致力于为中欧政府部门、大型企事业单位、创新高精尖企业、金融机构等多元客户提供广泛的财务咨询、投资银行(特别是海外并购业务)、资产管理、跨境资金套利等金融服务。</p>
+                                <p>昂科国际（ENC
+                                    International）在国际金融中心英国伦敦金融城、香港中环，全球创新中心瑞典斯德哥尔摩，新兴市场巴西等地分别拥有并深度合作的资深海外金融团队，致力于为中欧政府部门、大型企事业单位、创新高精尖企业、金融机构等多元客户提供广泛的财务咨询、投资银行(特别是海外并购业务)、资产管理、跨境资金套利等金融服务。</p>
                                 <p>我们致力于促进中西方真诚沟通，共享繁荣。</p>
                             </div>
                         </div><!-- TESTIMONIAL1 -->
@@ -179,10 +180,10 @@
                             </div>
                             <div class="post_item_content" style="margin-left: 80px">
                                 <a class="title" href="javascript:void(0);">“一带一路”相关研究</a>
-                                <ul class="post_item_inf">
-                                    <li><a href="javascript:void(0);">Research & Consulting related to the Road & Belt
-                                            Initiative</a></li>
-                                </ul>
+                                <!--                                <ul class="post_item_inf">-->
+                                <!--                                    <li><a href="javascript:void(0);">Research & Consulting related to the Road & Belt-->
+                                <!--                                            Initiative</a></li>-->
+                                <!--                                </ul>-->
                             </div>
                         </div>
                     </div>
@@ -194,9 +195,9 @@
                             </div>
                             <div class="post_item_content" style="margin-left: 120px">
                                 <a class="title" href="javascript:void(0);">中国经济研究</a>
-                                <ul class="post_item_inf">
-                                    <li><a href="javascript:void(0);">China Economy Study</a></li>
-                                </ul>
+                                <!--                                <ul class="post_item_inf">-->
+                                <!--                                    <li><a href="javascript:void(0);">China Economy Study</a></li>-->
+                                <!--                                </ul>-->
                             </div>
                         </div>
                     </div>
@@ -208,10 +209,10 @@
                             </div>
                             <div class="post_item_content" style="margin-left: 100px">
                                 <a class="title" href="javascript:void(0);">中欧科技共创中心</a>
-                                <ul class="post_item_inf">
-                                    <li><a href="javascript:void(0);">China-Europe Technology Co-creation Centre
-                                        </a></li>
-                                </ul>
+                                <!--                                <ul class="post_item_inf">-->
+                                <!--                                    <li><a href="javascript:void(0);">China-Europe Technology Co-creation Centre-->
+                                <!--                                        </a></li>-->
+                                <!--                                </ul>-->
                             </div>
                         </div>
                     </div>
@@ -374,35 +375,35 @@
                 </div><!-- //PROJECTS SLIDER -->
             </div>
             <!-- OUR CLIENTS -->
-<!--            友情链接-->
-<!--            <div class="our_clients">
-<!---->
-<!--                <!-- CONTAINER -->
-<!--                <div class="container" data-animated="fadeInUp">-->
-<!---->
-<!--                    <!-- ROW -->
-<!--                    <div class="row">
-<!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
-<!--                            <img src="public/company/images/clients/1.jpg" alt=""/>-->
-<!--                        </div>-->
-<!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
-<!--                            <img src="public/company/images/clients/2.jpg" alt=""/>-->
-<!--                        </div>-->
-<!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
-<!--                            <img src="public/company/images/clients/3.jpg" alt=""/>-->
-<!--                        </div>-->
-<!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
-<!--                            <img src="public/company/images/clients/4.jpg" alt=""/>-->
-<!--                        </div>-->
-<!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
-<!--                            <img src="public/company/images/clients/5.jpg" alt=""/>-->
-<!--                        </div>-->
-<!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
-<!--                            <img src="public/company/images/clients/6.jpg" alt=""/>-->
-<!--                        </div>-->
-<!--                    </div><!-- //ROW -->
-<!--                </div><!-- CONTAINER -->
-<!--            </div><!-- //OUR CLIENTS -->
+            <!--            友情链接-->
+            <!--            <div class="our_clients">
+            <!---->
+            <!--                <!-- CONTAINER -->
+            <!--                <div class="container" data-animated="fadeInUp">-->
+            <!---->
+            <!--                    <!-- ROW -->
+            <!--                    <div class="row">
+            <!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+            <!--                            <img src="public/company/images/clients/1.jpg" alt=""/>-->
+            <!--                        </div>-->
+            <!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+            <!--                            <img src="public/company/images/clients/2.jpg" alt=""/>-->
+            <!--                        </div>-->
+            <!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+            <!--                            <img src="public/company/images/clients/3.jpg" alt=""/>-->
+            <!--                        </div>-->
+            <!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+            <!--                            <img src="public/company/images/clients/4.jpg" alt=""/>-->
+            <!--                        </div>-->
+            <!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+            <!--                            <img src="public/company/images/clients/5.jpg" alt=""/>-->
+            <!--                        </div>-->
+            <!--                        <div class="col-lg-2 col-md-2 col-sm-2 client_img">-->
+            <!--                            <img src="public/company/images/clients/6.jpg" alt=""/>-->
+            <!--                        </div>-->
+            <!--                    </div><!-- //ROW -->
+            <!--                </div><!-- CONTAINER -->
+            <!--            </div><!-- //OUR CLIENTS -->
         </section><!-- //PROJECTS -->
 
         <section id="contacts">
@@ -413,7 +414,7 @@
                     <!-- LEAVE A COMMENT -->
                     <div class="leave_comment" data-animated="fadeInUp">
                         <div style="margin-bottom: 30px">&nbsp;</div>
-<!--                        <h2><b>关于我们</b></h2>-->
+                        <!--                        <h2><b>关于我们</b></h2>-->
                         <div class="col-lg-4 col-md-4">
                             <img src="public/company/images/logo/enc.png">
                             <div class="comment_note">
@@ -424,8 +425,8 @@
                         <div class="col-lg-8 col-md-8">
                             <p style="font-size: 16px">昂科国际（ENC International Advisory Group）
                                 致力于沟通中国与世界，促进中国企业家、青年领袖“走出去”，加强中西方理念、知识、领导力，和最佳实践的传播，与资源的互换整合。昂科国际坚信人与人之间真诚的联系是繁荣的基础。</p>
-<!--                            <p style="font-size: 16px">“In Human Connection We Thrive.”</p>-->
-<!--                            <p style="font-size: 16px">“人和致荣”</p>-->
+                            <!--                            <p style="font-size: 16px">“In Human Connection We Thrive.”</p>-->
+                            <!--                            <p style="font-size: 16px">“人和致荣”</p>-->
 
                         </div>
                     </div><!-- //LEAVE A COMMENT -->
@@ -437,5 +438,53 @@
     </div><!-- //PAGE -->
 
 </div>
+<script src="public/sweden/js/hero-slider-script.js"></script>
+<script>
+
+    $(document).ready(function () {
+
+        /* Auto play bootstrap carousel
+        * http://stackoverflow.com/questions/13525258/twitter-bootstrap-carousel-autoplay-on-load
+        -----------------------------------------------------------------------------------------*/
+        $('.carousel').carousel({
+            interval: 3000
+        })
+
+        /* Enable swiping carousel for tablets and mobile
+         * http://lazcreative.com/blog/adding-swipe-support-to-bootstrap-carousel-3-0/
+         ---------------------------------------------------------------------------------*/
+        if ($(window).width() <= 991) {
+            $(".carousel-inner").swipe({
+                //Generic swipe handler for all directions
+                swipeLeft: function (event, direction, distance, duration, fingerCount) {
+                    $(this).parent().carousel('next');
+                },
+                swipeRight: function () {
+                    $(this).parent().carousel('prev');
+                },
+                //Default is 75px, set to 0 for demo so any distance triggers swipe
+                threshold: 0
+            });
+        }
+
+        /* Handle window resize */
+        $(window).resize(function () {
+            if ($(window).width() <= 991) {
+                $(".carousel-inner").swipe({
+                    //Generic swipe handler for all directions
+                    swipeLeft: function (event, direction, distance, duration, fingerCount) {
+                        $(this).parent().carousel('next');
+                    },
+                    swipeRight: function () {
+                        $(this).parent().carousel('prev');
+                    },
+                    //Default is 75px, set to 0 for demo so any distance triggers swipe
+                    threshold: 0
+                });
+            }
+        });
+    });
+
+</script>
 </body>
 </html>
