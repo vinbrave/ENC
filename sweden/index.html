@@ -3,20 +3,19 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <base href="<?php echo base_url(); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Strategy - Responsive HTML Template</title>
 
     <!-- load stylesheets -->
     <!--<link rel="stylesheet" href="http://fonts.useso.com/css?family=Open+Sans:300,400">  &lt;!&ndash; Google web font "Open Sans" &ndash;&gt;-->
-    <link rel="stylesheet" href="./font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://www.encinternational.com/public/sweden/font-awesome-4.5.0/css/font-awesome.min.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://www.encinternational.com/public/sweden/css/bootstrap.min.css">
     <!-- Bootstrap style -->
-    <link rel="stylesheet" href="./css/hero-slider-style.css">
+    <link rel="stylesheet" href="http://www.encinternational.com/public/sweden/css/hero-slider-style.css">
     <!-- Hero slider style -->
-    <link rel="stylesheet" href="./css/templatemo-style.css">
+    <link rel="stylesheet" href="http://www.encinternational.com/public/sweden/css/templatemo-style.css">
 
     <link href="./css/style.css" rel="stylesheet" type="text/css"/>
     <!-- Templatemo style -->
@@ -41,14 +40,14 @@
             <!-- LOGO -->
             <div class="logo pull-left">
                 <!--<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>-->
-                <a href="#"><img src="./images/logo/enc.png" alt="ENC"/></a>
+                <a href="#"><img src="http://www.encinternational.com/public/sweden/images/logo/enc.png" alt="ENC"/></a>
             </div><!-- //LOGO -->
             <!-- MENU -->
             <div class="pull-right">
                 <nav class="navmenu center">
                     <ul>
                         <li class="first active scroll_btn"><a href="#home">首页</a></li>
-                        <li class="scroll_btn"><a href="#swenden">瑞典简介</a></li>
+                        <li class="scroll_btn"><a href="#swenden" id="div1Link">瑞典简介</a></li>
                         <li class="scroll_btn"><a href=#zhuanjia">随行专家</a></li>
                         <li class="scroll_btn"><a href=#xingcheng">行程安排</a></li>
                         <li class="scroll_btn"><a href=#cantuan">参团信息</a></li>
@@ -143,7 +142,7 @@
         </div>
         <div class="row tm-media-row">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <img src="./img/Jack.jpg" alt="Image"
+                <img src="http://www.encinternational.com/public/sweden/img/Jack.jpg" alt="Image"
                      class="img-fluid img-circle img-thumbnail tm-media-img">
             </div>
             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
@@ -158,7 +157,7 @@
         <div class="row tm-media-row tm-flex-container-reverse">
 
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 tm-flex-child-2">
-                <img src="./img/Christer.jpg" alt="Image"
+                <img src="http://www.encinternational.com/public/sweden/img/Christer.jpg" alt="Image"
                      class="img-fluid img-circle img-thumbnail tm-media-img">
             </div>
 
@@ -174,7 +173,7 @@
 
         <div class="row tm-media-row">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <img src="./img/Daniel.jpg" alt="Image"
+                <img src="http://www.encinternational.com/public/sweden/img/Daniel.jpg" alt="Image"
                      class="img-fluid img-circle img-thumbnail tm-media-img">
             </div>
             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
@@ -297,14 +296,14 @@
 </section>
 
 <!-- load JS files -->
-<script src="./js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
-<script src="./js/tether.min.js"></script>
+<script src="http://www.encinternational.com/public/sweden/js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+<script src="http://www.encinternational.com/public/sweden/js/tether.min.js"></script>
 <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) -->
-<script src="./js/bootstrap.min.js"></script>
+<script src="http://www.encinternational.com/public/sweden/js/bootstrap.min.js"></script>
 <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
-<script src="./js/hero-slider-script.js"></script>
+<script src="http://www.encinternational.com/public/sweden/js/hero-slider-script.js"></script>
 <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
-<script src="./js/jquery.touchSwipe.min.js"></script>
+<script src="http://www.encinternational.com/public/sweden/js/jquery.touchSwipe.min.js"></script>
 <!-- http://labs.rampinteractive.co.uk/touchSwipe/demos/ -->
 <script>
 
@@ -351,7 +350,23 @@
             }
         });
     });
-
+    $(document).ready(function() {
+        $("#div1Link").click(function() {
+            $("html, body").animate({
+                scrollTop: $("#swenden").offset().top }, {duration: 500,easing: "swing"});
+            return false;
+        });
+        $("#div2Link").click(function() {
+            $("html, body").animate({
+                scrollTop: $("#div2").offset().top }, {duration: 500,easing: "swing"});
+            return false;
+        });
+        $("#div3Link").click(function() {
+            $("html, body").animate({
+                scrollTop: $("#div3").offset().top }, {duration: 500,easing: "swing"});
+            return false;
+        });
+    });
 </script>
 
 </body>

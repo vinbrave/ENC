@@ -6,7 +6,7 @@
     <base href="<?php echo base_url(); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Strategy - Responsive HTML Template</title>
+    <title>财富瑞典 - 主题投资考察</title>
 
     <!-- load stylesheets -->
     <!--<link rel="stylesheet" href="http://fonts.useso.com/css?family=Open+Sans:300,400">  &lt;!&ndash; Google web font "Open Sans" &ndash;&gt;-->
@@ -48,11 +48,10 @@
                 <nav class="navmenu center">
                     <ul>
                         <li class="first active scroll_btn"><a href="#home">首页</a></li>
-                        <li class="scroll_btn"><a href="<?php echo site_url('sweden/Index/home'); ?>#swenden">瑞典简介</a></li>
-                        <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#zhuanjia"">随行专家</a></li>
-                        <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#xingcheng"">行程安排</a></li>
-                        <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#cantuan"">参团信息</a></li>
-                        <li class="scroll_btn"><a href=<?php echo site_url('sweden/Index/home'); ?>#shequn"">线下社群</a></li>
+                        <li class="scroll_btn"><a href="#swenden">瑞典简介</a></li>
+                        <li class="scroll_btn"><a href=#zhuanjia"">随行专家</a></li>
+                        <li class="scroll_btn"><a href=#xingcheng"">行程安排</a></li>
+                        <li class="scroll_btn"><a href="#team">我们的团队</a></li>
                         <!--                                <li class="scroll_btn"><a href="#news">News</a></li>-->
                         <!--                                <li class="scroll_btn last"><a href="#contacts">Contacts</a></li>-->
                     </ul>
@@ -203,7 +202,7 @@
                         下午，参加中国驻瑞典总领事馆招待会，全面把握中瑞贸易往来，中国对瑞典投资现状与机会；
                     </p>
                     <p class="tm-section-3-description tm-text-yellow" style="line-height:1.5;">第三天（2018年1月23日，周二）
-                        上午，受邀参加北欧最大的投资集团之一East Capital集团“Emerging Markets
+                        上午受邀参加北欧最大的投资集团之一East Capital集团“Emerging Markets
                         Conference”投资年度峰会，参会嘉宾有欧洲国家前首相、欧盟政府性投资机构高管、全球知名投资机构CEO、CFA协会主席等等。
                         下午，参加与East Capital集团核心合伙人的“VIP财富机会闭门会”；下午，访问瑞典政府增长政策分析处（Swedish Agency for Growth Policy
                         Analysis），并参加闭门研讨会；
