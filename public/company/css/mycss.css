@@ -1,0 +1,68 @@
+.cd-hero {
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.cd-hero-slider {
+    position: relative;
+    height: 360px;
+    overflow: hidden;
+}
+.cd-hero-slider .cd-full-width,
+.cd-hero-slider .cd-half-width {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    /* this padding is used to align the text */
+    padding-top: 100px;
+    text-align: center;
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.cd-slider-nav {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
+    text-align: center;
+    height: 55px;
+    background-color: rgba(0, 1, 1, 0.5);
+}
+
+.cd-slider-nav nav {
+    display: inline-block;
+    position: relative;
+}
+.cd-slider-nav .cd-marker {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    color: #d44457;
+    background-color: #ffffff;
+    box-shadow: inset 0 2px 0 currentColor;
+    -webkit-transition: -webkit-transform 0.2s, box-shadow 0.2s;
+    -moz-transition: -moz-transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cd-hero-slider li.selected {
+    /* this is the visible slide */
+    position: relative;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
