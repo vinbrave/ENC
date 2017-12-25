@@ -41,7 +41,6 @@
             </div><!-- //CONTAINER -->
         </header><!-- //HEADER -->
 
-
         <section class="cd-hero" id="home">
             <ul class="cd-hero-slider autoplay">
                 <li class="selected">
