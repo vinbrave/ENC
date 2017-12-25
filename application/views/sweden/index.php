@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!--    <base href="">-->
+    <!--    <base href="">-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>财富•瑞典 - 主题投资考察</title>
@@ -33,8 +33,9 @@
             color: #666;
             background-color: #fff;
         }
+
         /*.navmenu {*/
-            /*z-index: 10000;*/
+        /*z-index: 10000;*/
         /*}*/
         .cd-hero {
             z-index: 0;
@@ -44,19 +45,18 @@
     <!--  -->
     <script src="<?php echo base_url(); ?>public/ldd/js/jquery.min.js" type="text/javascript"></script>
     <script>
-        jQuery(document).ready(function() {
+        jQuery(document).ready(function () {
             //MobileMenu
-            if ($(window).width() < 768){
+            if ($(window).width() < 768) {
                 jQuery('.menu_block .container').prepend('<a href="javascript:void(0)" class="menu_toggler"><span class="fa fa-align-justify"></span></a>');
                 jQuery('.navmenu').hide();
-                jQuery('.menu_toggler, .navmenu ul li a').click(function(){
+                jQuery('.menu_toggler, .navmenu ul li a').click(function () {
                     jQuery('.navmenu').slideToggle(300);
                 });
             }
         });
     </script>
     <!--  -->
-
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -70,32 +70,33 @@
 <body>
 <!--    <div id="page">-->
 <!--        <header>-->
-            <!-- MENU BLOCK -->
-            <div class="menu_block">
+<!-- MENU BLOCK -->
+<div class="menu_block">
 
-                <!-- CONTAINER -->
-                <div class="container clearfix">
+    <!-- CONTAINER -->
+    <div class="container clearfix">
 
-                    <!-- LOGO -->
-                    <div class="logo pull-left">
-                        <!--<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>-->
-                        <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>public/company/images/logo/enc.png" alt="ENC"/></a>
-                    </div><!-- //LOGO -->
-                    <!-- MENU -->
-                    <div class="pull-right">
-                        <nav class="navmenu center">
-                            <ul>
-                                <li class="first active scroll_btn"><a href="#home">首页</a></li>
-                                <li class="scroll_btn"><a href="#sweden">瑞典简介</a></li>
-                                <li class="scroll_btn"><a href="#zhuanjia">随行专家</a></li>
-                                <li class="scroll_btn"><a href="#xingcheng">行程安排</a></li>
-                                <li class="scroll_btn"><a href="#cantuan">参团信息</a></li>
-                                <li class="scroll_btn"><a href="#shequn">线下社群</a></li>
-                            </ul>
-                        </nav>
-                    </div><!-- //MENU -->
-                </div><!-- //MENU BLOCK -->
-            </div><!-- //CONTAINER -->
+        <!-- LOGO -->
+        <div class="logo pull-left">
+            <!--<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>-->
+            <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>public/company/images/logo/enc.png"
+                                                     alt="ENC"/></a>
+        </div><!-- //LOGO -->
+        <!-- MENU -->
+        <div class="pull-right">
+            <nav class="navmenu center">
+                <ul>
+                    <li class="first active scroll_btn"><a href="#home">首页</a></li>
+                    <li class="scroll_btn"><a href="#sweden">瑞典简介</a></li>
+                    <li class="scroll_btn"><a href="#zhuanjia">随行专家</a></li>
+                    <li class="scroll_btn"><a href="#xingcheng">行程安排</a></li>
+                    <li class="scroll_btn"><a href="#cantuan">参团信息</a></li>
+                    <li class="scroll_btn"><a href="#shequn">线下社群</a></li>
+                </ul>
+            </nav>
+        </div><!-- //MENU -->
+    </div><!-- //MENU BLOCK -->
+</div><!-- //CONTAINER -->
 <!--        </header>--><!-- //HEADER -->
 <!--    </div>-->
 <section class="cd-hero" id="home">
@@ -279,7 +280,7 @@
 
                 <div class="">
                     <p class="tm-section-3-description" style="line-height:1.5;">
-                        此次“财富·瑞典—主题投资考察”得到瑞典驻华大使馆、东⽅资本集团（East
+                        此次“财富·瑞典—主题投资考察”得到瑞典驻华大使馆、东方资本集团（East
                         Capital），中国驻瑞典总领事馆、瑞典增长政策分析处、瑞典企业家论坛、瑞典
                         北欧斯安银行（SEB）、瑞典ILV环境研究所（IVL Swedish Environmental
                         Research Institute）等机构的大力支持和全力配合。
@@ -290,8 +291,7 @@
 
                     <p class="tm-section-3-description" style="line-height:1.5;">参团费⽤“⼀揽子计划”为：<span
                                 style="font-size: 35px;color: #ff0000"><u><b>52,600</b></u></span>元/人
-                        费用包括：中国-瑞典往返经济舱机票，四星级酒店住宿，保险，⽬的地交通(不
-                        含斯德哥尔摩和哥德堡之间的火车票)。</p>
+                        费用包括：中国-瑞典往返经济舱机票，四星级酒店住宿，保险，目的地交通(不含斯德哥尔摩和哥德堡之间的火车票)。</p>
 
                     <p class="tm-section-3-description" style="line-height:1.5;">
                         如自行解决机票和酒店，则参团费用为：45,900元/人。</p>
@@ -322,11 +322,9 @@
             <div class="tm-plan-boxes-container">
                 <h2 class="tm-section-3-title">线下社群</h2>
                 <div class="row center-block">
-                    <p class="tm-section-3-description">昂科企业家共创⽹络（ENC Entrepreneur Co-Creation Network）是⼀个集学
-                        者、企业家、政治精英为⼀体，致⼒于促进经济政策研究分析、政治经济形势判
-                        断、企业家群体智识提升和财富发现的⾼端精英俱乐部。
-                        我们不定期举办社交聚会、学术研讨、投资论坛和交流等活动，并定期在各国驻
-                        华使领馆、国际机构办事处等场所举办⾼端座谈会活动。</p>
+                    <p class="tm-section-3-description">昂科企业家共创网络（ENC Entrepreneur Co-Creation
+                        Network）是⼀个集学者、企业家、政治精英为⼀体，致力于促进经济政策研究分析、政治经济形势判断、企业家群体智识提升和财富发现的⾼端精英俱乐部。
+                        我们不定期举办社交聚会、学术研讨、投资论坛和交流等活动，并定期在各国驻华使领馆、国际机构办事处等场所举办高端座谈会活动。</p>
                 </div>
             </div>
         </div>
@@ -334,7 +332,8 @@
 </section>
 
 <!-- load JS files -->
-<script src="<?php echo base_url(); ?>public/sweden/js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+<script src="<?php echo base_url(); ?>public/sweden/js/jquery-1.11.3.min.js"></script>
+<!-- jQuery (https://jquery.com/download/) -->
 <script src="<?php echo base_url(); ?>public/sweden/js/tether.min.js"></script>
 <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) -->
 <script src="<?php echo base_url(); ?>public/sweden/js/bootstrap.min.js"></script>
