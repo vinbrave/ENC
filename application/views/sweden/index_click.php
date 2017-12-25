@@ -3,22 +3,22 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!--    <base href="">-->
+    <base href="<?php echo base_url(); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>财富•瑞典 - 主题投资考察</title>
+    <title>财富瑞典 - 主题投资考察</title>
 
     <!-- load stylesheets -->
     <!--<link rel="stylesheet" href="http://fonts.useso.com/css?family=Open+Sans:300,400">  &lt;!&ndash; Google web font "Open Sans" &ndash;&gt;-->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>public/sweden/font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="public/sweden/font-awesome-4.5.0/css/font-awesome.min.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>public/sweden/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/sweden/css/bootstrap.min.css">
     <!-- Bootstrap style -->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>public/sweden/css/hero-slider-style.css">
+    <link rel="stylesheet" href="public/sweden/css/hero-slider-style.css">
     <!-- Hero slider style -->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>public/sweden/css/templatemo-style.css">
+    <link rel="stylesheet" href="public/sweden/css/templatemo-style.css">
 
-    <link rel="stylesheet" href="<?php echo base_url(); ?>public/ldd/css/style.css">
+    <link rel="stylesheet" href="public/ldd/css/style.css">
     <!-- Templatemo style -->
     <style>
         body {
@@ -28,36 +28,12 @@
             padding: 0;
             font-family: 'Roboto', sans-serif;
             font-weight: 300;
-            font-size: 20px;
+            font-size: 21px;
             line-height: 20px;
             color: #666;
             background-color: #fff;
         }
-        /*.navmenu {*/
-            /*z-index: 10000;*/
-        /*}*/
-        .cd-hero {
-            z-index: 0;
-        }
     </style>
-
-    <!--  -->
-    <script src="<?php echo base_url(); ?>public/ldd/js/jquery.min.js" type="text/javascript"></script>
-    <script>
-        jQuery(document).ready(function() {
-            //MobileMenu
-            if ($(window).width() < 768){
-                jQuery('.menu_block .container').prepend('<a href="javascript:void(0)" class="menu_toggler"><span class="fa fa-align-justify"></span></a>');
-                jQuery('.navmenu').hide();
-                jQuery('.menu_toggler, .navmenu ul li a').click(function(){
-                    jQuery('.navmenu').slideToggle(300);
-                });
-            }
-        });
-    </script>
-    <!--  -->
-
-
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -68,37 +44,36 @@
 </head>
 
 <body>
-<!--    <div id="page">-->
-<!--        <header>-->
-            <!-- MENU BLOCK -->
-            <div class="menu_block">
+<header>
 
-                <!-- CONTAINER -->
-                <div class="container clearfix">
+    <!-- MENU BLOCK -->
+    <div class="menu_block">
 
-                    <!-- LOGO -->
-                    <div class="logo pull-left">
-                        <!--<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>-->
-                        <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>public/company/images/logo/enc.png" alt="ENC"/></a>
-                    </div><!-- //LOGO -->
-                    <!-- MENU -->
-                    <div class="pull-right">
-                        <nav class="navmenu center">
-                            <ul>
-                                <li class="first active scroll_btn"><a href="#home">首页</a></li>
-                                <li class="scroll_btn"><a href="#sweden">瑞典简介</a></li>
-                                <li class="scroll_btn"><a href="#zhuanjia">随行专家</a></li>
-                                <li class="scroll_btn"><a href="#xingcheng">行程安排</a></li>
-                                <li class="scroll_btn"><a href="#cantuan">参团信息</a></li>
-                                <li class="scroll_btn"><a href="#shequn">线下社群</a></li>
-                            </ul>
-                        </nav>
-                    </div><!-- //MENU -->
-                </div><!-- //MENU BLOCK -->
-            </div><!-- //CONTAINER -->
-<!--        </header>--><!-- //HEADER -->
-<!--    </div>-->
-<section class="cd-hero" id="home">
+        <!-- CONTAINER -->
+        <div class="container clearfix">
+
+            <!-- LOGO -->
+            <div class="logo pull-left">
+                <!--<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>-->
+                <a href="#"><img src="public/company/images/logo/enc.png" alt="ENC"/></a>
+            </div><!-- //LOGO -->
+            <!-- MENU -->
+            <div class="pull-right">
+                <nav class="navmenu center">
+                    <ul>
+                        <li class="first active scroll_btn"><a href="#home">首页</a></li>
+                        <li class="scroll_btn" style="font-size: 13px" onclick="javascript:document.getElementById('sweden').scrollIntoView()"><b>瑞典简介</b></li>
+                        <li class="scroll_btn" style="font-size: 13px" onclick="javascript:document.getElementById('zhuanjia').scrollIntoView()"><b> &nbsp;&nbsp;随行专家 </b</li>
+                        <li class="scroll_btn" style="font-size: 13px" onclick="javascript:document.getElementById('xingcheng').scrollIntoView()"><b> &nbsp;&nbsp;行程安排 </b></li>
+                        <li class="scroll_btn" style="font-size: 13px" onclick="javascript:document.getElementById('cantuan').scrollIntoView()"><b> &nbsp;&nbsp;参团信息 </b></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div><!-- //CONTAINER -->
+</header><!-- //HEADER -->
+<section class="cd-hero">
     <ul class="cd-hero-slider autoplay">
         <!--
             <ul class="cd-hero-slider autoplay"> for slider auto play
@@ -180,7 +155,7 @@
         </div>
         <div class="row tm-media-row">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <img src="<?php echo base_url(); ?>public/sweden/img/Jack.jpg" alt="Image"
+                <img src="public/sweden/img/Jack.jpg" alt="Image"
                      class="img-fluid img-circle img-thumbnail tm-media-img">
             </div>
             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
@@ -195,7 +170,7 @@
         <div class="row tm-media-row tm-flex-container-reverse">
 
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 tm-flex-child-2">
-                <img src="<?php echo base_url(); ?>public/sweden/img/Christer.jpg" alt="Image"
+                <img src="public/sweden/img/Christer.jpg" alt="Image"
                      class="img-fluid img-circle img-thumbnail tm-media-img">
             </div>
 
@@ -211,7 +186,7 @@
 
         <div class="row tm-media-row">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <img src="<?php echo base_url(); ?>public/sweden/img/Daniel.jpg" alt="Image"
+                <img src="public/sweden/img/Daniel.jpg" alt="Image"
                      class="img-fluid img-circle img-thumbnail tm-media-img">
             </div>
             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
@@ -240,7 +215,7 @@
                         下午，参加中国驻瑞典总领事馆招待会，全面把握中瑞贸易往来，中国对瑞典投资现状与机会；
                     </p>
                     <p class="tm-section-3-description tm-text-yellow" style="line-height:1.5;">第三天（2018年1月23日，周二）
-                        上午，受邀参加北欧最大的投资集团之一East Capital集团“Emerging Markets
+                        上午受邀参加北欧最大的投资集团之一East Capital集团“Emerging Markets
                         Conference”投资年度峰会，参会嘉宾有欧洲国家前首相、欧盟政府性投资机构高管、全球知名投资机构CEO、CFA协会主席等等。
                         下午，参加与East Capital集团核心合伙人的“VIP财富机会闭门会”；下午，访问瑞典政府增长政策分析处（Swedish Agency for Growth Policy
                         Analysis），并参加闭门研讨会；
@@ -302,12 +277,12 @@
                         <span style="color: #ff0000">前五位报名缴纳定金者（定⾦12,000元，特别提醒：如取消报名，定金不退）
                         可享受九折优惠（即参团费为47,300元/⼈）。</span>
                     </p>
-                    <p class="tm-section-3-description" style="line-height:1.5;">报名截止日期：2018年1⽉11⽇<br/>
+                    <p class="tm-section-3-description" style="line-height:1.5;">报名截止日期：2018年1⽉11⽇<br />
 
                         咨询电话：186 0070 8808<br/>
-                        汇款信息：开户行：中国农业银行天津北辰支行营业部<br/>
-                        <span style="margin-left: 95px"> 账户名：昂科（天津）文化传播有限公司</span><br/>
-                        <span style="margin-left: 95px"> 账 号：02040001040066540</span><br/>
+                        汇款信息：开户行：中国农业银行天津北辰支行营业部<br />
+                                 <span style="margin-left: 95px"> 账户名：昂科（天津）文化传播有限公司</span><br />
+                                <span style="margin-left: 95px"> 账 号：02040001040066540</span><br />
                     </p>
                 </div>
             </div> <!-- tm-plan-boxes-container -->
@@ -334,14 +309,14 @@
 </section>
 
 <!-- load JS files -->
-<script src="<?php echo base_url(); ?>public/sweden/js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
-<script src="<?php echo base_url(); ?>public/sweden/js/tether.min.js"></script>
+<script src="public/sweden/js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+<script src="public/sweden/js/tether.min.js"></script>
 <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) -->
-<script src="<?php echo base_url(); ?>public/sweden/js/bootstrap.min.js"></script>
+<script src="public/sweden/js/bootstrap.min.js"></script>
 <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
-<script src="<?php echo base_url(); ?>public/sweden/js/hero-slider-script.js"></script>
+<script src="public/sweden/js/hero-slider-script.js"></script>
 <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
-<script src="<?php echo base_url(); ?>public/sweden/js/jquery.touchSwipe.min.js"></script>
+<script src="public/sweden/js/jquery.touchSwipe.min.js"></script>
 <!-- http://labs.rampinteractive.co.uk/touchSwipe/demos/ -->
 <script>
 

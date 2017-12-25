@@ -51,7 +51,6 @@
                     <div class="sidebar col-lg-4 col-md-4 pull-right padbot50">
                         <!-- TEXT WIDGET -->
                         <div class="sidepanel widget_text">
-<!--                            <div class="single_portfolio_post_title">--><?php //echo $name . '<br />' . $ename; ?><!--</div>-->
                             <div class="single_portfolio_post_title"><?php echo $name; ?></div>
                             <p><?php echo $desc; ?></p>
                         </div><!-- //TEXT WIDGET -->

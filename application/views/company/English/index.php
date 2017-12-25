@@ -28,7 +28,7 @@
                     <div class="pull-right">
                         <nav class="navmenu center">
                             <ul>
-                                <li class="first active scroll_btn"><a href="#home">首页</a></li>
+                                <li class="first active scroll_btn"><a href="<?php echo base_url(); ?>">首页</a></li>
                                 <li class="scroll_btn"><a href="#wwd">我们做什么</a></li>
                                 <li class="scroll_btn"><a href="#news">关于我们</a></li>
                                 <li class="scroll_btn"><a href="#team">我们的团队</a></li>
@@ -42,7 +42,7 @@
         </header><!-- //HEADER -->
 
 
-        <section class="cd-hero">
+        <section class="cd-hero" id="home">
             <ul class="cd-hero-slider autoplay">
                 <li class="selected">
                         <div class="cd-full-width">
