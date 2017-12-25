@@ -186,7 +186,7 @@
                         下午，参加中国驻瑞典总领事馆招待会，全面把握中瑞贸易往来，中国对瑞典投资现状与机会；
                     </p>
                     <p class="tm-section-3-description tm-text-yellow" style="line-height:1.5;">第三天（2018年1月23日，周二）
-                        上午受邀参加北欧最大的投资集团之一East Capital集团“Emerging Markets
+                        上午，受邀参加北欧最大的投资集团之一East Capital集团“Emerging Markets
                         Conference”投资年度峰会，参会嘉宾有欧洲国家前首相、欧盟政府性投资机构高管、全球知名投资机构CEO、CFA协会主席等等。
                         下午，参加与East Capital集团核心合伙人的“VIP财富机会闭门会”；下午，访问瑞典政府增长政策分析处（Swedish Agency for Growth Policy
                         Analysis），并参加闭门研讨会；
