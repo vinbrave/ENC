@@ -371,6 +371,39 @@
                             </div>
                         </div>
                     </div><!-- //work8 -->
+                    <!-- work9 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/company/images/team/shaohao.jpg" alt=""/>
+                                <a class="zoom" href="<?php echo site_url('Home/team?params=shaohao') ?>"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('Home/team?params=shaohao') ?>">Daniel Ekstrom</a>
+                                    <span style="color: #fff">邵浩 博士，高级顾问</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work9 -->
+                    <!-- work10 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/company/images/team/shaohao.jpg" alt=""/>
+                                <a class="zoom" href="<?php echo site_url('Home/team?params=ganxueping') ?>"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('Home/team?params=ganxueping') ?>">Daniel Ekstrom</a>
+                                    <span style="color: #fff">干学平 博士，高级顾问</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work10 -->
+
                 </div><!-- //PROJECTS SLIDER -->
             </div>
             <!-- OUR CLIENTS -->
