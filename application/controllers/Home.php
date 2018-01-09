@@ -8,7 +8,7 @@ class Home extends CI_Controller
 {
     public function index()
     {
-        $this->load->view('company/English/index');
+        $this->load->view('company/Chinese/index');
     }
 
     public function team()
@@ -90,6 +90,6 @@ class Home extends CI_Controller
 
 
         }
-        $this->load->view("company/English/team", $data);
+        $this->load->view("company/Chinese/team", $data);
     }
 }
