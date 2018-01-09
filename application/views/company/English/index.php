@@ -32,6 +32,7 @@
                                 <li class="scroll_btn"><a href="#wwd">我们做什么</a></li>
                                 <li class="scroll_btn"><a href="#news">关于我们</a></li>
                                 <li class="scroll_btn"><a href="#team">我们的团队</a></li>
+                                <li class="scroll_btn"><a href="<?php echo site_url('Home/index')?>">中文</a></li>
                                 <!--                                <li class="scroll_btn"><a href="#news">News</a></li>-->
                                 <!--                                <li class="scroll_btn last"><a href="#contacts">Contacts</a></li>-->
                             </ul>
