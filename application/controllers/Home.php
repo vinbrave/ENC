@@ -29,7 +29,7 @@ class Home extends CI_Controller
                 break;
             case 'lishuran':
                 $data['name'] = '李树然';
-                $data['positions'] = '昂科国际联合创始人、首席金融代表';
+                $data['positions'] = '昂科国际联合创始⼈人、⼤大中华区⾸首席⾦金金融代表';
                 $data['desc'] = '李树然，具有丰富的金融从业经历、海外投融资经验及公司管理经验，历任国内大型财富管理公司子公司副总裁、百亿级省民投公司金融产品总监、新锐私募股权基金公司副总经理。李树然先生研究生毕业于西南财经大学法律经济学专业，本科毕业于西安交通大学自动化专业，具有综合学历背景和工作经验。';
                 $data['pic'] = 'lishuran.jpg';
                 break;
@@ -83,6 +83,12 @@ class Home extends CI_Controller
                 $data['desc'] = '在美国普渡大学主修总体货币经济学获得博士学位后，干学平博士在1995年后转向专精于法律与经济学。他的学术论文曾刊登于国际著名的法学研究(Journal of Legal Studies)和宪法之政治经济(Constitutional Political Economy)。他也曾获得新加坡南洋理工大学的最佳企业家精神论文奖。稍后，他的兴趣更深入知识经济与知识产权的多个层面。他曾任教于清华大学(台湾)，浙江大学，与西南财经大学。干博士并分别具有创办人、总经理、独立董事等台湾的网络商业和高科技公司之实际场域经验。除此外，他还是发明人并获得台湾、中国、和美国专利申请审查单位所颁发的发明专利证书。';
                 $data['pic'] = "ganxueping.jpg";
                 break;
+            case 'rdt':
+                $data['name'] = '阮德添';
+                $data['positions'] = '阮德添 太平绅士，高级顾问';
+                $data['desc'] = '阮德添先生是香港特区政府颁授荣誉勋章获得者（2006 年）、太平绅士（1995年）、香港十大杰出青年（1992年） 。现任香港中文大学校董，裕通金融（控股）有限公司主席。阮先生有40年以上金融业从业经验，历任多家跨国及香港公私营机构高级管理职务，专注个人资产管理、家族财富传承及个人健康管理服务等。他也热衷社会服务，担任港府民选公职，并为母校香港中文大学校友事务服务，出任新亚书院校友会副主席，并于2011年出任香港中文大学校友会联会主席。';
+                $data['pic'] = "rdt.jpg";
+                break;
             default:
                 $data['name'] = '&nbsp;';
                 $data['positions'] = '&nbsp;';
@@ -91,5 +97,11 @@ class Home extends CI_Controller
 
         }
         $this->load->view("company/Chinese/team", $data);
+    }
+
+    //文章页
+    public function article()
+    {
+        $this->load->view("company/Chinese/article");
     }
 }

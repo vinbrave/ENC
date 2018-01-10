@@ -32,9 +32,13 @@
                                 <li class="scroll_btn"><a href="#wwd">我们做什么</a></li>
                                 <li class="scroll_btn"><a href="#news">关于我们</a></li>
                                 <li class="scroll_btn"><a href="#team">我们的团队</a></li>
-                                <li class="scroll_btn"><a href="<?php echo site_url('Ehome/index'); ?>">English</a></li>
-                                <!--                                <li class="scroll_btn"><a href="#news">News</a></li>-->
-                                <!--                                <li class="scroll_btn last"><a href="#contacts">Contacts</a></li>-->
+                                <li class="sub-menu">
+                                    <a href="javascript:void(0);">Pages</a>
+                                    <ul>
+                                        <li><a href="<?php echo site_url('Home/index') ?>">中文</a></li>
+                                        <li><a href="<?php echo site_url('Ehome/index') ?>">English</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </nav>
                     </div><!-- //MENU -->
@@ -45,10 +49,10 @@
         <section class="cd-hero" id="home">
             <ul class="cd-hero-slider autoplay">
                 <li class="selected">
-                        <div class="cd-full-width">
-                        </div>
+                    <div class="cd-full-width">
+                    </div>
                 </li>
-                <li class="selected">
+                <li>
                     <a href="<?php echo site_url('sweden/Index/home'); ?>">
                         <div class="cd-full-width">
                         </div>
@@ -60,6 +64,12 @@
                         </div>
                     </a>
                 </li>
+                <li>
+                    <a href="<?php echo site_url('Home/article'); ?>">
+                        <div class="cd-full-width">
+                        </div>
+                    </a>
+                </li>
             </ul> <!-- .cd-hero-slider -->
 
             <div class="cd-slider-nav">
@@ -67,7 +77,8 @@
                     <span class="cd-marker item-1"></span>
 
                     <ul>
-                        <li  class="selected"><a href="#0"></a></li>
+                        <li class="selected"><a href="#0"></a></li>
+                        <li><a href="#0"></a></li>
                         <li><a href="#0"></a></li>
                         <li><a href="#0"></a></li>
                     </ul>
@@ -201,12 +212,17 @@
                         <div class="item">
                             <div class="testim_content">
                                 <!--                                <p style="text-indent: 2em">-->
-                                <p>昂科国际（ENC
-                                    International）是由中、美、欧三地学者、企业家和前政府官员组成的研究员网络与国际经济、文化发展机构，旨在通过学术研究、人文交流、商业合作和科技引进，促进中国与西方世界的深层次了解，共同实现发展与繁荣。</p>
-                                <p>昂科国际（ENC International）为中国青少年提供国内领导力培训、外国语言文化交流活动和海外短期见学机会，为年轻的梦想插上翅膀。</p>
-                                <p>昂科国际（ENC
-                                    International）在国际金融中心英国伦敦金融城、香港中环，全球创新中心瑞典斯德哥尔摩，新兴市场巴西等地分别拥有并深度合作的资深海外金融团队，致力于为中欧政府部门、大型企事业单位、创新高精尖企业、金融机构等多元客户提供广泛的财务咨询、投资银行(特别是海外并购业务)、资产管理、跨境资金套利等金融服务。</p>
-                                <p>我们致力于促进中西方真诚沟通，共享繁荣。</p>
+                                <p>昂科国际（ENC International Advisory Group）是由中、美、欧、拉美和⾮非洲多地学者、企业家和
+                                    前政府官员组成的研究员⽹网络与国际经济、⽂文化发展机构，旨在通过学术研究、⼈人⽂文交流、商业合
+                                    作和科技引进，促进中国与⻄西⽅方世界的深层次了了解，共同实现发展与繁荣。</p>
+                                <p>昂科国际（ENC International Advisory Group）在国际⾦金金融中⼼心伦敦⾦金金融城、⾹香港中环，全球创新
+                                    中⼼心瑞典斯德哥尔摩，新兴市场巴⻄西等地分别拥有并深度合作的资深海海外⾦金金融团队，致⼒力力于为中、
+                                    欧等国的政府部⻔门、⼤大型企业和⾏行行业协会、创新⾼高精尖企业、⾦金金融机构等多元客户提供⼴广泛的财务
+                                    咨询、投资银⾏行行(特别是海海外并购业务)、资产管理理、跨境资⾦金金套利利等⾦金金融服务。</p>
+                                <p>我们以助⼒力力中国企业家了了解世界、拓拓展机遇为宗旨，思考与⾏行行动合⼆二为⼀一，打开思路路，扩展地平线。</p>
+                                <p>我们同时也为中国⻘青少年年提供国内领导⼒力力培训、外国语⾔言⽂文化交流活动和海海外短期⻅见学机会，为年年
+                                    轻的梦想插上翅膀。</p>
+                                <p>昂科国际（ENC International Advisory Group）促进中⻄西⽅方真诚沟通，共享繁荣。</p>
                             </div>
                         </div><!-- TESTIMONIAL1 -->
                     </div><!-- TESTIMONIALS SLIDER -->
@@ -218,7 +234,6 @@
 
 
         <!-- 关于我们 end-->
-
 
 
         <!-- PROJECTS -->
@@ -274,7 +289,7 @@
                             <div class="work_description">
                                 <div class="work_descr_cont">
                                     <a href="<?php echo site_url('Home/team?params=lishuran') ?>">李树然</a>
-                                    <span style="color: #fff">昂科国际联合创始人、首席金融代表</span>
+                                    <span style="color: #fff">昂科国际联合创始人、大中华区首席金融代表</span>
                                 </div>
                             </div>
                         </div>
@@ -382,7 +397,7 @@
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=shaohao') ?>">Daniel Ekstrom</a>
+                                    <a href="<?php echo site_url('Home/team?params=shaohao') ?>">邵浩</a>
                                     <span style="color: #fff">邵浩 博士，高级顾问</span>
                                 </div>
                             </div>
@@ -392,14 +407,30 @@
                     <div class="item">
                         <div class="work_item">
                             <div class="work_img">
-                                <img src="public/company/images/team/shaohao.jpg" alt=""/>
+                                <img src="public/company/images/team/ganxueping.jpg" alt=""/>
                                 <a class="zoom" href="<?php echo site_url('Home/team?params=ganxueping') ?>"
                                    rel="prettyPhoto[portfolio1]"></a>
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=ganxueping') ?>">Daniel Ekstrom</a>
+                                    <a href="<?php echo site_url('Home/team?params=ganxueping') ?>">干学平</a>
                                     <span style="color: #fff">干学平 博士，高级顾问</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work10 -->
+                    <!-- work11 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/company/images/team/rdt.jpg" alt=""/>
+                                <a class="zoom" href="<?php echo site_url('Home/team?params=rdt') ?>"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('Home/team?params=rdt') ?>">阮德添</a>
+                                    <span style="color: #fff">阮德添 太平绅士，高级顾问</span>
                                 </div>
                             </div>
                         </div>
@@ -472,7 +503,7 @@
 
 </div>
 <script src="public/sweden/js/hero-slider-script.js"></script>
-<script>
+<script type="text/javascript">
 
     $(document).ready(function () {
 
@@ -481,7 +512,7 @@
         -----------------------------------------------------------------------------------------*/
         $('.carousel').carousel({
             interval: 3000
-        })
+        });
 
         /* Enable swiping carousel for tablets and mobile
          * http://lazcreative.com/blog/adding-swipe-support-to-bootstrap-carousel-3-0/
@@ -516,6 +547,7 @@
                 });
             }
         });
+
     });
 
 </script>

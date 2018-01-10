@@ -1,4 +1,4 @@
-<?php $this->load->view("include/company/header"); ?>
+<?php $this->load->view("include/company/eheader"); ?>
 <body>
 <!-- PRELOADER -->
 <img id="preloader" src="public/ldd/images/preloader.gif" alt=""/>
@@ -21,7 +21,7 @@
                     <div class="pull-right">
                         <nav class="navmenu center">
                             <ul>
-                                <li class="first scroll_btn"><a href="<?php echo site_url('Home/index'); ?>">首页</a>
+                                <li class="first scroll_btn"><a href="<?php echo site_url('Home/index'); ?>">Home</a>
                                 </li>
                             </ul>
                         </nav>
@@ -92,8 +92,8 @@
 
                                 <a class="link" href="javascript:void(0);"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 100px">
-                                <a class="title" href="javascript:void(0);">与政府官员座谈</a>
+                            <div class="post_item_content">
+                                <a class="title" href="javascript:void(0);">Meeting government officials</a>
                             </div>
                         </div>
                     </div>
@@ -103,8 +103,8 @@
                                 <img src="public/company/images/wwd/hwjx/2.jpg" alt=""/>
                                 <a class="link" href="javascript:void(0);"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 80px">
-                                <a class="title" href="javascript:void(0);">与当地商业精英交流</a>
+                            <div class="post_item_content">
+                                <a class="title" href="javascript:void(0);">Talking with local business elites</a>
                             </div>
                         </div>
                     </div>
@@ -114,8 +114,8 @@
                                 <img src="public/company/images/wwd/hwjx/3.jpg" alt=""/>
                                 <a class="link" href="javascript:void(0);"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 100px">
-                                <a class="title" href="javascript:void(0);">发现新的商业机会</a>
+                            <div class="post_item_content">
+                                <a class="title" href="javascript:void(0);">Finding new business opportuneties</a>
                             </div>
                         </div>
                     </div>
@@ -125,8 +125,8 @@
                                 <img src="public/company/images/wwd/hwjx/4.jpg" alt=""/>
                                 <a class="link" href="javascript:void(0);"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 110px">
-                                <a class="title" href="javascript:void(0);">体验当地美食</a>
+                            <div class="post_item_content">
+                                <a class="title" href="javascript:void(0);">Enjoying local food and lifestyle</a>
                             </div>
                         </div>
                     </div>
@@ -136,8 +136,8 @@
                                 <img src="public/company/images/wwd/hwjx/5.jpg" alt=""/>
                                 <a class="link" href="javascript:void(0);"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 110px">
-                                <a class="title" href="javascript:void(0);">分享心得感受</a>
+                            <div class="post_item_content">
+                                <a class="title" href="javascript:void(0);">Face-to-face with family business that has 100 years of history</a>
                             </div>
                         </div>
                     </div>
@@ -147,8 +147,8 @@
                                 <img src="public/company/images/wwd/hwjx/6.jpg" alt=""/>
                                 <a class="link" href="javascript:void(0);"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 70px">
-                                <a class="title" href="javascript:void(0);">一次回忆“少年游”的旅行</a>
+                            <div class="post_item_content" style="margin-left: 90px">
+                                <a class="title" href="javascript:void(0);">A trip about yourself</a>
                             </div>
                         </div>
                     </div>

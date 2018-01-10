@@ -1,4 +1,4 @@
-<?php $this->load->view("include/company/header"); ?>
+<?php $this->load->view("include/company/eheader"); ?>
 <body>
 <!-- PRELOADER -->
 <img id="preloader" src="public/ldd/images/preloader.gif" alt=""/>
@@ -21,7 +21,7 @@
                     <div class="pull-right">
                         <nav class="navmenu center">
                             <ul>
-                                <li class="first scroll_btn"><a href="<?php echo site_url('Home/index'); ?>">首页</a>
+                                <li class="first scroll_btn"><a href="<?php echo site_url('Home/index'); ?>">Home</a>
                                 </li>
                             </ul>
                         </nav>

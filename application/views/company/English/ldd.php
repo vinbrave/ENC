@@ -1,4 +1,4 @@
-<?php $this->load->view("include/company/header"); ?>
+<?php $this->load->view("include/company/eheader"); ?>
 <body>
 <!-- PRELOADER -->
 <img id="preloader" src="public/ldd/images/preloader.gif" alt=""/>
@@ -21,7 +21,7 @@
                     <div class="pull-right">
                         <nav class="navmenu center">
                             <ul>
-                                <li class="first scroll_btn"><a href="<?php echo site_url('Home/index'); ?>">首页</a>
+                                <li class="first scroll_btn"><a href="<?php echo site_url('Home/index'); ?>">Home</a>
                                 </li>
                             </ul>
                         </nav>
@@ -83,7 +83,7 @@
             <div class="container">
                 <!-- CONTAINER -->
                 <div style="margin-bottom: 30px">&nbsp;</div>
-                <h2><b>领导力主题晚餐会</b></h2>
+                <h2><b>Leadership Dinner Date</b></h2>
                 <div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
                     <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
                         <div class="post_item">
@@ -92,8 +92,8 @@
 
                                 <a class="link" href="<?php echo site_url('ldd/Index/home'); ?>"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 140px">
-                                <a class="title" href="javascript:void(0);">沟通互联</a>
+                            <div class="post_item_content">
+                                <a class="title" href="javascript:void(0);">Communication and Connection</a>
                             </div>
                         </div>
                     </div>
@@ -103,8 +103,8 @@
                                 <img src="public/company/images/wwd/ldd/2.jpg" alt=""/>
                                 <a class="link" href="<?php echo site_url('ldd/Index/home'); ?>"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 140px">
-                                <a class="title" href="javascript:void(0);">直面挑战</a>
+                            <div class="post_item_content" style="margin-left: 60px">
+                                <a class="title" href="javascript:void(0);">Facing new challenges</a>
                             </div>
                         </div>
                     </div>
@@ -114,8 +114,8 @@
                                 <img src="public/company/images/wwd/ldd/3.jpg" alt=""/>
                                 <a class="link" href="<?php echo site_url('ldd/Index/home'); ?>"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 130px">
-                                <a class="title" href="javascript:void(0);">结识新朋友</a>
+                            <div class="post_item_content" style="margin-left: 110px">
+                                <a class="title" href="javascript:void(0);">Meeting new</a>
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
                                 <a class="link" href="<?php echo site_url('ldd/Index/home'); ?>"></a>
                             </div>
                             <div class="post_item_content" style="margin-left: 140px">
-                                <a class="title" href="javascript:void(0);">彼此支持</a>
+                                <a class="title" href="javascript:void(0);">Support</a>
                             </div>
                         </div>
                     </div>
@@ -136,8 +136,8 @@
                                 <img src="public/company/images/wwd/ldd/5.jpg" alt=""/>
                                 <a class="link" href="<?php echo site_url('ldd/Index/home'); ?>"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 120px">
-                                <a class="title" href="javascript:void(0);">获得真知灼见</a>
+                            <div class="post_item_content" style="margin-left: 150px">
+                                <a class="title" href="javascript:void(0);">Insights</a>
                             </div>
                         </div>
                     </div>
@@ -147,8 +147,8 @@
                                 <img src="public/company/images/wwd/ldd/6.jpg" alt=""/>
                                 <a class="link" href="<?php echo site_url('ldd/Index/home'); ?>"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 140px">
-                                <a class="title" href="javascript:void(0);">其乐融融</a>
+                            <div class="post_item_content" style="margin-left: 180px">
+                                <a class="title" href="javascript:void(0);">Fun</a>
                             </div>
                         </div>
                     </div>

@@ -16,72 +16,81 @@ class Ehome extends CI_Controller
         $params = $this->input->get_post("params");
         switch ($params) {
             case 'majunjie':
-                $data['name'] = '马俊杰';
-                $data['positions'] = '昂科国际创始人、CEO';
-                $data['desc'] = '昂科国际（ENC International）创始人马俊杰先生是美国国务院国际访问者领导项目（IVLP）访问学者，经济学者，跨文化交流专家，专栏作家和中西方文化使者。毕业于欧洲最早的两家专注研究欧洲一体化进程的学府之一—法国高等欧洲研究国际中心（CIFE），游学德国、法国、比利时、土耳其等国，并在中国最负盛名的民间智库从事经济学研究工作。他坚信接触促进沟通，沟通增进合作，合作造就繁荣。他的学术论文和专栏作品见于L’Europe en formation，The Diplomat，Yicai Global，《中国经营报》《经济观察报》《金融博览》等国内外知名刊物。';
+                $data['name'] = 'MA Junjie';
+                $data['positions'] = 'Founder, CEO';
+                $data['desc'] = 'Mr. MA Junjie is a visiting scholar to the US Department of State International Visitor Leadership Program(2016), an economist, a cross-cultural communication expert, a columnist, and a cultural ambassador between the East and the West. He graduated from one of the two oldest and most renowned academic institutions that are dedicated to European Studies— Centre International de Formation Europeenne. He studied in Germany, France, Belgium, and Turkey, and worked at one of the most prestigious think tanks in China as a research of economics. He is convinced that contact promotes communication, communication facilitates cooperation, and cooperations brings about prosperity. His academic papers and column essays are published by L’Europe en formation, Yicai Global, China Business Journal, The Economic Observer, Financial Review, etc..';
                 $data['pic'] = 'majunjie.jpg';
                 break;
             case 'zheruisi':
-                $data['name'] = '哲瑞思';
-                $data['positions'] = '昂科国际副总裁、研究网络主席';
-                $data['desc'] = '哲瑞思博士是著名中国政治经济专家，也是全球创新趋势和政策的权威人士。他曾任瑞典驻中国大使馆科技与创新参赞，并兼任哥本哈根商学院亚洲研究中心经济学教授。他多年担任亚洲开发银行资深国家经济学家，并在北京大学中国经济研究中心担任客座教授。他是三十余篇学术期刊论文、150余份研究报告和五本学术著作的作者。他是科技顾问集团（Scientific Advisory Group）和增长网络（Growth Net）的成员。他于2003年在哥德堡大学获得经济学博士。';
+                $data['name'] = 'Dr. Christer Ljungwall';
+                $data['positions'] = 'Vice President, Head of Research';
+                $data['desc'] = 'Dr. Christer Ljungwall is a renowned China political-economy specialist, and an authority in global innovation trends and policy. He is vice-president of ENC International Advisory Group, China. In previous positions he has served as Science and Innovation Counsellor at the Embassy of Sweden in PRC for more than five years. He is also affiliated Professor in economics at Copenhagen Business School, Asia Research Center. He has held positions over the years as Sr. Country Economist with the Asian Development Bank, and spent five years as visiting Professor at Peking University China Center for Economic Research. He’s the author of 30+ academic journal articles in English, 150+ reports, and five books. He is a regularly invited speaker on Chinese and Asian economic and political affairs, and innovation. He is member of the Scientific Advisory Group (the Knowledge Economy), member of The Growth Net. Dr. Ljungwall received his PhD in economics from Gothenburg University in 2003.';
                 $data['pic'] = 'zheruisi.jpg';
                 break;
             case 'lishuran':
-                $data['name'] = '李树然';
-                $data['positions'] = '昂科国际联合创始人、首席金融代表';
-                $data['desc'] = '李树然，具有丰富的金融从业经历、海外投融资经验及公司管理经验，历任国内大型财富管理公司子公司副总裁、百亿级省民投公司金融产品总监、新锐私募股权基金公司副总经理。李树然先生研究生毕业于西南财经大学法律经济学专业，本科毕业于西安交通大学自动化专业，具有综合学历背景和工作经验。';
+                $data['name'] = 'LI Shuran';
+                $data['positions'] = 'Co-founder, Head of Finance(Greater China)';
+                $data['desc'] = 'Mr. LI Shuran is an expert in the financial industry, overseas investment and finance, and corporate management. He has taken positions as high-level executives in the China\'s largest scales wealth management company, multiple billions RMB financial holding, and cutting-edge private equity fund. Mr. LI Shuran obtained a Bachelor’s degree in automation from Xi’an Jiaotong University, and a Master’s degree in Law and Economics from Southwestern University of Finance and Economics.';
                 $data['pic'] = 'lishuran.jpg';
                 break;
             case 'mr':
                 $data['name'] = 'Mikael Román';
-                $data['positions'] = 'Mikael Román，高级顾问';
-                $data['desc'] = 'Mikael Román是前瑞典驻巴西大使馆科学参赞和科技创新处主任。他拥有社会科学专业背景，获得政治学博士，并在麻省理工学院（MIT）国际研究中心做博士后研究。Román博士拥有可持续、气候变化、公共政策、创新和竞争力战略等领域的多年专业经验。他也是瑞典林雪平大学（Linköping University）气候科学和政策研究中心副教授。他对巴西和新兴经济体国家投融资战略和商业发展趋向有深入研究。';
+                $data['positions'] = 'Mikael Román，Senior Advisor';
+                $data['desc'] = 'Mikael Román is former Science Counsellor and Head of the Office of Science and Innovation at the Swedish Embassy in Brasília, Brazil. Originally a social scientist by training, with a PhD in political science, and subsequent post-doctoral studies at Center for International Studies, MIT, Román has spent most of his professional career working on issues related to sustainability, climate change, public policy, innovation, and competitive strategies. Mikael Román is also Associate Professor at Center for Climate Science and Policy Research (CSPR), Linköping University, Sweden.';
                 $data['pic'] = "mr.jpg";
                 break;
             case 'fm':
                 $data['name'] = 'Faye MAO';
-                $data['positions'] = 'Faye MAO，高级顾问';
-                $data['desc'] = '曾任职于大学七年，教授英语，文化与传播；为中国建设银行，中国温洛克，阿海珐中国和沃尔沃中国的英文公关培训师。中国高等教育教材奖获得者;与英国广播公司中文部联合主持的饮食文化广播节目‘吃东吃西’于2005年荣获中国传媒大奖。在比利时根特大学做研究员之后加入了欧洲最大的中国投资项目，负责接待中国各级官员，参与中国和欧洲之间的技术转移，与中欧企业和政府投资/出口/进口部门联络。现为中国某地方驻欧洲办事处贸易投资以及人才联络代表并参与泛欧的教育，艺术与创新项目的协调与管理。';
+                $data['positions'] = 'Faye MAO，Senior Advisor';
+                $data['desc'] = 'Ms. Faye Mao is an expert in linguistics and communication with a broad range of experience both in Asia and Europe. She previously taught English, Culture and Communication Studies at Sichuan University, China, for seven years and coached managers and staff at China Construction Bank, Winrock China, Areva China and Volvo China. She is also the chief editor of a prize-winning textbook for English majors in China; her food culture radio program with BBC Chinese Service won China Media Award in 2005.
+She joined the biggest Chinese investment project in Europe at its difficult time, where she received senior Chinese officials, involved in technology transfer between China and Europe, networked with private enterprises and governmental investment/export/import sectors both in China and abroad. She is currently representing  a regional government in China for Trade and Investment and Talent Liaison and involved in pan-European projects of education, art and innovations.';
                 $data['pic'] = "fm.jpg";
                 break;
             case 'hm':
                 $data['name'] = 'Hartmut Marhold';
-                $data['positions'] = 'Hartmut Marhold教授，高级顾问';
-                $data['desc'] = 'Hartmut Marhold教授是法国高等欧洲研究国际中心（CIFE）的研究和发展部主任，同时为德国科隆大学荣誉教授、伊斯坦布尔土耳其-德国大学客座教授。他专注研究欧洲一体化进程和联邦主义。他在诸多欧洲智库中担任职务，并在德国的欧洲运动中发挥重要作用。';
+                $data['positions'] = 'Hartmut Marhold Senior Advisor';
+                $data['desc'] = 'Professor Hartmut Marhold is Director of Research and Development at CIFE (Centre International de Formation Européenne), honorary professor at the University of Cologne and visiting professor at the Turkish-German University, Istanbul. He specializes in European Integration history, German European politics and federalism. He holds honorary functions in various European think tanks and was Secretary General of the European Movement Germany.';
                 $data['pic'] = "hm.jpg";
                 break;
             case 'tb':
                 $data['name'] = 'Tobias Bütow';
-                $data['positions'] = 'Tobias Bütow博士，高级顾问';
-                $data['desc'] = 'Tobias Bütow博士先后在柏林、汉堡和萨拉热窝研究政治学和当代史。他于201年作为DAAD讲师加入CIFE旗下欧洲学院任教。此前，他曾在以色列（犹太大屠杀纪念馆，耶路撒冷），波斯尼亚和黑塞哥维那（欧安组织驻萨拉热窝特派团）和德国（德国历史博物馆）任职。他的研究主要集中在计提包里和种族冲突，以及西巴尔干半岛欧洲一体化进程。自2007年以来，他开始担任Schwarzkopf基金会青年欧洲运动的董事。';
+                $data['positions'] = 'Tobias Bütow Senior Advisor';
+                $data['desc'] = 'Tobias Bütow has studied Political Science and Contemporary History in Berlin, Hamburg and Sarajevo.
+He joined IE·EI in 2010 as DAAD Lecturer, after having worked in Israel (Yad VaShem, Jerusalem), in Bosnia and Hercegovina (OSCE, Sarajevo) and Germany (German Historical Mueseum, Schwarzkopf Foundation Young Europe). 
+In his research he is mainly focussing on collective violence and ethnic conflicts, as well as the European Integration of the Western Balkans. Since 2007 he is a board member of Schwarzkopf Foundation Young Europe.';
                 $data['pic'] = "tb.jpg";
                 break;
             case 'gsk':
                 $data['name'] = 'Gonzalo Sanchez Slik';
-                $data['positions'] = 'Gonzalo Sanchez Slik，顾问';
-                $data['desc'] = 'Gonzalo Sanchez Slik先生是西班牙裔，先后在中国、美国和德国生活和任职，他在公司管理方面经验丰富。在市场调查、顾问和招募方面，他有与诸多初创企业合作的经验。现居柏林，他担任Brickblock公司的拉美商业开发主任，并在房地产基金、交易基金和数字货币基金方面有成功职业记录。他专注为商业拓展和新兴产业投资提供知识和最佳实践。';
+                $data['positions'] = 'Gonzalo Sanchez Slik，Advisor';
+                $data['desc'] = 'Originally from Spain and having lived and worked in China, United States and Germany, Gonzalo has experience in helping businesses scale their operations. Experience within start-ups in market research, consulting and recruitment. Based in Berlin, currently the head of business development in Latin America for Brickblock; a blockchain investment platform for real estate funds, exchange traded funds and cryptocurrency funds. Always looking to building relationships with international markets and introducing new ways for business growth. ';
                 $data['pic'] = "gsk.jpg";
                 break;
             case 'de':
                 $data['name'] = 'Daniel Ekstrom';
-                $data['positions'] = 'Daniel Ekstrom，顾问';
-                $data['desc'] = 'Daniel Ekstrom是瑞典时尚品牌TOTEM COLLECTIVE的联合创始人。他曾担任瑞典驻华外交官，现在精力放在斯德哥尔摩和哥本哈根的初创企业发展和研究中。作为经济学家和企业家，他对技术迭代，和变革的全球价值链感兴趣。现在，他居住在哥本哈根，帮助政府和科技产业搭建创新平台。他是中瑞经贸关系的年青一代推动者。';
+                $data['positions'] = 'Daniel Ekstrom，Advisor';
+                $data['desc'] = 'Cofounder of TOTEM COLLECTIVE. 
+From diplomatic circles in Beijing to the Stockholm Startup scene, Daniel is an Economist and Entrepreneur interested in technological shifts and changing global value chain. Currently in Copenhagen building innovation platforms between government and the tech sector. ';
                 $data['pic'] = "de.jpg";
                 break;
             case 'shaohao':
-                $data['name'] = '邵浩';
-                $data['positions'] = '邵浩 博士，高级顾问';
-                $data['desc'] = '邵浩博士，CFA， FRM. Ayaltis AG 大中华区总裁。目前任职于瑞士一家著名的独立资产管理公司－Ayaltis AG 大中华区总裁，主要负责公司亚太地区的全面业务，在此之前在苏黎世的母公司任职资深基金经理，负责公司的对冲基金母基金的投研相关的工作，包括经济宏观面研究，对冲基金筛选，研究，尽职调查， 资产组合的管理等等相关工作。共管理的总资产达10亿美元。其管理的基金从2008年以来，一直为客户提供稳健的，优秀的风险调整后收益，曾多次荣获欧洲及全球的年度，3年，5年等长期最佳收益大奖。
-在加入Ayaltis 之前，邵浩博士任职于瑞士信贷集团苏黎世总部的外汇及短期债券的交易部门，主要负责短期利率产品的套利模型，定价，风险分析等方面的的研究工作。另外，邵浩博士还拥有多年在瑞士证券交易所的工作经验，为其对金融交易市场的深度理解提供了不可多得实战经验。
-邵浩博士1999年从哈尔滨工业大学获得机器人学的博士学位后，在位于苏黎世的欧洲名校——瑞士联邦理工大学（ETHZ）从事了四年的人工智能——计算机视觉方面的博士后研究。邵浩博士是 CFA 和 FRM 持有人。';
+                $data['name'] = 'Dr. Hao SHAO';
+                $data['positions'] = 'Dr. Hao SHAO, Senior Advisor';
+                $data['desc'] = 'Dr. Hao SHAO holds CFA, FRM, and is the Country CEO(Greater China) of Ayaltis AG. He started his own asset management agency after a fulfilling career as a senior fund manager in the Zurich-based Ayaltis AG, responsibly for investment and analysis in the area of FOF. He does extensive research on macroeconomics, hedge fund, due diligence, and securities portfolio management. The total asset he is managing exceeds USD 1 billion. He was awarded for his service that provided the sound returns. 
+Before joining Ayaltis, Dr. Hao SHAO worked for Credit Suisse AG at its Zurich headquarters in the arbitrage models, pricing, and risk analysis of the short-term interest rate products. In addition, Dr. SHAO has abundance experience working at the SWX Swiss Exchange. Dr. SHAO got his PhD in robotics from Harbin Institute of Technology(1999), and did his post-doc in AI- Computer Vision for four years at ETH Zurich. ';
                 $data['pic'] = "shaohao.jpg";
                 break;
             case 'ganxueping':
-                $data['name'] = '干学平';
-                $data['positions'] = '干学平 博士，高级顾问';
-                $data['desc'] = '在美国普渡大学主修总体货币经济学获得博士学位后，干学平博士在1995年后转向专精于法律与经济学。他的学术论文曾刊登于国际著名的法学研究(Journal of Legal Studies)和宪法之政治经济(Constitutional Political Economy)。他也曾获得新加坡南洋理工大学的最佳企业家精神论文奖。稍后，他的兴趣更深入知识经济与知识产权的多个层面。他曾任教于清华大学(台湾)，浙江大学，与西南财经大学。干博士并分别具有创办人、总经理、独立董事等台湾的网络商业和高科技公司之实际场域经验。除此外，他还是发明人并获得台湾、中国、和美国专利申请审查单位所颁发的发明专利证书。';
+                $data['name'] = 'Dr. Steven S. Kan';
+                $data['positions'] = 'Dr. Steven S. Kan, Senior Advisor';
+                $data['desc'] = 'A macro-monetary economist by training at Purdue University, Dr. Kan switches to specialize in Law and Economics since 1995. His academic papers appeared in The Journal of Legal Studies and Constitutional Political Economy. And, he won the best paper award in Entrepreneurship from Singapore’s Nanyang Technological University. More recently, his interests extend into different aspects of knowledge economy and intellectual property rights. He has taught in Taiwan’s Tsing Hua University, and China’s Zhejiang University and Southwestern University of Finance and Economics. Dr. Kan also has practical, field experiences as founder, CEO, and independent board director of Taiwan’s dotcom and high-tech companies. In addition, he is an inventor and holds invention patents from patent offices of Taiwan, China, and the US.';
                 $data['pic'] = "ganxueping.jpg";
+                break;
+            case 'rdt':
+                $data['name'] = 'Mr. Yuen Tak Tim';
+                $data['positions'] = 'Mr. Yuen Tak Tim, Anthony, MH, J. P., FChFP, Senior Advisor';
+                $data['desc'] = 'Mr. Yuen Tak Tim is Justice of the Peace(1995), recipient of the Medal of Honor(2006), and was awarded the Ten Outstanding Young Persons(1992). He holds the position as Chairman of Yue Tung Financial (Holdings) Ltd. , Council Member of Chinese University of Hong Kong, and a board member of CUHK Medical Centre Ltd.. He serves as a Responsible Officer of a licensed corporation carrying on business in type 1 (dealing in securities), type 4 (advising on securities) and type 9 (asset management) regulated activities under the Securities and Futures Ordinance (Chapter 571 of the Laws of Hong Kong) (“SFO”) and a Technical Representative of an independent financial planning company. Mr. Yuen has extensive experience in the field of wealth management and insurance in Hong Kong and China. He has been a seasoned Professional in financial and insurance fields for over 40 years. He is also passionate about community services, and he has severed a number of key government advisory bodies. ';
+                $data['pic'] = "rdt.jpg";
                 break;
             default:
                 $data['name'] = '&nbsp;';
@@ -90,6 +99,12 @@ class Ehome extends CI_Controller
 
 
         }
-        $this->load->view("company/Chinese/team", $data);
+        $this->load->view("company/English/team", $data);
+    }
+
+    //文章页
+    public function article()
+    {
+        $this->load->view("company/English/article");
     }
 }

@@ -14,49 +14,45 @@ class Wwd extends CI_Controller
         $params = $this->input->get_post("params");
         switch ($params) {
             case 'so':
-                $data['ename'] = 'Second Opinion';
-                $data['name'] = '企业家参考';
-                $data['desc'] = '一个为中国企业家精心打造的高端研讨会系列活动，通过造访各国驻华使领馆、政府机关、金融机构、大型企业以及百年家族，与国内外资深专家、官员和从业者面对面交流，为中国企业家提供目的地国家和地区投资、留学、移民、置产、旅游等本地信息。';
+                $data['name'] = 'Second Opinion';
+                $data['desc'] = 'Second Opinion is a series of high-end seminars in the form of visiting foreign embassies and organizations to China, government departments, financial institutions, corporates, and family businesses. In these events, Chinese entrepreneurs are provided with an exclusive opportunity to have face-to-face conversations with domestic and foreign experts, government officials, and practitioners to get better exposed to the local information about investment, overseas education, immigration, real estate, and tourism. ';
                 $data['pic'] = 'so.jpg';
-                $this->load->view("company/Chinese/wwd", $data);
+                $this->load->view("company/English/wwd", $data);
                 break;
             case 'tgt':
-                $data['ename'] = 'The Grand Tour';
-                $data['name'] = '海外见学';
-                $data['desc'] = '面向中国企业家群体和大学生的两个海外见学系列活动。
-企业家主题见学以学术、商业考察为形式，提升思想水平、开阔商业思路、拓展合作网络，我们将前往瑞典、德国、法国、美国等发达西方国家。
-“七天留学生”为向往留学经历的大学生朋友们提供海外学校研讨、访问，与当地同龄人交流、交友，浸入式体验本地化生活和异国文化、艺术等方方面面的机会。';
+                $data['name'] = 'The Grand Tour';
+                $data['desc'] = 'The Grand Tour is an exclusive business and cultural exchange for Chinese entrepreneurs and young leaders.
+The thematic trips for entrepreneurs focus on academic and commercial exchanges. We are going to developed countries, such as Sweden, Germany, France, the US, to seek for knowledge, experience, insights, networks and cooperation.
+The “Seven-Day Overseas Student” program aims to provide a once-in-a-lifetime opportunity for young leaders to visit esteemed academic institutions, interact with their local peers, make new friends, and have an immersive experience of the local life and exotic culture. ';
                 $data['pic'] = 'tgt.jpg';
-                $this->load->view("company/Chinese/tgt", $data);
+                $this->load->view("company/English/tgt", $data);
                 break;
             case 'ldd':
-                $data['ename'] = 'Leadership Dinner Date';
-                $data['name'] = '领导力主题晚餐会';
-                $data['desc'] = '以晚餐为载体，以研讨会和领导力培训为内容，为青年领袖和社会精英提供一个属于自己的思想交流、知识分享、建立联系、实现成长的平台。
-我们相信人与人之间的沟通互联是一切新理念得以传播，一切创新得以生发，一切新项目得以孵化的基础。';
+                $data['name'] = 'Leadership Dinner Date';
+                $data['desc'] = 'Leadership Dinner Date is a unique networking event that offers exclusive opportunities to get exposed to leadership training, lectures, and coversations with the young leaders and social elites. It is a platform for the exchange of ideas, knowledge, networking, and self-discovery.
+We believe in the human connection that enables the dissemination of ideas, which  facilitates the emergence of innovation and the hatching of new projects. 
+';
                 $data['pic'] = 'ldd.jpg';
-                $this->load->view("company/Chinese/ldd", $data);
+                $this->load->view("company/English/ldd", $data);
                 break;
             case 'road':
-                $data['ename'] = 'Research & Consulting related to the Road & Belt Initiative';
-                $data['name'] = '“一带一路”相关研究';
-                $data['desc'] = '立足中国，放眼“丝路经济带”，为中国企业走出去提供政策观察、趋势分析、目的地国家资源引介和项目对接。我们相信一个联系更紧密的世界是一个更值得期待的世界。';
+                $data['name'] = 'Research & Consulting related to the Road & Belt Initiative';
+                $data['desc'] = 'Based in China, we look out to the Silk Road Economic Belt and offer Chinese enterprise quality policy watch, trend analysis, resource matching and project collaboration. We believe that a more closely connected world is a world that’s worth looking forward to. ';
                 $data['pic'] = 'road.jpg';
-                $this->load->view("company/Chinese/wwd", $data);
+                $this->load->view("company/English/wwd", $data);
                 break;
             case 'ces':
-                $data['ename'] = 'China Economy Study';
-                $data['name'] = '中国经济研究';
-                $data['desc'] = '问题多元，视角全面，只有客观中立，方能一览无余。从中国的角度，兼以西方的鸟瞰，以扎实的调研与理性的分析，给你值得品味的洞见。';
+                $data['name'] = 'China Economy Study';
+                $data['desc'] = 'Multiple issues, comprehensive perspectives. Only by being objective, can one get an exhaustive understanding. We undertake solid research and reasonable analysis from the Chinese perspective with a bird-eye insights to give you insights of the most exciting economy in the world. 
+';
                 $data['pic'] = 'ces.jpg';
-                $this->load->view("company/Chinese/wwd", $data);
+                $this->load->view("company/English/wwd", $data);
                 break;
             case 'cet':
-                $data['ename'] = 'China-Europe Technology Co-creation Centre';
-                $data['name'] = '中欧科技共创中心';
-                $data['desc'] = '从现在看未来，前瞻性的研究，为每一次激动人心的突破把脉，对引领未来的力量细细观察，洞穿机遇与挑战，为你的下一个财富“金矿”指一条明路。';
+                $data['name'] = 'China-Europe Technology Co-creation Centre';
+                $data['desc'] = 'We look to the future from the present. With forward looking research, we take the pulse of every exciting breakthrough, and provide you with opportunities and challenges that take us to tomorrow. We strive to point you in the right direction to the next “gold mine”.';
                 $data['pic'] = 'cet.jpg';
-                $this->load->view("company/Chinese/wwd", $data);
+                $this->load->view("company/English/wwd", $data);
                 break;
             default:
                 break;

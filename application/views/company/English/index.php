@@ -1,4 +1,4 @@
-<?php $this->load->view("include/company/header"); ?>
+<?php $this->load->view("include/company/eheader"); ?>
 <body>
 
 
@@ -28,13 +28,17 @@
                     <div class="pull-right">
                         <nav class="navmenu center">
                             <ul>
-                                <li class="first active scroll_btn"><a href="<?php echo base_url(); ?>">首页</a></li>
-                                <li class="scroll_btn"><a href="#wwd">我们做什么</a></li>
-                                <li class="scroll_btn"><a href="#news">关于我们</a></li>
-                                <li class="scroll_btn"><a href="#team">我们的团队</a></li>
-                                <li class="scroll_btn"><a href="<?php echo site_url('Home/index')?>">中文</a></li>
-                                <!--                                <li class="scroll_btn"><a href="#news">News</a></li>-->
-                                <!--                                <li class="scroll_btn last"><a href="#contacts">Contacts</a></li>-->
+                                <li class="first active scroll_btn"><a href="<?php echo base_url(); ?>">Home</a></li>
+                                <li class="scroll_btn"><a href="#wwd">What Do We Do</a></li>
+                                <li class="scroll_btn"><a href="#news">About Us</a></li>
+                                <li class="scroll_btn"><a href="#team">Our Team</a></li>
+                                <li class="sub-menu">
+                                    <a href="javascript:void(0);">页面</a>
+                                    <ul>
+                                        <li><a href="<?php echo site_url('Home/index') ?>">中文</a></li>
+                                        <li><a href="<?php echo site_url('EHome/index') ?>">English</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </nav>
                     </div><!-- //MENU -->
@@ -45,8 +49,8 @@
         <section class="cd-hero" id="home">
             <ul class="cd-hero-slider autoplay">
                 <li class="selected">
-                        <div class="cd-full-width">
-                        </div>
+                    <div class="cd-full-width">
+                    </div>
                 </li>
                 <li class="selected">
                     <a href="<?php echo site_url('sweden/Index/home'); ?>">
@@ -60,6 +64,12 @@
                         </div>
                     </a>
                 </li>
+                <li>
+                    <a href="<?php echo site_url('Ehome/article'); ?>">
+                        <div class="cd-full-width">
+                        </div>
+                    </a>
+                </li>
             </ul> <!-- .cd-hero-slider -->
 
             <div class="cd-slider-nav">
@@ -67,7 +77,8 @@
                     <span class="cd-marker item-1"></span>
 
                     <ul>
-                        <li  class="selected"><a href="#0"></a></li>
+                        <li class="selected"><a href="#0"></a></li>
+                        <li><a href="#0"></a></li>
                         <li><a href="#0"></a></li>
                         <li><a href="#0"></a></li>
                     </ul>
@@ -80,7 +91,7 @@
             <div class="container">
                 <!-- CONTAINER -->
                 <div style="margin-bottom: 30px">&nbsp;</div>
-                <h2><b>我们做什么</b>: &nbsp;笃行</h2>
+                <h2><b>What Do We Do</b>: &nbsp;Activities</h2>
                 <div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
                     <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
                         <div class="post_item">
@@ -88,8 +99,8 @@
                                 <img src="public/company/images/wwd/1.jpg" alt=""/>
                                 <a class="link" href="<?php echo site_url('Wwd/index?params=so'); ?>"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 140px">
-                                <a class="title" href="javascript:void(0);">企业家参考</a>
+                            <div class="post_item_content" style="margin-left: 100px">
+                                <a class="title" href="javascript:void(0);">Second Opinion</a>
                                 <!--                                <ul class="post_item_inf">-->
                                 <!--                                    <li><a href="javascript:void(0);">Second Opinion</a></li>-->
                                 <!--                                </ul>-->
@@ -102,8 +113,8 @@
                                 <img src="public/company/images/wwd/2.jpg" alt=""/>
                                 <a class="link" href="<?php echo site_url('Wwd/index?params=tgt'); ?>"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 140px">
-                                <a class="title" href="javascript:void(0);">海外见学</a>
+                            <div class="post_item_content" style="margin-left: 100px">
+                                <a class="title" href="javascript:void(0);">The Grand Tour</a>
                                 <!--                                <ul class="post_item_inf">-->
                                 <!--                                    <li><a href="javascript:void(0);">The Grand Tour</a></li>-->
                                 <!--                                </ul>-->
@@ -117,8 +128,9 @@
                                 <a class="link" href=""></a>
                                 <a class="link" href="<?php echo site_url('Wwd/index?params=ldd'); ?>"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 100px">
-                                <a class="title" href="<?php echo site_url('ldd/Index/home'); ?>">领导力主题晚餐会</a>
+                            <div class="post_item_content" style="margin-left: 70px">
+                                <a class="title" href="<?php echo site_url('ldd/Index/home'); ?>">Leadership Dinner
+                                    Date</a>
                                 <!--                                <ul class="post_item_inf">-->
                                 <!--                                    <li><a href="javascript:void(0);">Leadership Dinner Date</a></li>-->
                                 <!--                                </ul>-->
@@ -134,7 +146,7 @@
             <div class="container">
                 <!-- CONTAINER -->
                 <div style="margin-bottom: 30px">&nbsp;</div>
-                <h2><b>我们做什么</b>: &nbsp;慎思</h2>
+                <h2><b>What Do We Do</b>: &nbsp;Research</h2>
                 <div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
                     <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
                         <div class="post_item">
@@ -142,8 +154,9 @@
                                 <img src="public/company/images/wwd/4.jpg" alt=""/>
                                 <a class="link" href="<?php echo site_url('Wwd/index?params=road'); ?>"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 80px">
-                                <a class="title" href="javascript:void(0);">“一带一路”相关研究</a>
+                            <div class="post_item_content">
+                                <a class="title" href="javascript:void(0);">Research & Consulting related to the Road &
+                                    Belt Initiative</a>
                                 <!--                                <ul class="post_item_inf">-->
                                 <!--                                    <li><a href="javascript:void(0);">Research & Consulting related to the Road & Belt-->
                                 <!--                                            Initiative</a></li>-->
@@ -157,8 +170,8 @@
                                 <img src="public/company/images/wwd/5.jpg" alt=""/>
                                 <a class="link" href="<?php echo site_url('Wwd/index?params=ces'); ?>"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 120px">
-                                <a class="title" href="javascript:void(0);">中国经济研究</a>
+                            <div class="post_item_content" style="margin-left: 70px">
+                                <a class="title" href="javascript:void(0);">China Economy Study</a>
                                 <!--                                <ul class="post_item_inf">-->
                                 <!--                                    <li><a href="javascript:void(0);">China Economy Study</a></li>-->
                                 <!--                                </ul>-->
@@ -171,12 +184,9 @@
                                 <img src="public/company/images/wwd/6.jpg" alt=""/>
                                 <a class="link" href="<?php echo site_url('Wwd/index?params=cet'); ?>"></a>
                             </div>
-                            <div class="post_item_content" style="margin-left: 100px">
-                                <a class="title" href="javascript:void(0);">中欧科技共创中心</a>
-                                <!--                                <ul class="post_item_inf">-->
-                                <!--                                    <li><a href="javascript:void(0);">China-Europe Technology Co-creation Centre-->
-                                <!--                                        </a></li>-->
-                                <!--                                </ul>-->
+                            <div class="post_item_content">
+                                <a class="title" href="javascript:void(0);">China-Europe Technology Co-Creation
+                                    Centre</a>
                             </div>
                         </div>
                     </div>
@@ -189,7 +199,7 @@
 
             <!-- CONTAINER -->
             <div class="container">
-                <h2><b>关于我们</b></h2>
+                <h2><b>About Us</b></h2>
 
                 <!-- TESTIMONIALS -->
                 <div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
@@ -201,12 +211,29 @@
                         <div class="item">
                             <div class="testim_content">
                                 <!--                                <p style="text-indent: 2em">-->
-                                <p>昂科国际（ENC
-                                    International）是由中、美、欧三地学者、企业家和前政府官员组成的研究员网络与国际经济、文化发展机构，旨在通过学术研究、人文交流、商业合作和科技引进，促进中国与西方世界的深层次了解，共同实现发展与繁荣。</p>
-                                <p>昂科国际（ENC International）为中国青少年提供国内领导力培训、外国语言文化交流活动和海外短期见学机会，为年轻的梦想插上翅膀。</p>
-                                <p>昂科国际（ENC
-                                    International）在国际金融中心英国伦敦金融城、香港中环，全球创新中心瑞典斯德哥尔摩，新兴市场巴西等地分别拥有并深度合作的资深海外金融团队，致力于为中欧政府部门、大型企事业单位、创新高精尖企业、金融机构等多元客户提供广泛的财务咨询、投资银行(特别是海外并购业务)、资产管理、跨境资金套利等金融服务。</p>
-                                <p>我们致力于促进中西方真诚沟通，共享繁荣。</p>
+                                <p>ENC International Advisory Group is a research network and international economic and
+                                    cultural development agency that consists of scholars, entrepreneurs, and former
+                                    government officials and diplomats from China, US, Europe, Latin America, and
+                                    Africa. It aims to facilitate the in-depth understanding between China and the west
+                                    to achieve development and prosperity through academic exchanges, cultural
+                                    exchanges, commercial cooperation, and technology transfer.
+                                </p>
+                                <p>ENC International Advisory Group has teams in the global financial centre of London
+                                    City, Hong Kong Centre, innovation centre of Stockholm, the emerging market of
+                                    Brazil to provide our diverse clients from government departments, large scale
+                                    corporates and industrial associations, innovative high-tech firms, and financial
+                                    institutions with financial consulting, investment banking(especially overseas
+                                    merger and acquisition), asset management, and cross-border capital arbitrage, etc..
+                                </p>
+                                <p>ENC International Advisory Group helps Chinese entrepreneurs to better understand the
+                                    world and explore new opportunities. It combines ideas and actions, clears new
+                                    paths, and expands the horizon. </p>
+                                <p>ENC International Advisory Group also provide leadership training, language and
+                                    cultural exchanges, and oversea short-term exchanges programs for Chinese young
+                                    leaders. We help them fly!
+                                </p>
+                                <p>ENC International Advisory Group rejoices in the genuine communication between China
+                                    and the west, and the mutual prosperity. </p>
                             </div>
                         </div><!-- TESTIMONIAL1 -->
                     </div><!-- TESTIMONIALS SLIDER -->
@@ -220,13 +247,12 @@
         <!-- 关于我们 end-->
 
 
-
         <!-- PROJECTS -->
         <section id="team" class="padbot20">
 
             <!-- CONTAINER -->
             <div class="container">
-                <h2><b>我们的团队</b></h2>
+                <h2><b>Our Team</b></h2>
             </div><!-- //CONTAINER -->
 
 
@@ -243,8 +269,8 @@
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=majunjie') ?>">马俊杰</a>
-                                    <span style="color: #fff">昂科国际创始人、CEO</span>
+                                    <a href="<?php echo site_url('Ehome/team?params=majunjie') ?>">Mr. MA Junjie</a>
+                                    <span style="color: #fff">Founder, CEO</span>
                                 </div>
                             </div>
                         </div>
@@ -258,8 +284,8 @@
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=zheruisi') ?>">哲瑞思</a>
-                                    <span style="color: #fff">昂科国际副总裁、研究网络主席</span>
+                                    <a href="<?php echo site_url('Ehome/team?params=zheruisi') ?>">Dr. Christer Ljungwall</a>
+                                    <span style="color: #fff">Vice President, Head of Research</span>
                                 </div>
                             </div>
                         </div>
@@ -273,8 +299,8 @@
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=lishuran') ?>">李树然</a>
-                                    <span style="color: #fff">昂科国际联合创始人、首席金融代表</span>
+                                    <a href="<?php echo site_url('Ehome/team?params=lishuran') ?>">LI Shuran</a>
+                                    <span style="color: #fff">Co-founder, Head of Finance(Greater China)</span>
                                 </div>
                             </div>
                         </div>
@@ -288,8 +314,8 @@
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=mr') ?>">Mikael Román</a>
-                                    <span style="color: #fff">Mikael Román，高级顾问</span>
+                                    <a href="<?php echo site_url('Ehome/team?params=mr') ?>">Mikael Román</a>
+                                    <span style="color: #fff">Mikael Román，Senior Advisor</span>
                                 </div>
                             </div>
                         </div>
@@ -303,8 +329,8 @@
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=fm') ?>">Faye MAO</a>
-                                    <span style="color: #fff">Faye MAO，高级顾问</span>
+                                    <a href="<?php echo site_url('Ehome/team?params=fm') ?>">Faye MAO</a>
+                                    <span style="color: #fff">Faye MAO，Senior Advisor</span>
                                 </div>
                             </div>
                         </div>
@@ -318,8 +344,8 @@
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=hm') ?>">Hartmut Marhold</a>
-                                    <span style="color: #fff">Hartmut Marhold教授，高级顾问</span>
+                                    <a href="<?php echo site_url('Ehome/team?params=hm') ?>">Hartmut Marhold</a>
+                                    <span style="color: #fff">Hartmut Marhold Senior Advisor</span>
                                 </div>
                             </div>
                         </div>
@@ -330,13 +356,13 @@
                         <div class="work_item">
                             <div class="work_img">
                                 <img src="public/company/images/team/tb.jpg" alt=""/>
-                                <a class="zoom" href="<?php echo site_url('Home/team?params=tb') ?>"
+                                <a class="zoom" href="<?php echo site_url('Ehome/team?params=tb') ?>"
                                    rel="prettyPhoto[portfolio1]"></a>
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=tb') ?>">Tobias Bütow</a>
-                                    <span style="color: #fff">Tobias Bütow博士，高级顾问</span>
+                                    <a href="<?php echo site_url('Ehome/team?params=tb') ?>">Tobias Bütow</a>
+                                    <span style="color: #fff">Tobias Bütow Senior Advisor</span>
                                 </div>
                             </div>
                         </div>
@@ -350,8 +376,8 @@
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=gsk') ?>">Gonzalo Sanchez Slik</a>
-                                    <span style="color: #fff">Gonzalo Sanchez Slik，顾问</span>
+                                    <a href="<?php echo site_url('Ehome/team?params=gsk') ?>">Gonzalo Sanchez Slik</a>
+                                    <span style="color: #fff">Gonzalo Sanchez Slik，Advisor</span>
                                 </div>
                             </div>
                         </div>
@@ -361,13 +387,13 @@
                         <div class="work_item">
                             <div class="work_img">
                                 <img src="public/company/images/team/de.jpg" alt=""/>
-                                <a class="zoom" href="<?php echo site_url('Home/team?params=de') ?>"
+                                <a class="zoom" href="<?php echo site_url('Ehome/team?params=de') ?>"
                                    rel="prettyPhoto[portfolio1]"></a>
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=de') ?>">Daniel Ekstrom</a>
-                                    <span style="color: #fff">Daniel Ekstrom，顾问</span>
+                                    <a href="<?php echo site_url('Ehome/team?params=de') ?>">Daniel Ekstrom</a>
+                                    <span style="color: #fff">Daniel Ekstrom，Advisor</span>
                                 </div>
                             </div>
                         </div>
@@ -377,13 +403,13 @@
                         <div class="work_item">
                             <div class="work_img">
                                 <img src="public/company/images/team/shaohao.jpg" alt=""/>
-                                <a class="zoom" href="<?php echo site_url('Home/team?params=shaohao') ?>"
+                                <a class="zoom" href="<?php echo site_url('Ehome/team?params=shaohao') ?>"
                                    rel="prettyPhoto[portfolio1]"></a>
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=shaohao') ?>">Daniel Ekstrom</a>
-                                    <span style="color: #fff">邵浩 博士，高级顾问</span>
+                                    <a href="<?php echo site_url('Ehome/team?params=shaohao') ?>">Dr. Hao SHAO</a>
+                                    <span style="color: #fff">Dr. Hao SHAO, Senior Advisor</span>
                                 </div>
                             </div>
                         </div>
@@ -392,18 +418,34 @@
                     <div class="item">
                         <div class="work_item">
                             <div class="work_img">
-                                <img src="public/company/images/team/shaohao.jpg" alt=""/>
-                                <a class="zoom" href="<?php echo site_url('Home/team?params=ganxueping') ?>"
+                                <img src="public/company/images/team/ganxueping.jpg" alt=""/>
+                                <a class="zoom" href="<?php echo site_url('Ehome/team?params=ganxueping') ?>"
                                    rel="prettyPhoto[portfolio1]"></a>
                             </div>
                             <div class="work_description">
                                 <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=ganxueping') ?>">Daniel Ekstrom</a>
-                                    <span style="color: #fff">干学平 博士，高级顾问</span>
+                                    <a href="<?php echo site_url('Ehome/team?params=ganxueping') ?>">Dr. Steven S. Kan</a>
+                                    <span style="color: #fff">Dr. Steven S. Kan, Senior Advisor</span>
                                 </div>
                             </div>
                         </div>
                     </div><!-- //work10 -->
+                    <!-- work11 -->
+                    <div class="item">
+                        <div class="work_item">
+                            <div class="work_img">
+                                <img src="public/company/images/team/rdt.jpg" alt=""/>
+                                <a class="zoom" href="<?php echo site_url('Ehome/team?params=rdt') ?>"
+                                   rel="prettyPhoto[portfolio1]"></a>
+                            </div>
+                            <div class="work_description">
+                                <div class="work_descr_cont">
+                                    <a href="<?php echo site_url('Ehome/team?params=rdt') ?>">Mr. Yuen Tak Tim</a>
+                                    <span style="color: #fff">Mr. Yuen Tak Tim, Anthony, MH, J. P., FChFP, Senior Advisor</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //work11 -->
 
                 </div><!-- //PROJECTS SLIDER -->
             </div>
@@ -452,14 +494,19 @@
                             <img src="public/company/images/logo/enc.png">
                             <div class="comment_note">
                                 <p style="font-size: 16px">In Human Connection We Thrive.</p>
-                                <p style="font-size: 16px">人和致荣</p>
+                                <!--                                <p style="font-size: 16px">人和致荣</p>-->
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-8">
-                            <p style="font-size: 16px">昂科国际（ENC International Advisory Group）
-                                致力于沟通中国与世界，促进中国企业家、青年领袖“走出去”，加强中西方理念、知识、领导力，和最佳实践的传播，与资源的互换整合。昂科国际坚信人与人之间真诚的联系是繁荣的基础。</p>
+                            <p style="font-size: 16px">ENC International Advisory Group is dedicated to bridging China
+                                and the world. Its mission is to facilitate Chinese entrepreneurs and young leaders to
+                                “go out”, to enhance the communication of ideas, knowledge, leadership, and best
+                                practices between the East and the West, and to enable better exchange and integration
+                                of resources. ENC International Advisory Group belies that the genuine connection
+                                between people is the foundation for prosperity.
+                            </p>
                             <!--                            <p style="font-size: 16px">“In Human Connection We Thrive.”</p>-->
-                            <!--                            <p style="font-size: 16px">“人和致荣”</p>-->
+                            <p style="font-size: 16px"> “In Human Connection We Thrive.”</p>
 
                         </div>
                     </div><!-- //LEAVE A COMMENT -->

@@ -43,10 +43,10 @@ a:focus {
             justify-content: center;
 }
 
-.cd-hero-slider li:first-of-type { background-image: url('../img/top-bg-1.jpg'); }
-.cd-hero-slider li:nth-of-type(2) {	background-image: url('../img/top-bg-2.jpg'); }
-.cd-hero-slider li:nth-of-type(3) {	background-image: url('../img/top-bg-3.jpg'); }
-.cd-hero-slider li:nth-of-type(4) {	background-image: url('../img/top-bg-4.jpg'); }
+.cd-hero-slider li:first-of-type { background-image: url('../img/etop-bg-1.jpg'); }
+.cd-hero-slider li:nth-of-type(2) {	background-image: url('../img/etop-bg-2.jpg'); }
+.cd-hero-slider li:nth-of-type(3) {	background-image: url('../img/etop-bg-3.jpg'); }
+.cd-hero-slider li:nth-of-type(4) {	background-image: url('../img/etop-bg-4.jpg'); }
 
 .cd-slider-nav { background-color: transparent; }
 
