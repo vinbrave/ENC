@@ -47,22 +47,16 @@
                         <!-- SINGLE BLOG POST -->
                         <div class="single_blog_post clearfix" data-animated="fadeInUp">
                             <div class="single_blog_post_descr">
-                                <div class="single_blog_post_title">昂科国际与瑞典驻华大使馆合办活动</div>
+                                <div class="single_blog_post_title">The Embassy of Sweden Received ENC International Advisory Group for A High-End Investment Seminar</div>
                             </div>
-                            <div class="single_blog_post_img"><img src="public/company/images/article/article.jpg"
+                            <div class="single_blog_post_img"><img src="public/company/images/article/e_article.jpg"
                                                                    alt=""/></div>
 
                             <div class="single_blog_post_content">
-                                <p class="margbot50">2017年12月15日，由昂科国际与瑞典驻华大使馆、瑞典贸易与投资委员会（Business
-                                    Sweden）联合举办的“企业家参考：投资瑞典”高端研讨会在瑞典驻华大使馆举行。由国内知名财富管理机构、个人投资者和私募股权机构组成的昂科国际投资人代表团受到了瑞典驻华大使林戴安（Anna
-                                    Lindstedt）女士、瑞典大使馆科技参赞、科技创新处主管哲瑞思（Christer
-                                    Ljungwall）博士，和瑞典大使馆商务参赞、瑞典贸易与投资委员会中国区经理霍伦伟（David
-                                    Hallgren）先生的热情接待。该活动还有幸得到人民日报领导大力支持和参与。
-                                </p>
+                                <p class="margbot50">December 15th, 2017, ENC International Advisory Group jointly held a high-end investment seminar with Business Sweden with the support of Embassy of Sweden. The ENC International delegation consisted of famous domestic wealth management corporates, individual investors, and private equity firms. This seminar was joined by Her Excellency Ms. Anna Lindstedt, the Swedish Ambassador to China; Dr. Christer Ljungwall, Counsellor Science and Technology, Head of Section for Science and Technology; and Mr. David Hallgren, Trade Commissioner & Country Manager – China, the Swedish Trade & Invest Council. A director from People’s Daily also attended this seminar.</p>
                                 <p class="margbot30">
-                                    研讨会上，林戴安大使致热情洋溢的欢迎辞。随后，哲瑞思博士对瑞典投资和经济发展概况做了介绍。霍伦伟先生则做了有关瑞典投资机会的专题报告，详细介绍了瑞典在传统产业、科技、新经济、AI和大数据，以及医疗、新能源、智慧城市等方面的投资机会。</p>
-                                <p class="margbot40">瑞典是北欧最大的市场，拥有丰富的自然资源，清洁的空气和水资源。 基于对基础产业的历
-                                    史依赖和独特的创新优势，瑞典在产业可持续化方面处于世界领先地位。瑞典拥有尖端的科研 技术、领先的创新能力，吸引了来自全球的创新人才，推动创新。 <b>昂科国际致力于为中国财富寻找新的增值机会。</b>
+                                    In the seminar, Ms. Anna Lindstedt gave a warm welcome speech to the delegation. Dr. Christer Ljungwall introduced the economy and investment opportunities in Sweden. And Mr. David Hallgren made a presentation about investing in Sweden. He elaborated the investment opportunities in conventional industries, technology sector, new economy, AI and Big Data, medical services, new energy, and smart city, etc..</p>
+                                <p class="margbot40">Sweden is a country with extensive natural resources – clean energy, air and high water quality. Based on our historical dependence on base industries and our innovative edge, Sweden is taking a leading role in transforming the industries towards becoming more sustainable. With cutting edge research, an innovative culture, and collaborate spirit, Sweden attracts global talent that drive innovation forward.<b>ENC International Advisory Group is dedicated to seeking new opportunities for Chinese investors worldwide. </b>
                                 </p>
                             </div>
                         </div><!-- //SINGLE BLOG POST -->
@@ -75,7 +69,7 @@
                     <div class="sidebar col-lg-3 col-md-3 padbot50">
                         <!-- POPULAR POSTS WIDGET -->
                         <div class="sidepanel widget_popular_posts">
-                            <h3>活动现场</h3>
+                            <h3>Activity scene</h3>
 
                             <div class="recent_posts_widget clearfix">
                                 <div class="post_item_img_widget">
