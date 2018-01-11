@@ -33,7 +33,7 @@
                                 <li class="scroll_btn"><a href="#news">About Us</a></li>
                                 <li class="scroll_btn"><a href="#team">Our Team</a></li>
                                 <li class="sub-menu">
-                                    <a href="javascript:void(0);">页面</a>
+                                    <a href="javascript:void(0);">Language</a>
                                     <ul>
                                         <li><a href="<?php echo site_url('Home/index') ?>">中文</a></li>
                                         <li><a href="<?php echo site_url('EHome/index') ?>">English</a></li>
