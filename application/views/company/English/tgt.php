@@ -21,7 +21,7 @@
                     <div class="pull-right">
                         <nav class="navmenu center">
                             <ul>
-                                <li class="first scroll_btn"><a href="<?php echo site_url('Home/index'); ?>">Home</a>
+                                <li class="first scroll_btn"><a href="<?php echo site_url('Ehome/index'); ?>">Home</a>
                                 </li>
                             </ul>
                         </nav>
@@ -83,7 +83,7 @@
             <div class="container">
                 <!-- CONTAINER -->
                 <div style="margin-bottom: 30px">&nbsp;</div>
-                <h2><b>海外见学</b></h2>
+                <h2><b>The Grand Tour</b></h2>
                 <div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
                     <div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
                         <div class="post_item">

@@ -24,7 +24,7 @@
                     <div class="pull-right">
                         <nav class="navmenu center">
                             <ul>
-                                <li class="first scroll_btn"><a href="<?php echo site_url('Home/index'); ?>">Home</a>
+                                <li class="first scroll_btn"><a href="<?php echo site_url('Ehome/index'); ?>">Home</a>
                                 </li>
                             </ul>
                         </nav>
