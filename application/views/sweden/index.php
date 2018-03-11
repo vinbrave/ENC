@@ -277,7 +277,6 @@
 
             <div class="tm-plan-boxes-container">
                 <h2 class="tm-section-3-title">参团信息</h2>
-
                 <div class="">
                     <p class="tm-section-3-description" style="line-height:1.5;">
                         此次“财富·瑞典—主题投资考察”得到瑞典驻华大使馆、东方资本集团（East
