@@ -250,7 +250,7 @@
                     <p class="tm-section-3-description tm-text-yellow" style="line-height:1.5;">第四天（2018年1月24日，周三）
                         上午，访问汤森路透集团（Thomson Reuters）, 参加有关北欧房地产市场、高端健康、医疗科技、人工智能、金融科技贸易平台等方向的投资机会路演；
                         有神秘嘉宾参加的午餐会；
-                        下午，访问北欧最大也是最知名的银行集团瓦伦堡 （Wallenberg）家族所有的瑞典北欧斯安银行（SEB），并与 董事会成员闭门研讨瑞典财富机会。
+                        下午，访问北欧最大也是最知名的银行集团闭门研讨瑞典财富机会。
                         考察团亲密晚餐。
                     </p>
                     <p class="tm-section-3-description tm-text-yellow" style="line-height:1.5;">第五天（2018年1月25日，周四）
@@ -281,8 +281,7 @@
                 <div class="">
                     <p class="tm-section-3-description" style="line-height:1.5;">
                         此次“财富·瑞典—主题投资考察”得到瑞典驻华大使馆、东方资本集团（East
-                        Capital），中国驻瑞典总领事馆、瑞典增长政策分析处、瑞典企业家论坛、瑞典
-                        北欧斯安银行（SEB）、瑞典ILV环境研究所（IVL Swedish Environmental
+                        Capital），中国驻瑞典总领事馆、瑞典增长政策分析处、瑞典企业家论坛、瑞典ILV环境研究所（IVL Swedish Environmental
                         Research Institute）等机构的大力支持和全力配合。
                     </p>
                     <p class="tm-section-3-description" style="line-height:1.5;">为保证考察活动的内容和质量，仅设<span
