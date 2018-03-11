@@ -172,7 +172,8 @@ $(document).ready(function() {
 		pagination: false,
 		items : 4,
 		itemsDesktop : [1000,4],
-		itemsDesktop : [600,3]
+		itemsDesktop : [600,3],
+        autoPlay: 3000//,
 	});
 	
 	

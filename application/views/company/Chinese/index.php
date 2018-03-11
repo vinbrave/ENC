@@ -33,7 +33,7 @@
                                 <li class="scroll_btn"><a href="#news">关于我们</a></li>
                                 <li class="scroll_btn"><a href="#team">我们的团队</a></li>
                                 <li class="sub-menu">
-                                    <a href="javascript:void(0);">Pages</a>
+                                    <a href="javascript:void(0);">语言</a>
                                     <ul>
                                         <li><a href="<?php echo site_url('Home/index') ?>">中文</a></li>
                                         <li><a href="<?php echo site_url('Ehome/index') ?>">English</a></li>
