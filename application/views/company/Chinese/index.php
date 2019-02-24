@@ -305,19 +305,20 @@
                     </div><!-- //work3 -->
 
                     <!-- work4 -->
-                    <div class="item">
-                        <div class="work_item">
-                            <div class="work_img">
-                                <img src="public/company/images/team/fm.jpg" alt=""/>
-                            </div>
-                            <div class="work_description">
-                                <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=fm') ?>">Faye MAO</a>
-                                    <span style="color: #fff">Faye MAO，高级顾问</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- //work4 -->
+<!--                    <div class="item">-->
+<!--                        <div class="work_item">-->
+<!--                            <div class="work_img">-->
+<!--                                <img src="public/company/images/team/fm.jpg" alt=""/>-->
+<!--                            </div>-->
+<!--                            <div class="work_description">-->
+<!--                                <div class="work_descr_cont">-->
+<!--                                    <a href="--><?php //echo site_url('Home/team?params=fm') ?><!--">Faye MAO</a>-->
+<!--                                    <span style="color: #fff">Faye MAO，高级顾问</span>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                    <!-- //work4 -->
 
                     <!-- work5 -->
                     <div class="item">
@@ -414,21 +415,22 @@
                         </div>
                     </div><!-- //work10 -->
                     <!-- work11 -->
-                    <div class="item">
-                        <div class="work_item">
-                            <div class="work_img">
-                                <img src="public/company/images/team/rdt.jpg" alt=""/>
-                                <a class="zoom" href="<?php echo site_url('Home/team?params=rdt') ?>"
-                                   rel="prettyPhoto[portfolio1]"></a>
-                            </div>
-                            <div class="work_description">
-                                <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Home/team?params=rdt') ?>">阮德添</a>
-                                    <span style="color: #fff">阮德添 太平绅士，高级顾问</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- //work10 -->
+<!--                    <div class="item">-->
+<!--                        <div class="work_item">-->
+<!--                            <div class="work_img">-->
+<!--                                <img src="public/company/images/team/rdt.jpg" alt=""/>-->
+<!--                                <a class="zoom" href="--><?php //echo site_url('Home/team?params=rdt') ?><!--"-->
+<!--                                   rel="prettyPhoto[portfolio1]"></a>-->
+<!--                            </div>-->
+<!--                            <div class="work_description">-->
+<!--                                <div class="work_descr_cont">-->
+<!--                                    <a href="--><?php //echo site_url('Home/team?params=rdt') ?><!--">阮德添</a>-->
+<!--                                    <span style="color: #fff">阮德添 太平绅士，高级顾问</span>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                    <!-- //work11 -->
 
                 </div><!-- //PROJECTS SLIDER -->
             </div>

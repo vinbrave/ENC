@@ -39,13 +39,13 @@ class Ehome extends CI_Controller
                 $data['desc'] = 'Mikael Román is former Science Counsellor and Head of the Office of Science and Innovation at the Swedish Embassy in Brasília, Brazil. Originally a social scientist by training, with a PhD in political science, and subsequent post-doctoral studies at Center for International Studies, MIT, Román has spent most of his professional career working on issues related to sustainability, climate change, public policy, innovation, and competitive strategies. Mikael Román is also Associate Professor at Center for Climate Science and Policy Research (CSPR), Linköping University, Sweden.';
                 $data['pic'] = "mr.jpg";
                 break;
-            case 'fm':
-                $data['name'] = 'Faye MAO';
-                $data['positions'] = 'Faye MAO，Senior Advisor';
-                $data['desc'] = 'Ms. Faye Mao is an expert in linguistics and communication with a broad range of experience both in Asia and Europe. She previously taught English, Culture and Communication Studies at Sichuan University, China, for seven years and coached managers and staff at China Construction Bank, Winrock China, Areva China and Volvo China. She is also the chief editor of a prize-winning textbook for English majors in China; her food culture radio program with BBC Chinese Service won China Media Award in 2005.
-She joined the biggest Chinese investment project in Europe at its difficult time, where she received senior Chinese officials, involved in technology transfer between China and Europe, networked with private enterprises and governmental investment/export/import sectors both in China and abroad. She is currently representing  a regional government in China for Trade and Investment and Talent Liaison and involved in pan-European projects of education, art and innovations.';
-                $data['pic'] = "fm.jpg";
-                break;
+//            case 'fm':
+//                $data['name'] = 'Faye MAO';
+//                $data['positions'] = 'Faye MAO，Senior Advisor';
+//                $data['desc'] = 'Ms. Faye Mao is an expert in linguistics and communication with a broad range of experience both in Asia and Europe. She previously taught English, Culture and Communication Studies at Sichuan University, China, for seven years and coached managers and staff at China Construction Bank, Winrock China, Areva China and Volvo China. She is also the chief editor of a prize-winning textbook for English majors in China; her food culture radio program with BBC Chinese Service won China Media Award in 2005.
+//She joined the biggest Chinese investment project in Europe at its difficult time, where she received senior Chinese officials, involved in technology transfer between China and Europe, networked with private enterprises and governmental investment/export/import sectors both in China and abroad. She is currently representing  a regional government in China for Trade and Investment and Talent Liaison and involved in pan-European projects of education, art and innovations.';
+//                $data['pic'] = "fm.jpg";
+//                break;
             case 'hm':
                 $data['name'] = 'Hartmut Marhold';
                 $data['positions'] = 'Hartmut Marhold Senior Advisor';
@@ -86,12 +86,12 @@ Before joining Ayaltis, Dr. Hao SHAO worked for Credit Suisse AG at its Zurich h
                 $data['desc'] = 'A macro-monetary economist by training at Purdue University, Dr. Kan switches to specialize in Law and Economics since 1995. His academic papers appeared in The Journal of Legal Studies and Constitutional Political Economy. And, he won the best paper award in Entrepreneurship from Singapore’s Nanyang Technological University. More recently, his interests extend into different aspects of knowledge economy and intellectual property rights. He has taught in Taiwan’s Tsing Hua University, and China’s Zhejiang University and Southwestern University of Finance and Economics. Dr. Kan also has practical, field experiences as founder, CEO, and independent board director of Taiwan’s dotcom and high-tech companies. In addition, he is an inventor and holds invention patents from patent offices of Taiwan, China, and the US.';
                 $data['pic'] = "ganxueping.jpg";
                 break;
-            case 'rdt':
-                $data['name'] = 'Mr. Yuen Tak Tim';
-                $data['positions'] = 'Mr. Yuen Tak Tim, Anthony, MH, J. P., FChFP, Senior Advisor';
-                $data['desc'] = 'Mr. Yuen Tak Tim is Justice of the Peace(1995), recipient of the Medal of Honor(2006), and was awarded the Ten Outstanding Young Persons(1992). He holds the position as Chairman of Yue Tung Financial (Holdings) Ltd. , Council Member of Chinese University of Hong Kong, and a board member of CUHK Medical Centre Ltd.. He serves as a Responsible Officer of a licensed corporation carrying on business in type 1 (dealing in securities), type 4 (advising on securities) and type 9 (asset management) regulated activities under the Securities and Futures Ordinance (Chapter 571 of the Laws of Hong Kong) (“SFO”) and a Technical Representative of an independent financial planning company. Mr. Yuen has extensive experience in the field of wealth management and insurance in Hong Kong and China. He has been a seasoned Professional in financial and insurance fields for over 40 years. He is also passionate about community services, and he has severed a number of key government advisory bodies. ';
-                $data['pic'] = "rdt.jpg";
-                break;
+//            case 'rdt':
+//                $data['name'] = 'Mr. Yuen Tak Tim';
+//                $data['positions'] = 'Mr. Yuen Tak Tim, Anthony, MH, J. P., FChFP, Senior Advisor';
+//                $data['desc'] = 'Mr. Yuen Tak Tim is Justice of the Peace(1995), recipient of the Medal of Honor(2006), and was awarded the Ten Outstanding Young Persons(1992). He holds the position as Chairman of Yue Tung Financial (Holdings) Ltd. , Council Member of Chinese University of Hong Kong, and a board member of CUHK Medical Centre Ltd.. He serves as a Responsible Officer of a licensed corporation carrying on business in type 1 (dealing in securities), type 4 (advising on securities) and type 9 (asset management) regulated activities under the Securities and Futures Ordinance (Chapter 571 of the Laws of Hong Kong) (“SFO”) and a Technical Representative of an independent financial planning company. Mr. Yuen has extensive experience in the field of wealth management and insurance in Hong Kong and China. He has been a seasoned Professional in financial and insurance fields for over 40 years. He is also passionate about community services, and he has severed a number of key government advisory bodies. ';
+//                $data['pic'] = "rdt.jpg";
+//                break;
             default:
                 $data['name'] = '&nbsp;';
                 $data['positions'] = '&nbsp;';

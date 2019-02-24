@@ -322,19 +322,20 @@
                     </div><!-- //work3 -->
 
                     <!-- work4 -->
-                    <div class="item">
-                        <div class="work_item">
-                            <div class="work_img">
-                                <img src="public/company/images/team/fm.jpg" alt=""/>
-                            </div>
-                            <div class="work_description">
-                                <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Ehome/team?params=fm') ?>">Faye MAO</a>
-                                    <span style="color: #fff">Faye MAO，Senior Advisor</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- //work4 -->
+<!--                    <div class="item">-->
+<!--                        <div class="work_item">-->
+<!--                            <div class="work_img">-->
+<!--                                <img src="public/company/images/team/fm.jpg" alt=""/>-->
+<!--                            </div>-->
+<!--                            <div class="work_description">-->
+<!--                                <div class="work_descr_cont">-->
+<!--                                    <a href="--><?php //echo site_url('Ehome/team?params=fm') ?><!--">Faye MAO</a>-->
+<!--                                    <span style="color: #fff">Faye MAO，Senior Advisor</span>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                    <!-- //work4 -->
 
                     <!-- work5 -->
                     <div class="item">
@@ -431,21 +432,22 @@
                         </div>
                     </div><!-- //work10 -->
                     <!-- work11 -->
-                    <div class="item">
-                        <div class="work_item">
-                            <div class="work_img">
-                                <img src="public/company/images/team/rdt.jpg" alt=""/>
-                                <a class="zoom" href="<?php echo site_url('Ehome/team?params=rdt') ?>"
-                                   rel="prettyPhoto[portfolio1]"></a>
-                            </div>
-                            <div class="work_description">
-                                <div class="work_descr_cont">
-                                    <a href="<?php echo site_url('Ehome/team?params=rdt') ?>">Mr. Yuen Tak Tim</a>
-                                    <span style="color: #fff">Mr. Yuen Tak Tim, Anthony, MH, J. P., FChFP, Senior Advisor</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- //work11 -->
+<!--                    <div class="item">-->
+<!--                        <div class="work_item">-->
+<!--                            <div class="work_img">-->
+<!--                                <img src="public/company/images/team/rdt.jpg" alt=""/>-->
+<!--                                <a class="zoom" href="--><?php //echo site_url('Ehome/team?params=rdt') ?><!--"-->
+<!--                                   rel="prettyPhoto[portfolio1]"></a>-->
+<!--                            </div>-->
+<!--                            <div class="work_description">-->
+<!--                                <div class="work_descr_cont">-->
+<!--                                    <a href="--><?php //echo site_url('Ehome/team?params=rdt') ?><!--">Mr. Yuen Tak Tim</a>-->
+<!--                                    <span style="color: #fff">Mr. Yuen Tak Tim, Anthony, MH, J. P., FChFP, Senior Advisor</span>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                    <!-- //work11 -->
 
                 </div><!-- //PROJECTS SLIDER -->
             </div>
