@@ -8,6 +8,7 @@ class Home extends CI_Controller
 {
     public function index()
     {
+        $this->output->cache(60*12);
         $this->load->view('company/Chinese/index');
     }
 
